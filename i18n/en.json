@@ -1,0 +1,105 @@
+{
+  "gitlab": "GitLab",
+  "github": "GitHub",
+  "githubRepository": "GitHub Repository",
+  "demo": "Demo",
+  "liveDemo": "Live Demo",
+  "animatedPreviews": "Animated previews",
+  "screenshots": "Screenshots",
+  "mediaEmpty": "No media added yet.",
+  "projectNotFound": "Project not found.",
+  "header": {
+    "projects": "Projects",
+    "skills": "Skills",
+    "resume": "Resume"
+  },
+  "orderTransfers": {
+    "title": "Sell-Out & Order Transfers",
+    "short": "ERP-like cart transfer flow with approvals, partial acceptance, and EDI checks."
+  },
+  "docAiParser": {
+    "title": "Document Intelligence Parser",
+    "short": "Unified JSON parser for Azure Document Intelligence and Google Document AI."
+  },
+  "echoLingo": {
+    "title": "EchoLingo",
+    "short": "Real-time translator app with public and private modes and streaming avatars."
+  },
+  "sectionTitle": "Projects",
+  "searchPlaceholder": "Search by title or tag…",
+  "allYears": "All years",
+  "sortNewest": "Newest",
+  "sortOldest": "Oldest",
+  "clear": "Clear",
+  "falconHeavy": {
+    "title": "Falcon Heavy Platform",
+    "subtitle": "Subscription-based group management and administrative tools",
+    "short": "A full-stack platform for subscription handling, payments, and location-based group management.",
+    "highlights": [
+      "Scalable backend built with Fastify and Bull workers for background processing",
+      "Integrated Google Maps for dynamic group and administrative visualization",
+      "Role-based access, subscription management, and secure payment flow"
+    ],
+    "description": [
+      "Falcon Heavy is a full-stack web platform designed to manage subscription-based groups and administrative workflows. It combines a modular Fastify API with React-powered interfaces and integrates background jobs using Bull and Redis.",
+      "The system supports payment processing, privilege-based group creation, subscription management, and administrative dashboards optimized for large datasets.",
+      "The platform also integrates Google Maps to provide location-aware group visualization and real-time administrative insights."
+    ]
+  },
+  "creditcloser": {
+    "title": "Creditcloser Loan Management System",
+    "subtitle": "Web application for loan creation, debtor notifications, and full administrative control.",
+    "short": "A full loan management platform with automated notifications, reporting, and a powerful admin panel.",
+    "highlights": [
+      "Automated debtor notifications using dynamic templates and scheduling",
+      "Full administrative panel for managing loans, users, and communication settings",
+      "Secure authentication using Passport and Redis-backed sessions"
+    ],
+    "description": [
+      "The Creditcloser application is a full-featured loan management system designed to streamline financial operations for administrators. It provides tools to create loans, manage users, and automate borrower notifications.",
+      "The frontend includes a React-powered admin dashboard built with Material UI and React Admin, enabling efficient handling of loan data, users, payments, and monthly profit reports.",
+      "The backend integrates Express, PostgreSQL, Sequelize, and Redis to implement secure authentication, automated email workflows using SendGrid and Handlebars, and scheduled reporting tasks via node-cron.",
+      "The system also includes infrastructure-level tooling such as Docker, Nginx, and AWS services to ensure reliable deployment and smooth performance."
+    ]
+  },
+  "ndaB2BCommerce": {
+    "title": "NDA B2B Commerce Platform",
+    "subtitle": "Full-stack multi-role B2B commerce system with advanced inventory, ordering, and administrative capabilities.",
+    "short": "A large-scale NDA B2B commerce platform with complex business roles, multi-country structure, and full administrative control.",
+    "highlights": [],
+    "description": [
+      "This NDA-protected project is a large B2B commerce platform operating across multiple regions and user roles. The system manages complex purchasing workflows, administrative controls, inventory interactions, and large data sets. The solution includes a powerful internal dashboard used by various business units.",
+      "The project includes long-term maintenance and iterative development of new features. Work involves architectural updates, performance improvements, debugging complex business logic, and implementing new internal tools requested by the client."
+    ]
+  },
+  "groupsTitle": "Groups",
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "A structured overview of my technical skills, tools, and technologies.",
+    "coreStackTitle": "Core Stack",
+    "frontend": { "title": "Frontend Development", "subtitle": "UI frameworks, styling systems, state management, and interactive interfaces." },
+    "backend": { "title": "Backend Development", "subtitle": "Server frameworks, background jobs, API development, and system logic." },
+    "testing": { "title": "Testing & QA", "subtitle": "Unit, integration, and end-to-end testing tools." },
+    "devops": { "title": "DevOps & Tools", "subtitle": "Deployment, CI/CD pipelines, containerization, and automation." },
+    "cloud": { "title": "Cloud Platforms", "subtitle": "Cloud providers and platform services." },
+    "apis": { "title": "APIs & Integrations", "subtitle": "Third-party APIs, SDKs, and integration tools." },
+    "other": { "title": "Other Technologies", "subtitle": "Additional tools and technologies used across projects." },
+    "db": { "title": "Databases", "subtitle": "Relational and non-relational data storage systems." },
+    "otherExperienceTitle": "Other technologies I’ve worked with",
+    "otherExperienceSubtitle": "Additional tools, libraries and services I’ve used across different projects."
+  },
+  "ndaHealthCoach": {
+    "title": "NDA Full-Stack Platform",
+    "subtitle": "A large-scale full-stack application with AI features, multi-role access, and complex data processing.",
+    "short": "A multi-module platform combining real-time features, data ingestion pipelines, and interactive visualization components.",
+
+    "highlights": [
+      "AI-powered user interaction components",
+      "Automated processing workflows for large unstructured datasets",
+      "Integration with several external APIs for continuous data synchronization",
+      "Advanced visualization modules including 3D and timeline-based interfaces",
+      "Role-based system with a configurable administrative panel"
+    ],
+    "description": ["This NDA-protected project is a full-stack platform consisting of multiple integrated modules, real-time communication features, and automated data workflows. The system handles high-volume data ingestion from various external services and processes it through background tasks and structured pipelines."]
+  }
+}

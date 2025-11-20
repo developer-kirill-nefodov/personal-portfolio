@@ -1,0 +1,106 @@
+{
+  "gitlab": "GitLab",
+  "github": "GitHub",
+  "githubRepository": "Repositorio de GitHub",
+  "demo": "Demo",
+  "liveDemo": "Demo en vivo",
+  "animatedPreviews": "Previsualizaciones animadas",
+  "screenshots": "Capturas de pantalla",
+  "mediaEmpty": "Aún no se ha añadido ningún contenido multimedia.",
+  "projectNotFound": "Proyecto no encontrado.",
+  "header": {
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "resume": "Currículum"
+  },
+  "orderTransfers": {
+    "title": "Sell-Out & Transferencias de Pedido",
+    "short": "Flujo de transferencia tipo ERP con aprobaciones, aceptación parcial y verificaciones EDI."
+  },
+  "docAiParser": {
+    "title": "Parser de Document Intelligence",
+    "short": "Parser JSON unificado para Azure Document Intelligence y Google Document AI."
+  },
+  "echoLingo": {
+    "title": "EchoLingo",
+    "short": "Aplicación de traducción en tiempo real con modos público y privado y avatares en streaming."
+  },
+  "sectionTitle": "Proyectos",
+  "searchPlaceholder": "Buscar por título o etiqueta…",
+  "allYears": "Todos los años",
+  "sortNewest": "Más nuevos",
+  "sortOldest": "Más antiguos",
+  "clear": "Limpiar",
+  "falconHeavy": {
+    "title": "Plataforma Falcon Heavy",
+    "subtitle": "Gestión de suscripciones y herramientas administrativas",
+    "short": "Plataforma full-stack para gestión de suscripciones, pagos y administración basada en ubicación.",
+    "highlights": [
+      "Backend escalable construido con Fastify y workers de Bull para procesamiento en segundo plano",
+      "Integración con Google Maps para visualización dinámica de grupos y administración",
+      "Acceso basado en roles, gestión de suscripciones y flujo de pago seguro"
+    ],
+    "description": [
+      "Falcon Heavy es una plataforma web full-stack diseñada para gestionar grupos basados en suscripción y flujos administrativos. Combina una API modular en Fastify con interfaces React e integra trabajos en segundo plano usando Bull y Redis.",
+      "El sistema soporta procesamiento de pagos, creación de grupos basada en privilegios, gestión de suscripciones y paneles administrativos optimizados para grandes volúmenes de datos.",
+      "La plataforma también integra Google Maps para ofrecer visualización geolocalizada de grupos y perspectivas administrativas en tiempo real."
+    ]
+  },
+  "creditcloser": {
+    "title": "Sistema de Gestión de Préstamos Creditcloser",
+    "subtitle": "Aplicación web para creación de préstamos, notificaciones a deudores y control administrativo completo.",
+    "short": "Plataforma completa de gestión de préstamos con notificaciones automatizadas, reportes y un potente panel administrativo.",
+    "highlights": [
+      "Notificaciones automatizadas a deudores usando plantillas dinámicas y programación",
+      "Panel administrativo completo para gestionar préstamos, usuarios y configuraciones de comunicación",
+      "Autenticación segura con Passport y sesiones respaldadas por Redis"
+    ],
+    "description": [
+      "La aplicación Creditcloser es un sistema integral de gestión de préstamos diseñado para optimizar las operaciones financieras de los administradores. Proporciona herramientas para crear préstamos, gestionar usuarios y automatizar notificaciones a los prestatarios.",
+      "El frontend incluye un panel administrativo desarrollado en React con Material UI y React Admin, facilitando la gestión eficiente de datos de préstamos, usuarios, pagos y reportes de ganancias mensuales.",
+      "El backend integra Express, PostgreSQL, Sequelize y Redis para implementar autenticación segura, flujos de correo automatizados usando SendGrid y Handlebars, y tareas programadas con node-cron.",
+      "El sistema también incluye herramientas de infraestructura como Docker, Nginx y servicios de AWS para asegurar un despliegue fiable y un rendimiento fluido."
+    ]
+  },
+  "ndaB2BCommerce": {
+    "title": "Plataforma de Comercio B2B (NDA)",
+    "subtitle": "Sistema B2B full-stack con roles avanzados, inventario, pedidos y capacidades administrativas.",
+    "short": "Plataforma B2B a gran escala bajo NDA con roles complejos, estructura multinacional y control administrativo completo.",
+    "highlights": [],
+    "description": [
+      "Este proyecto protegido por NDA es una gran plataforma de comercio B2B que opera en múltiples regiones y roles de usuario. El sistema gestiona flujos de compra complejos, controles administrativos, interacción con inventario y grandes volúmenes de datos. La solución incluye un potente panel interno utilizado por varias unidades de negocio.",
+      "El proyecto incluye mantenimiento a largo plazo y desarrollo iterativo de nuevas funciones. El trabajo implica actualizaciones arquitectónicas, mejoras de rendimiento, depuración de lógica empresarial compleja y creación de nuevas herramientas internas solicitadas por el cliente."
+    ]
+  },
+  "groupsTitle": "Grupos",
+  "skills": {
+    "title": "Habilidades y Tecnologías",
+    "subtitle": "Una vista estructurada de mis habilidades técnicas, herramientas y tecnologías.",
+    "coreStackTitle": "Stack Principal",
+    "frontend": { "title": "Desarrollo Frontend", "subtitle": "Frameworks de UI, sistemas de estilos, gestión de estado e interfaces interactivas." },
+    "backend": { "title": "Desarrollo Backend", "subtitle": "Frameworks de servidor, trabajos en segundo plano, desarrollo de APIs y lógica del sistema." },
+    "testing": { "title": "Pruebas y QA", "subtitle": "Herramientas de pruebas unitarias, de integración y end-to-end." },
+    "devops": { "title": "DevOps y Herramientas", "subtitle": "Despliegue, pipelines CI/CD, contenedores y automatización." },
+    "cloud": { "title": "Plataformas Cloud", "subtitle": "Proveedores cloud y servicios de plataforma." },
+    "apis": { "title": "APIs e Integraciones", "subtitle": "APIs externas, SDKs y herramientas de integración." },
+    "other": { "title": "Otras Tecnologías", "subtitle": "Herramientas y tecnologías adicionales utilizadas en distintos proyectos." },
+    "db": { "title": "Bases de Datos", "subtitle": "Sistemas de almacenamiento de datos relacionales y no relacionales." },
+    "otherExperienceTitle": "Otras tecnologías con las que he trabajado",
+    "otherExperienceSubtitle": "Herramientas, librerías y servicios adicionales utilizados en proyectos diversos."
+  },
+  "ndaHealthCoach": {
+    "title": "Plataforma Full-Stack (NDA)",
+    "subtitle": "Aplicación full-stack a gran escala con funciones de IA, acceso multi-rol y procesamiento de datos complejo.",
+    "short": "Plataforma multi-módulo con funciones en tiempo real, pipelines de ingestión de datos e interfaces visuales interactivas.",
+    "highlights": [
+      "Componentes de interacción con el usuario impulsados por IA",
+      "Flujos de procesamiento automatizado para grandes conjuntos de datos no estructurados",
+      "Integración con varios APIs externos para sincronización continua de datos",
+      "Módulos avanzados de visualización, incluidos interfaces 3D y basadas en líneas de tiempo",
+      "Sistema basado en roles con un panel administrativo configurable"
+    ],
+    "description": [
+      "Este proyecto protegido por NDA es una plataforma full-stack compuesta por múltiples módulos integrados, funciones de comunicación en tiempo real y flujos de datos automatizados. El sistema gestiona grandes volúmenes de datos provenientes de servicios externos y los procesa mediante tareas en segundo plano y pipelines estructurados."
+    ]
+  }
+}

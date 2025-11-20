@@ -1,0 +1,106 @@
+{
+  "gitlab": "GitLab",
+  "github": "GitHub",
+  "githubRepository": "GitHub-Repository",
+  "demo": "Demo",
+  "liveDemo": "Live-Demo",
+  "animatedPreviews": "Animierte Vorschauen",
+  "screenshots": "Screenshots",
+  "mediaEmpty": "Noch keine Medien hinzugefügt.",
+  "projectNotFound": "Projekt nicht gefunden.",
+  "header": {
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "resume": "Lebenslauf"
+  },
+  "orderTransfers": {
+    "title": "Sell-Out & Auftragsübertragungen",
+    "short": "ERP-ähnlicher Warenkorb-Transferfluss mit Genehmigungen, Teilannahmen und EDI-Prüfungen."
+  },
+  "docAiParser": {
+    "title": "Document-Intelligence-Parser",
+    "short": "Vereinheitlichter JSON-Parser für Azure Document Intelligence und Google Document AI."
+  },
+  "echoLingo": {
+    "title": "EchoLingo",
+    "short": "Echtzeit-Übersetzungs-App mit öffentlichem und privatem Modus sowie Streaming-Avataren."
+  },
+  "sectionTitle": "Projekte",
+  "searchPlaceholder": "Nach Titel oder Tag suchen…",
+  "allYears": "Alle Jahre",
+  "sortNewest": "Neueste",
+  "sortOldest": "Älteste",
+  "clear": "Zurücksetzen",
+  "falconHeavy": {
+    "title": "Falcon Heavy Plattform",
+    "subtitle": "Abonnementbasierte Gruppenverwaltung und administrative Tools",
+    "short": "Eine Full-Stack-Plattform für Abonnementverwaltung, Zahlungen und standortbasierte Gruppenverwaltung.",
+    "highlights": [
+      "Skalierbares Backend mit Fastify und Bull-Workern für Hintergrundverarbeitung",
+      "Integrierte Google Maps für dynamische Gruppen- und Administrationsvisualisierung",
+      "Rollenbasierter Zugriff, Abonnementverwaltung und sicherer Zahlungsfluss"
+    ],
+    "description": [
+      "Falcon Heavy ist eine Full-Stack-Webplattform zur Verwaltung abonnementsbasierter Gruppen und administrativer Workflows. Sie kombiniert eine modulare Fastify-API mit React-basierten Oberflächen und integriert Hintergrundjobs über Bull und Redis.",
+      "Das System unterstützt Zahlungsabwicklung, rollenbasierte Gruppenerstellung, Abonnementverwaltung und administrative Dashboards, die für große Datensätze optimiert sind.",
+      "Die Plattform integriert zudem Google Maps, um standortbasierte Gruppenvisualisierung und administrative Einblicke in Echtzeit bereitzustellen."
+    ]
+  },
+  "creditcloser": {
+    "title": "Creditcloser Darlehensverwaltungssystem",
+    "subtitle": "Webanwendung für Darlehenserstellung, Schuldnerbenachrichtigungen und vollständige administrative Kontrolle.",
+    "short": "Eine umfassende Darlehensplattform mit automatischen Benachrichtigungen, Berichten und einem leistungsstarken Admin-Panel.",
+    "highlights": [
+      "Automatisierte Schuldnerbenachrichtigungen mit dynamischen Vorlagen und Zeitplänen",
+      "Umfassendes Admin-Panel zur Verwaltung von Darlehen, Nutzern und Kommunikationseinstellungen",
+      "Sichere Authentifizierung mit Passport und Redis-basierten Sessions"
+    ],
+    "description": [
+      "Die Creditcloser-Anwendung ist ein voll ausgestattetes Darlehensmanagementsystem, das die finanziellen Abläufe für Administratoren optimiert. Es bietet Tools zur Darlehenserstellung, Nutzerverwaltung und Automatisierung von Benachrichtigungen.",
+      "Das Frontend enthält ein React-basiertes Admin-Dashboard, entwickelt mit Material UI und React Admin, das eine effiziente Handhabung von Darlehensdaten, Nutzern, Zahlungen und monatlichen Gewinnberichten ermöglicht.",
+      "Das Backend integriert Express, PostgreSQL, Sequelize und Redis, um sichere Authentifizierung, automatisierte E-Mail-Workflows mit SendGrid und Handlebars sowie geplante Aufgaben über node-cron zu implementieren.",
+      "Das System umfasst außerdem Infrastruktur-Tools wie Docker, Nginx und AWS-Dienste, um zuverlässige Bereitstellung und stabile Leistung sicherzustellen."
+    ]
+  },
+  "ndaB2BCommerce": {
+    "title": "NDA B2B Commerce Plattform",
+    "subtitle": "Full-Stack-B2B-Handelssystem mit Mehrrollenstruktur, erweitertem Inventar, Bestellungen und administrativen Funktionen.",
+    "short": "Eine groß angelegte, NDA-geschützte B2B-Commerce-Plattform mit komplexen Rollen, multinationaler Struktur und vollständiger administrativer Kontrolle.",
+    "highlights": [],
+    "description": [
+      "Dieses NDA-geschützte Projekt ist eine umfangreiche B2B-Commerce-Plattform, die in mehreren Regionen und Nutzerrollen operiert. Das System verwaltet komplexe Einkaufsabläufe, administrative Kontrollen, Inventarinteraktionen und große Datenmengen. Die Lösung enthält ein leistungsstarkes internes Dashboard für verschiedene Geschäftsbereiche.",
+      "Das Projekt umfasst langfristige Wartung und iterative Entwicklung neuer Funktionen. Die Arbeit beinhaltet Architektur-Updates, Leistungsoptimierung, Debugging komplexer Geschäftslogik sowie Implementierung neuer interner Tools auf Kundenanfrage."
+    ]
+  },
+  "groupsTitle": "Gruppen",
+  "skills": {
+    "title": "Fähigkeiten & Technologien",
+    "subtitle": "Ein strukturierter Überblick über meine technischen Fähigkeiten, Tools und Technologien.",
+    "coreStackTitle": "Kern-Stack",
+    "frontend": { "title": "Frontend-Entwicklung", "subtitle": "UI-Frameworks, Styling-Systeme, State-Management und interaktive Interfaces." },
+    "backend": { "title": "Backend-Entwicklung", "subtitle": "Server-Frameworks, Hintergrundjobs, API-Entwicklung und Systemlogik." },
+    "testing": { "title": "Testing & QA", "subtitle": "Tools für Unit-, Integrations- und End-to-End-Tests." },
+    "devops": { "title": "DevOps & Tools", "subtitle": "Bereitstellung, CI/CD-Pipelines, Containerisierung und Automatisierung." },
+    "cloud": { "title": "Cloud-Plattformen", "subtitle": "Cloud-Anbieter und Plattformdienste." },
+    "apis": { "title": "APIs & Integrationen", "subtitle": "Externe APIs, SDKs und Integrationstools." },
+    "other": { "title": "Weitere Technologien", "subtitle": "Zusätzliche Tools und Technologien, die in Projekten verwendet wurden." },
+    "db": { "title": "Datenbanken", "subtitle": "Relationale und nicht-relationale Datenspeichersysteme." },
+    "otherExperienceTitle": "Weitere Technologien, mit denen ich gearbeitet habe",
+    "otherExperienceSubtitle": "Zusätzliche Tools, Bibliotheken und Dienste, die ich in verschiedenen Projekten eingesetzt habe."
+  },
+  "ndaHealthCoach": {
+    "title": "NDA Full-Stack Plattform",
+    "subtitle": "Groß angelegte Full-Stack-Anwendung mit KI-Funktionen, Mehrrollen-Zugriff und komplexer Datenverarbeitung.",
+    "short": "Eine Multi-Modul-Plattform mit Echtzeitfunktionen, Daten-Ingestion-Pipelines und interaktiven Visualisierungskomponenten.",
+    "highlights": [
+      "KI-gestützte Benutzerinteraktionskomponenten",
+      "Automatisierte Verarbeitungsworkflows für große unstrukturierte Datensätze",
+      "Integration mehrerer externer APIs für kontinuierliche Datensynchronisation",
+      "Erweiterte Visualisierungsmodule einschließlich 3D- und Timeline-Interfaces",
+      "Rollenbasiertes System mit konfigurierbarem Admin-Panel"
+    ],
+    "description": [
+      "Dieses NDA-geschützte Projekt ist eine Full-Stack-Plattform, bestehend aus mehreren integrierten Modulen, Echtzeitkommunikation und automatisierten Datenworkflows. Das System verarbeitet große Datenmengen aus externen Diensten über Hintergrundtasks und strukturierte Pipelines."
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "networks": {
+    "email": "kirillnef58@gmail.com",
+    "github": "https://github.com/developer-kirill-nefodov",
+    "linkedin": "https://www.linkedin.com/in/kirill-nefodov-954747214/"
+  },
+  "projects": [
+    {
+      "id": "falcon-heavy",
+      "slug": "falconHeavy",
+      "status": "released",
+      "landing": "/projects/falcon-heavy",
+      "nda": false,
+      "links": {
+        "github": {
+          "repo": null,
+          "disabled": true
+        },
+        "demo": {
+          "repo": null,
+          "disabled": true
+        },
+        "caseStudy": null
+      },
+      "date": "2024-01-01",
+      "period": { "start": "2024-01", "end": "2024-05" },
+      "company": "Personal Project",
+      "role": ["Full-Stack Developer"],
+      "tags": ["Subscriptions", "Payments", "Admin Panel", "Maps"],
+      "platforms": ["Web"],
+      "cover": {
+        "src": "/projects/v1/falcon-heavy/cover.png",
+        "alt": "Falcon Heavy project cover"
+      },
+      "coreTech": ["React", "Fastify", "PostgreSQL", "Google Maps API"],
+      "tech": [
+        "React",
+        "Fastify",
+        "Node",
+        "TypeScript",
+        "PostgreSQL",
+        "Bull",
+        "Redis",
+        "Context API",
+        "Material UI",
+        "Axios",
+        "Docker",
+        "Swagger",
+        "Jest",
+        "Google Maps API"
+      ],
+      "apis": ["Google Maps API"],
+      "tools": ["Docker", "Swagger", "GitHub Actions"],
+      "db": ["PostgreSQL", "Redis"],
+      "testing": ["Jest", "Cypress"],
+      "frontend": ["React", "Material UI", "TypeScript"],
+      "backend": ["Node", "Fastify", "TypeScript"],
+      "gallery": {
+        "images": [
+          { "src": "/projects/v1/falcon-heavy/cover.png", "alt": "Falcon heavy" },
+          { "src": "/projects/v1/falcon-heavy/1-gallery.png", "alt": "Falcon heavy" },
+          { "src": "/projects/v1/falcon-heavy/2-gallery.png", "alt": "Falcon heavy" },
+          { "src": "/projects/v1/falcon-heavy/3-gallery.png", "alt": "Falcon heavy" },
+          { "src": "/projects/v1/falcon-heavy/4-gallery.png", "alt": "Falcon heavy" },
+          { "src": "/projects/v1/falcon-heavy/5-gallery.png", "alt": "Falcon heavy" },
+          { "src": "/projects/v1/falcon-heavy/6-gallery.png", "alt": "Falcon heavy" }
+        ],
+        "videos": [],
+        "gifs": []
+      },
+      "metrics": {
+        "users": null,
+        "requestsPerDay": null,
+        "latencyMsP50": null,
+        "availability": 0.999
+      },
+      "featured": false,
+      "sort": 90
+    },
+    {
+      "id": "creditcloser",
+      "slug": "creditcloser",
+      "status": "released",
+      "landing": "/projects/creditcloser",
+      "nda": false,
+      "links": {
+        "github": {
+          "repo": null,
+          "disabled": true
+        },
+        "demo": {
+          "repo": null,
+          "disabled": true
+        },
+        "caseStudy": null
+      },
+      "date": "2022-09-01",
+      "period": { "start": "2022-09", "end": "2022-11" },
+      "company": "Creditcloser",
+      "role": ["Full-Stack Developer"],
+      "tags": ["Loan Management", "Notifications", "Admin Panel"],
+      "platforms": ["Web"],
+      "cover": {
+        "src": "/projects/v1/creditcloser/cover.png",
+        "alt": "Creditcloser loan management system"
+      },
+      "coreTech": ["React", "Node", "Express.js", "PostgreSQL", "Material UI"],
+      "tech": [
+        "React",
+        "React Admin",
+        "Material UI",
+        "Axios",
+        "Node",
+        "Express.js",
+        "PostgreSQL",
+        "Redis",
+        "Passport",
+        "SendGrid",
+        "Twilio",
+        "Handlebars",
+        "Sequelize",
+        "Sequelize CLI",
+        "Docker",
+        "Docker Compose",
+        "Nginx",
+        "AWS",
+        "node-cron",
+        "Makefile"
+      ],
+      "frontend": ["React", "Material UI"],
+      "backend": ["Node", "Express.js"],
+      "apis": ["Twilio", "SendGrid"],
+      "tools": ["Docker", "Nginx", "AWS", "Makefile"],
+      "db": ["PostgreSQL", "Redis"],
+      "testing": [],
+      "gallery": {
+        "images": [{ "src": "/projects/v1/creditcloser/cover.png", "alt": "Creditcloser" }],
+        "videos": [],
+        "gifs": [{ "src": "/projects/v1/creditcloser/1-gallery.gif", "alt": "Creditcloser gif" }]
+      },
+      "metrics": {
+        "users": null,
+        "requestsPerDay": null,
+        "latencyMsP50": null,
+        "availability": null
+      },
+      "featured": false,
+      "sort": 80
+    },
+    {
+      "id": "nda-b2b-commerce",
+      "slug": "ndaB2BCommerce",
+      "status": "active",
+      "landing": null,
+      "nda": true,
+      "links": {
+        "gitlab": { "repo": null, "disabled": true },
+        "demo": { "repo": null, "disabled": true },
+        "caseStudy": null
+      },
+      "date": "2022-11-01",
+      "period": { "start": "2022-11", "end": null },
+      "company": "NDA Enterprise Client",
+      "role": ["Full-Stack Developer"],
+      "tags": ["E-Commerce", "B2B", "Multi-Country", "Multi-Role", "Inventory", "Orders", "Admin Panel"],
+      "platforms": ["Web"],
+      "cover": { "src": null, "alt": null},
+      "coreTech": ["React", "Node", "MongoDB", "uWebSockets.js"],
+      "tech": [
+        "React",
+        "Material UI",
+        "Emotion",
+        "Recoil",
+        "Axios",
+        "Chart.js",
+        "Vite",
+        "Node",
+        "Express",
+        "uWebSockets.js",
+        "MongoDB",
+        "Nodemailer",
+        "MJML",
+        "XLSX",
+        "Node Schedule",
+        "Docker",
+        "ESLint",
+        "Swagger"
+      ],
+      "apis": [],
+      "tools": [
+        "Docker",
+        "Vite",
+        "ESLint",
+        "Swagger"
+      ],
+      "db": ["MongoDB"],
+      "testing": [],
+      "frontend": [
+        "React",
+        "Material UI",
+        "Emotion",
+        "Recoil",
+        "Vite",
+        "Chart.js"
+      ],
+      "backend": [
+        "Node",
+        "Express",
+        "uWebSockets.js",
+        "MongoDB",
+        "Nodemailer",
+        "MJML",
+        "XLSX"
+      ],
+      "gallery": {
+        "images": [],
+        "videos": [],
+        "gifs": []
+      },
+      "metrics": {
+        "users": null,
+        "requestsPerDay": null,
+        "latencyMsP50": null,
+        "availability": 0.999
+      },
+      "featured": false,
+      "sort": 120
+    },
+    {
+      "id": "nda-health-coach",
+      "slug": "ndaHealthCoach",
+      "status": "active",
+      "landing": null,
+      "nda": true,
+      "cover": { "src": null, "alt": null},
+      "links": {
+        "gitlab": { "repo": null, "disabled": true },
+        "demo": { "repo": null, "disabled": true },
+        "caseStudy": null
+      },
+
+      "date": "2024-07-01",
+      "period": { "start": "2024-07", "end": null },
+
+      "company": "NDA Healthcare Client",
+      "role": ["Full-Stack Developer"],
+      "tags": [
+        "Healthcare",
+        "AI Assistant",
+        "Voice & Speech",
+        "Wearables",
+        "3D Visualization",
+        "NDA",
+        "Multi-Role"
+      ],
+      "platforms": ["Web"],
+      "coreTech": ["React", "Node", "MongoDB", "Tree.js", "OpenAI"],
+      "tech": [
+        "React",
+        "Material UI",
+        "Emotion",
+        "Recoil",
+        "Tree.js",
+        "Chart.js",
+        "HeyGen Streaming Avatar SDK",
+        "LiveKit",
+        "Web Workers",
+        "Comlink",
+        "Node",
+        "uWebSockets.js",
+        "MongoDB",
+        "OpenAI",
+        "Azure AI Form Recognizer",
+        "Google Cloud Document AI",
+        "Nodemailer",
+        "Node Schedule",
+        "Terra API"
+      ],
+
+      "apis": [
+        "OpenAI",
+        "Azure AI Form Recognizer",
+        "Google Cloud Document AI",
+        "Terra API",
+        "HeyGen Streaming Avatar",
+        "LiveKit"
+      ],
+
+      "tools": [
+        "Web Workers",
+        "Comlink",
+        "LocalForage"
+      ],
+
+      "db": ["MongoDB"],
+      "testing": [],
+
+      "frontend": [
+        "React",
+        "Material UI",
+        "Emotion",
+        "Tree.js",
+        "Recoil",
+        "Chart.js",
+        "HeyGen Streaming Avatar SDK",
+        "LiveKit",
+        "Web Workers",
+        "Comlink"
+      ],
+
+      "backend": [
+        "Node",
+        "uWebSockets.js",
+        "MongoDB",
+        "OpenAI",
+        "Azure AI Form Recognizer",
+        "Google Cloud Document AI",
+        "Nodemailer",
+        "Node Schedule"
+      ],
+
+      "gallery": {
+        "images": [],
+        "videos": [],
+        "gifs": []
+      },
+
+      "metrics": {
+        "users": null,
+        "requestsPerDay": null,
+        "latencyMsP50": null,
+        "availability": 0.999
+      },
+
+      "featured": false,
+      "sort": 110
+    }
+  ]
+}
