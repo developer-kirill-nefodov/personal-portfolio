@@ -102,5 +102,45 @@
     "description": [
       "Este proyecto protegido por NDA es una plataforma full-stack compuesta por múltiples módulos integrados, funciones de comunicación en tiempo real y flujos de datos automatizados. El sistema gestiona grandes volúmenes de datos provenientes de servicios externos y los procesa mediante tareas en segundo plano y pipelines estructurados."
     ]
+  },
+  "resume": {
+    "title": "Currículum",
+    "subtitle": "Una vista previa integrada y clara de mi currículum como ingeniero full-stack. Puedes descargarlo, compartirlo o marcarlo como favorito.",
+    "actions": {
+      "share": "Compartir",
+      "download": "Descargar PDF",
+      "like": "Me gusta",
+      "liked": "Te gusta"
+    },
+    "preview": {
+      "title": "Vista previa PDF integrada",
+      "fileLabel": "Archivo: {{file}}"
+    },
+    "shareTitle": "Currículum — Kirill Nefodov",
+    "shareText": "Currículum de ingeniero full-stack de Kirill Nefodov.",
+    "shareStatus": {
+      "shared": "Compartido",
+      "copied": "Enlace copiado",
+      "error": "No se puede compartir"
+    },
+    "history": {
+      "title": "Versiones anteriores del currículum",
+      "subtitle": "CV antiguos de los últimos años que muestran cómo ha evolucionado mi perfil.",
+      "2021": {
+        "label": "CV Full-Stack en prácticas"
+      },
+      "2022": {
+        "label": "CV Full-Stack Junior"
+      },
+      "2024": {
+        "label": "CV Full-Stack Developer"
+      }
+    }
+  },
+  "preview": {
+    "title": "Vista previa PDF integrada",
+    "fileLabel": "Archivo: {{file}}",
+    "loading": "Cargando…",
+    "loadingBody": "Obteniendo la versión más reciente de mi currículum."
   }
 }

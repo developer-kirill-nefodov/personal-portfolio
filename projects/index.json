@@ -4,6 +4,38 @@
     "github": "https://github.com/developer-kirill-nefodov",
     "linkedin": "https://www.linkedin.com/in/kirill-nefodov-954747214/"
   },
+  "resume": {
+    "current": {
+      "id": "resume-current",
+      "file": "/projects/v1/my-resume.pdf",
+      "downloadName": "Kirill-Nefodov-Resume.pdf",
+      "updated": "2025-10-01",
+      "disabled": false
+    },
+    "history": [
+      {
+        "id": "resume-2021",
+        "file": "/projects/v1/old-resumes/resume-2021.pdf",
+        "year": 2021,
+        "labelKey": "resume.history.2021.label",
+        "disabled": true
+      },
+      {
+        "id": "resume-2022",
+        "file": "/projects/v1/old-resumes/resume-2022.pdf",
+        "year": 2022,
+        "labelKey": "resume.history.2022.label",
+        "disabled": true
+      },
+      {
+        "id": "resume-2024",
+        "file": "/projects/v1/old-resumes/resume-2024.pdf",
+        "year": 2024,
+        "labelKey": "resume.history.2024.label",
+        "disabled": true
+      }
+    ]
+  },
   "projects": [
     {
       "id": "falcon-heavy",

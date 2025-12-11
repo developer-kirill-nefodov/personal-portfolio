@@ -101,5 +101,45 @@
       "Role-based system with a configurable administrative panel"
     ],
     "description": ["This NDA-protected project is a full-stack platform consisting of multiple integrated modules, real-time communication features, and automated data workflows. The system handles high-volume data ingestion from various external services and processes it through background tasks and structured pipelines."]
+  },
+  "resume": {
+    "title": "Resume",
+    "subtitle": "A clean embedded preview of my full-stack engineer resume. You can download, share, or like this document.",
+    "actions": {
+      "share": "Share",
+      "download": "Download PDF",
+      "like": "Like",
+      "liked": "Liked"
+    },
+    "preview": {
+      "title": "Embedded PDF preview",
+      "fileLabel": "File: {{file}}"
+    },
+    "shareTitle": "Resume — Kirill Nefodov",
+    "shareText": "Full-stack engineer resume of Kirill Nefodov.",
+    "shareStatus": {
+      "shared": "Shared",
+      "copied": "Link copied",
+      "error": "Unable to share"
+    },
+    "history": {
+      "title": "Previous resume versions",
+      "subtitle": "Older CVs from the last years that show how my profile evolved.",
+      "2021": {
+        "label": "Trainee full-stack CV"
+      },
+      "2022": {
+        "label": "Junior full-stack CV"
+      },
+      "2024": {
+        "label": "Full Stack Developer CV"
+      }
+    }
+  },
+  "preview": {
+    "title": "Embedded PDF preview",
+    "fileLabel": "File: {{file}}",
+    "loading": "Loading…",
+    "loadingBody": "Fetching the latest version of my resume."
   }
 }

@@ -102,5 +102,45 @@
     "description": [
       "Dieses NDA-geschützte Projekt ist eine Full-Stack-Plattform, bestehend aus mehreren integrierten Modulen, Echtzeitkommunikation und automatisierten Datenworkflows. Das System verarbeitet große Datenmengen aus externen Diensten über Hintergrundtasks und strukturierte Pipelines."
     ]
+  },
+  "resume": {
+    "title": "Lebenslauf",
+    "subtitle": "Eine klare eingebettete Vorschau meines Full-Stack-Engineer-Lebenslaufs. Sie können dieses Dokument herunterladen, teilen oder liken.",
+    "actions": {
+      "share": "Teilen",
+      "download": "PDF herunterladen",
+      "like": "Gefällt mir",
+      "liked": "Gefällt mir"
+    },
+    "preview": {
+      "title": "Eingebettete PDF-Vorschau",
+      "fileLabel": "Datei: {{file}}"
+    },
+    "shareTitle": "Lebenslauf — Kirill Nefodov",
+    "shareText": "Full-Stack-Engineer-Lebenslauf von Kirill Nefodov.",
+    "shareStatus": {
+      "shared": "Geteilt",
+      "copied": "Link kopiert",
+      "error": "Teilen nicht möglich"
+    },
+    "history": {
+      "title": "Frühere Versionen des Lebenslaufs",
+      "subtitle": "Ältere CVs der letzten Jahre, die zeigen, wie sich mein Profil entwickelt hat.",
+      "2021": {
+        "label": "Trainee Full-Stack CV"
+      },
+      "2022": {
+        "label": "Junior Full-Stack CV"
+      },
+      "2024": {
+        "label": "Full-Stack-Developer CV"
+      }
+    }
+  },
+  "preview": {
+    "title": "Eingebettete PDF-Vorschau",
+    "fileLabel": "Datei: {{file}}",
+    "loading": "Lädt…",
+    "loadingBody": "Die neueste Version meines Lebenslaufs wird abgerufen."
   }
 }
