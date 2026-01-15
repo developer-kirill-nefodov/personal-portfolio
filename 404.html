@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <script>
+    const repoBase = '/personal-portfolio';
+    const path = location.pathname.replace(repoBase, '');
+    const search = location.search;
+    const hash = location.hash;
+    location.replace(repoBase + '/?p=' + encodeURIComponent(path + search + hash));
+  </script>
+</head>
+<body></body>
+</html>
