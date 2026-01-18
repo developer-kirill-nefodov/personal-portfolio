@@ -1,4 +1,45 @@
 {
+  "home": {
+    "greeting": "Bienvenido a mi portafolio",
+    "title": {
+      "line1": "Desarrollador Full-Stack",
+      "highlight": "Creando Soluciones Digitales"
+    },
+    "subtitle": "Me alegra que estés aquí explorando mi trabajo. Este portafolio muestra mis proyectos, habilidades y experiencia como desarrollador full-stack JavaScript/TypeScript con más de 5 años construyendo sistemas listos para producción.",
+    "cta": {
+      "projects": "Ver Proyectos",
+      "resume": "Ver Currículum"
+    },
+    "stats": {
+      "experience": "Años de Experiencia",
+      "projects": "Proyectos Completados",
+      "technologies": "Tecnologías",
+      "passion": "Pasión por el Código"
+    },
+    "features": {
+      "fullstack": {
+        "title": "Desarrollo Full-Stack",
+        "text": "Backends en Node.js, workers distribuidos, funciones en tiempo real, integraciones EDI e interfaces complejas con React/React Native. Entrega completa desde el concepto hasta producción."
+      },
+      "architecture": {
+        "title": "Arquitectura de Sistemas",
+        "text": "Amplia experiencia en diseño de arquitecturas escalables, microservicios, desarrollo de APIs y optimización de bases de datos para aplicaciones de alto rendimiento."
+      },
+      "performance": {
+        "title": "IA y Automatización",
+        "text": "Automatización impulsada por IA, procesamiento inteligente de documentos y optimización del rendimiento. Construyendo soluciones inteligentes que mejoran la productividad y la experiencia del usuario."
+      }
+    },
+    "video": {
+      "title": "Video de Presentación",
+      "subtitle": "Conóceme mejor a través de una presentación personal",
+      "comingSoon": "Próximamente"
+    },
+    "about": {
+      "title": "Sobre Este Portafolio",
+      "text": "Este portafolio contiene mis proyectos y continuará expandiéndose con nuevos trabajos, casos de estudio e información sobre mi trayectoria como desarrollador."
+    }
+  },
   "gitlab": "GitLab",
   "github": "GitHub",
   "githubRepository": "Repositorio de GitHub",
@@ -72,6 +113,25 @@
       "El proyecto incluye mantenimiento a largo plazo y desarrollo iterativo de nuevas funciones. El trabajo implica actualizaciones arquitectónicas, mejoras de rendimiento, depuración de lógica empresarial compleja y creación de nuevas herramientas internas solicitadas por el cliente."
     ]
   },
+  "modularWebPlatforms": {
+    "title": "Plataformas Web Modulares",
+    "subtitle": "Plataforma web escalable con módulos de educación, reclutamiento y administración.",
+    "short": "Plataforma web modular que combina gestión educativa, vacantes laborales y administración.",
+    "highlights": [
+      "Arquitectura modular que soporta múltiples subproyectos independientes",
+      "Sistema educativo jerárquico con tareas personalizables y seguimiento de progreso",
+      "Gestión de vacantes laborales con búsqueda, filtrado y flujo de candidatos",
+      "Panel administrativo centralizado para gestión de contenido y usuarios",
+      "Despliegue en producción utilizando infraestructura de AWS"
+    ],
+    "description": [
+      "Modular Web Platforms es una solución web escalable compuesta por varios subsistemas interconectados, diseñada para cubrir diferentes casos de uso educativos y empresariales dentro de una arquitectura unificada.",
+      "El módulo educativo implementa una estructura de aprendizaje jerárquica con tareas configurables, seguimiento de progreso e interfaces centradas en la usabilidad.",
+      "El módulo de reclutamiento permite crear y administrar vacantes laborales, incluyendo búsqueda y filtrado para candidatos y seguimiento interno de postulaciones.",
+      "Un panel administrativo proporciona control centralizado sobre vacantes, interacciones de usuarios y operaciones generales de la plataforma.",
+      "La plataforma fue desarrollada con React y TypeScript y desplegada utilizando servicios de AWS, priorizando escalabilidad, mantenibilidad y calidad del código."
+    ]
+  },
   "groupsTitle": "Grupos",
   "skills": {
     "title": "Habilidades y Tecnologías",
@@ -101,6 +161,42 @@
     ],
     "description": [
       "Este proyecto protegido por NDA es una plataforma full-stack compuesta por múltiples módulos integrados, funciones de comunicación en tiempo real y flujos de datos automatizados. El sistema gestiona grandes volúmenes de datos provenientes de servicios externos y los procesa mediante tareas en segundo plano y pipelines estructurados."
+    ]
+  },
+  "boomfShopifyWebApp": {
+    "title": "Aplicación Web de Boomf para Shopify",
+    "subtitle": "Aplicación web interactiva integrada con Shopify para productos personalizados.",
+    "short": "Aplicación web integrada con Shopify que permite diseñar y comprar postales personalizadas.",
+    "highlights": [
+      "Herramienta interactiva de personalización integrada directamente en Shopify",
+      "Gestión compleja del estado frontend con Redux y Redux-Saga",
+      "Estilos escalables y mantenibles utilizando Styled Components",
+      "Integración fluida con la API de Shopify para datos de productos y pedidos"
+    ],
+    "description": [
+      "Este proyecto consistió en el desarrollo de una aplicación web avanzada para Boomf, creada en colaboración con otro desarrollador e integrada completamente con la plataforma Shopify.",
+      "La funcionalidad principal es un personalizador interactivo de postales que permite a los usuarios diseñar tarjetas personalizadas con elementos mecánicos únicos dentro del flujo de compra.",
+      "Se implementó lógica frontend avanzada utilizando React, Redux y Redux-Saga para gestionar operaciones asíncronas, estados complejos y sincronización de datos.",
+      "Styled Components se utilizó para crear estilos modulares y escalables, garantizando una experiencia de usuario consistente y visualmente atractiva.",
+      "La aplicación se integra con la API de Shopify para gestionar datos de productos, precios e interacciones relacionadas con los pedidos de forma fiable."
+    ]
+  },
+  "dataReportingWebApp": {
+    "title": "Aplicación Web para Generación de Informes de Datos",
+    "subtitle": "Herramienta web para búsqueda de datos y generación automatizada de informes en Excel.",
+    "short": "Aplicación web especializada para búsquedas de datos a gran escala y generación automática de informes en Excel.",
+    "highlights": [
+      "Gestión de solicitudes paralelas con seguimiento en tiempo real",
+      "Búsqueda global basada en palabras clave en grandes volúmenes de datos",
+      "Generación automática de informes en Excel mediante Google Sheets",
+      "Interfaz orientada al cliente, clara y eficiente"
+    ],
+    "description": [
+      "Este proyecto consistió en el desarrollo de una aplicación web personalizada destinada a optimizar los procesos de búsqueda de información y generación de informes para un cliente.",
+      "La aplicación permite realizar búsquedas extensivas basadas en palabras clave en grandes conjuntos de datos, facilitando el análisis de la información relevante.",
+      "Se implementó lógica frontend para gestionar múltiples solicitudes en paralelo, mostrando el estado de cada una en tiempo real.",
+      "La generación de informes se automatizó mediante Google Apps Script y la API de Google Sheets, produciendo archivos Excel estructurados a partir del análisis de palabras clave.",
+      "La solución fue desarrollada con tecnologías web estándar, garantizando una interfaz responsiva adaptada a las necesidades operativas del cliente."
     ]
   },
   "resume": {
@@ -142,5 +238,11 @@
     "fileLabel": "Archivo: {{file}}",
     "loading": "Cargando…",
     "loadingBody": "Obteniendo la versión más reciente de mi currículum."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe o ha sido movida. Vamos a llevarte de vuelta al camino correcto.",
+    "goHome": "Ir al inicio",
+    "goBack": "Volver"
   }
 }

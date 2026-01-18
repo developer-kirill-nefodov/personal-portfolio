@@ -1,4 +1,45 @@
 {
+  "home": {
+    "greeting": "Willkommen in meinem Portfolio",
+    "title": {
+      "line1": "Full-Stack-Entwickler",
+      "highlight": "Digitale Lösungen entwickeln"
+    },
+    "subtitle": "Ich freue mich, dass Sie hier sind und meine Arbeit erkunden. Dieses Portfolio zeigt meine Projekte, Fähigkeiten und Erfahrungen als Full-Stack JavaScript/TypeScript-Entwickler mit über 5 Jahren Erfahrung in der Entwicklung produktionsreifer Systeme.",
+    "cta": {
+      "projects": "Projekte ansehen",
+      "resume": "Lebenslauf ansehen"
+    },
+    "stats": {
+      "experience": "Jahre Erfahrung",
+      "projects": "Abgeschlossene Projekte",
+      "technologies": "Technologien",
+      "passion": "Leidenschaft für Code"
+    },
+    "features": {
+      "fullstack": {
+        "title": "Full-Stack-Entwicklung",
+        "text": "Node.js-Backends, verteilte Worker, Echtzeit-Funktionen, EDI-Integrationen und komplexe UIs mit React/React Native. End-to-End-Lieferung vom Konzept bis zur Produktion."
+      },
+      "architecture": {
+        "title": "Systemarchitektur",
+        "text": "Starke Expertise im Design skalierbarer Architekturen, Microservices, API-Entwicklung und Datenbankoptimierung für Hochleistungsanwendungen."
+      },
+      "performance": {
+        "title": "KI & Automatisierung",
+        "text": "KI-gestützte Automatisierung, intelligente Dokumentenverarbeitung und Leistungsoptimierung. Entwicklung intelligenter Lösungen zur Steigerung von Produktivität und Benutzererfahrung."
+      }
+    },
+    "video": {
+      "title": "Vorstellungsvideo",
+      "subtitle": "Lernen Sie mich durch eine persönliche Vorstellung besser kennen",
+      "comingSoon": "Demnächst verfügbar"
+    },
+    "about": {
+      "title": "Über dieses Portfolio",
+      "text": "Dieses Portfolio enthält meine Projekte und wird weiterhin mit neuen Arbeiten, Fallstudien und Einblicken in meine Entwicklungsreise erweitert."
+    }
+  },
   "gitlab": "GitLab",
   "github": "GitHub",
   "githubRepository": "GitHub-Repository",
@@ -72,6 +113,25 @@
       "Das Projekt umfasst langfristige Wartung und iterative Entwicklung neuer Funktionen. Die Arbeit beinhaltet Architektur-Updates, Leistungsoptimierung, Debugging komplexer Geschäftslogik sowie Implementierung neuer interner Tools auf Kundenanfrage."
     ]
   },
+  "modularWebPlatforms": {
+    "title": "Modulare Webplattformen",
+    "subtitle": "Skalierbare Webplattform mit Bildungs-, Recruiting- und Administrationsmodulen.",
+    "short": "Modulare Webplattform zur Kombination von Lernmanagement, Stellenanzeigen und Administration.",
+    "highlights": [
+      "Modulare Architektur mit mehreren unabhängigen Teilprojekten",
+      "Hierarchisches Lernsystem mit anpassbaren Aufgaben und Fortschrittsverfolgung",
+      "Verwaltung von Stellenanzeigen mit Such- und Filterfunktionen",
+      "Zentrales Admin-Dashboard für Benutzer- und Inhaltsverwaltung",
+      "Produktiver Einsatz mit AWS-Infrastruktur"
+    ],
+    "description": [
+      "Modular Web Platforms ist eine skalierbare Weblösung, die aus mehreren miteinander verbundenen Subsystemen besteht und verschiedene Bildungs- und Geschäftsanforderungen innerhalb einer gemeinsamen Architektur abdeckt.",
+      "Das Lernmodul bietet eine hierarchische Struktur mit konfigurierbaren Aufgaben, Fortschrittsverfolgung und benutzerfreundlichen Oberflächen.",
+      "Das Recruiting-Modul ermöglicht die Erstellung und Verwaltung von Stellenanzeigen sowie Such- und Filterfunktionen für Bewerber und internes Bewerber-Tracking.",
+      "Ein administratives Dashboard erlaubt die zentrale Steuerung von Stellenanzeigen, Benutzerinteraktionen und Plattformbetrieb.",
+      "Die Plattform wurde mit React und TypeScript entwickelt und über AWS-Dienste bereitgestellt, mit Fokus auf Skalierbarkeit, Wartbarkeit und Codequalität."
+    ]
+  },
   "groupsTitle": "Gruppen",
   "skills": {
     "title": "Fähigkeiten & Technologien",
@@ -101,6 +161,42 @@
     ],
     "description": [
       "Dieses NDA-geschützte Projekt ist eine Full-Stack-Plattform, bestehend aus mehreren integrierten Modulen, Echtzeitkommunikation und automatisierten Datenworkflows. Das System verarbeitet große Datenmengen aus externen Diensten über Hintergrundtasks und strukturierte Pipelines."
+    ]
+  },
+  "dataReportingWebApp": {
+    "title": "Webanwendung für Datenreporting",
+    "subtitle": "Webbasierte Lösung zur Datensuche und automatisierten Erstellung von Excel-Berichten.",
+    "short": "Spezialisierte Webanwendung für umfangreiche Datensuchen und automatisierte Excel-Berichte.",
+    "highlights": [
+      "Verarbeitung paralleler Anfragen mit Echtzeit-Statusanzeige",
+      "Globale Stichwortsuche in umfangreichen Datensätzen",
+      "Automatisierte Erstellung von Excel-Berichten über Google Sheets",
+      "Klare und effiziente Benutzeroberfläche für Kundenanforderungen"
+    ],
+    "description": [
+      "In diesem Projekt wurde eine maßgeschneiderte Webanwendung entwickelt, um die Suche nach Informationen und die Erstellung von Berichten für einen Kunden zu vereinfachen.",
+      "Die Anwendung ermöglicht umfangreiche stichwortbasierte Suchen in großen Datensätzen und unterstützt eine effiziente Analyse relevanter Informationen.",
+      "Die Frontend-Logik verwaltet mehrere parallele Anfragen und stellt deren Status in Echtzeit dar, was die Benutzerinteraktion deutlich verbessert.",
+      "Die Berichtserstellung wurde mithilfe von Google Apps Script und der Google Sheets API automatisiert, wodurch strukturierte Excel-Berichte aus der Datenanalyse erzeugt werden.",
+      "Die Lösung basiert auf Standard-Webtechnologien und bietet eine responsive Benutzeroberfläche, die auf die operativen Anforderungen des Kunden zugeschnitten ist."
+    ]
+  },
+  "boomfShopifyWebApp": {
+    "title": "Boomf Shopify Webanwendung",
+    "subtitle": "Interaktive, in Shopify integrierte Webanwendung für personalisierte Produkte.",
+    "short": "Shopify-integrierte Webanwendung zur Gestaltung und Bestellung personalisierter Postkarten.",
+    "highlights": [
+      "Interaktiver Postkarten-Konfigurator direkt in Shopify integriert",
+      "Komplexes Frontend-State-Management mit Redux und Redux-Saga",
+      "Skalierbares Styling mit Styled Components",
+      "Nahtlose Integration mit der Shopify API für Produkt- und Bestelldaten"
+    ],
+    "description": [
+      "Dieses Projekt umfasste die Entwicklung einer anspruchsvollen Webanwendung für Boomf in enger Zusammenarbeit mit einem weiteren Entwickler und vollständiger Integration in die Shopify-Plattform.",
+      "Die zentrale Funktion der Anwendung ist ein interaktiver Postkarten-Konfigurator, mit dem Benutzer personalisierte Karten mit einzigartigen mechanischen Elementen gestalten können.",
+      "Die Frontend-Logik wurde mit React, Redux und Redux-Saga umgesetzt, um asynchrone Abläufe, komplexe Zustände und Daten-Synchronisation effizient zu verwalten.",
+      "Styled Components wurden eingesetzt, um modulare und wartbare Styles zu erstellen und eine konsistente Benutzeroberfläche sicherzustellen.",
+      "Die Anwendung nutzt die Shopify API zur zuverlässigen Verarbeitung von Produktdaten, Preisen und bestellbezogenen Interaktionen."
     ]
   },
   "resume": {
@@ -142,5 +238,11 @@
     "fileLabel": "Datei: {{file}}",
     "loading": "Lädt…",
     "loadingBody": "Die neueste Version meines Lebenslaufs wird abgerufen."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben. Lassen Sie uns Sie zurück auf den richtigen Weg bringen.",
+    "goHome": "Zur Startseite",
+    "goBack": "Zurück"
   }
 }

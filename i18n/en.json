@@ -1,4 +1,45 @@
 {
+  "home": {
+    "greeting": "Welcome to my portfolio",
+    "title": {
+      "line1": "Full-Stack Developer",
+      "highlight": "Building Digital Solutions"
+    },
+    "subtitle": "I'm glad you're here exploring my work. This portfolio showcases my projects, skills, and experience as a full-stack JavaScript/TypeScript developer with 5+ years of building production-ready systems.",
+    "cta": {
+      "projects": "View Projects",
+      "resume": "View Resume"
+    },
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Projects Completed",
+      "technologies": "Technologies",
+      "passion": "Passion for Code"
+    },
+    "features": {
+      "fullstack": {
+        "title": "Full-Stack Development",
+        "text": "Node.js backends, distributed workers, real-time features, EDI integrations, and complex UI with React/React Native. End-to-end delivery from concept to production."
+      },
+      "architecture": {
+        "title": "System Architecture",
+        "text": "Strong expertise in designing scalable architectures, microservices, API development, and database optimization for high-performance applications."
+      },
+      "performance": {
+        "title": "AI & Automation",
+        "text": "AI-powered automation, intelligent document processing, and performance optimization. Building smart solutions that enhance productivity and user experience."
+      }
+    },
+    "video": {
+      "title": "Introduction Video",
+      "subtitle": "Get to know me better through a personal introduction",
+      "comingSoon": "Coming Soon"
+    },
+    "about": {
+      "title": "About This Portfolio",
+      "text": "This portfolio contains my projects and will continue to expand with new work, case studies, and insights into my development journey."
+    }
+  },
   "gitlab": "GitLab",
   "github": "GitHub",
   "githubRepository": "GitHub Repository",
@@ -72,6 +113,25 @@
       "The project includes long-term maintenance and iterative development of new features. Work involves architectural updates, performance improvements, debugging complex business logic, and implementing new internal tools requested by the client."
     ]
   },
+  "modularWebPlatforms": {
+    "title": "Modular Web Platforms",
+    "subtitle": "Scalable multi-module web platform with education, recruitment, and administration features.",
+    "short": "A modular web platform combining learning management, job vacancies, and an administrative dashboard.",
+    "highlights": [
+      "Modular architecture supporting multiple independent sub-projects",
+      "Hierarchical learning system with task customization and progress tracking",
+      "Job vacancy management with search, filtering, and applicant workflows",
+      "Centralized admin panel for content, users, and operational oversight",
+      "Production deployment using AWS infrastructure"
+    ],
+    "description": [
+      "Modular Web Platforms is a scalable web solution composed of several interconnected sub-systems, designed to support different business and educational use cases within a single architecture.",
+      "The educational module implements a hierarchical learning structure with configurable tasks, progress tracking, and user-friendly interfaces focused on clarity and usability.",
+      "The recruitment module provides functionality for creating and managing job vacancies, including applicant-facing search and filtering as well as internal tracking of applications.",
+      "An administrative dashboard enables centralized management of vacancies, user interactions, and platform operations, ensuring consistency and operational control across all modules.",
+      "The platform was built with a modern React and TypeScript stack and deployed using AWS services, with a strong focus on maintainability, scalability, and code quality."
+    ]
+  },
   "groupsTitle": "Groups",
   "skills": {
     "title": "Skills & Technologies",
@@ -101,6 +161,42 @@
       "Role-based system with a configurable administrative panel"
     ],
     "description": ["This NDA-protected project is a full-stack platform consisting of multiple integrated modules, real-time communication features, and automated data workflows. The system handles high-volume data ingestion from various external services and processes it through background tasks and structured pipelines."]
+  },
+  "dataReportingWebApp": {
+    "title": "Web Application for Data Reporting",
+    "subtitle": "Client-focused web tool for data search and automated Excel report generation.",
+    "short": "A specialized web application for large-scale data search and automated Excel-based reporting.",
+    "highlights": [
+      "Parallel request handling with real-time status tracking",
+      "Global keyword-based search across large datasets",
+      "Automated Excel report generation using Google Sheets",
+      "Client-oriented UI focused on efficiency and clarity"
+    ],
+    "description": [
+      "This project involved the development of a custom web application designed to streamline data discovery and reporting workflows for a client.",
+      "The application supports extensive keyword-based searches across large datasets, enabling users to efficiently locate and analyze relevant information.",
+      "Frontend logic was implemented to manage multiple parallel requests, providing real-time visibility into request progress and improving overall user interaction.",
+      "Report generation was automated using Google Apps Script and the Google Sheets API, producing structured Excel reports based on keyword analysis.",
+      "The solution was built with standard web technologies, ensuring a responsive interface tailored to the client’s operational needs."
+    ]
+  },
+  "boomfShopifyWebApp": {
+    "title": "Boomf Shopify Web Application",
+    "subtitle": "Interactive Shopify-integrated web application for customizable postcard products.",
+    "short": "A Shopify-integrated web application enabling customers to design and purchase personalized postcards.",
+    "highlights": [
+      "Highly interactive postcard customizer integrated directly into Shopify",
+      "Complex frontend state management using Redux and Redux-Saga",
+      "Scalable and maintainable styling with Styled Components",
+      "Seamless integration with Shopify API for product and order data"
+    ],
+    "description": [
+      "This project involved the development of a sophisticated web application for Boomf, built in close collaboration with another developer and fully integrated with the Shopify platform.",
+      "The core feature of the application is an interactive postcard customizer that allows users to design personalized cards with unique mechanical elements directly within the purchasing flow.",
+      "Advanced frontend logic was implemented using React, Redux, and Redux-Saga to manage asynchronous operations, complex state transitions, and data synchronization.",
+      "Styled Components were used to create modular and scalable styles, ensuring a consistent visual identity and high-quality user experience.",
+      "The application integrates with the Shopify API to handle product data, pricing, and order-related interactions in a reliable and performant manner."
+    ]
   },
   "resume": {
     "title": "Resume",
@@ -141,5 +237,11 @@
     "fileLabel": "File: {{file}}",
     "loading": "Loading…",
     "loadingBody": "Fetching the latest version of my resume."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
+    "goHome": "Go Home",
+    "goBack": "Go Back"
   }
 }

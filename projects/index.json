@@ -1,4 +1,12 @@
 {
+  "profile": {
+    "experience": 5,
+    "role": "Full-Stack Developer",
+    "video": {
+      "token": null,
+      "url": null
+    }
+  },
   "networks": {
     "email": "kirillnef58@gmail.com",
     "github": "https://github.com/developer-kirill-nefodov",
@@ -366,6 +374,222 @@
 
       "featured": false,
       "sort": 110
+    },
+    {
+      "id": "modular-web-platforms",
+      "slug": "modularWebPlatforms",
+      "status": "released",
+      "landing": "/projects/modular-web-platforms",
+      "nda": false,
+      "links": {
+        "github": {
+          "repo": null,
+          "disabled": true
+        },
+        "demo": {
+          "repo": null,
+          "disabled": true
+        },
+        "caseStudy": null
+      },
+      "date": "2023-11-01",
+      "period": { "start": "2023-11", "end": "2024-02" },
+      "company": "Personal / Client Project",
+      "role": ["Frontend Developer"],
+      "tags": [
+        "Modular Architecture",
+        "Education",
+        "Recruitment",
+        "Admin Panel",
+        "Scalable Platform"
+      ],
+      "platforms": ["Web", "PWA"],
+      "cover": {
+        "src": null,
+        "alt": null
+      },
+      "coreTech": ["React", "TypeScript", "AWS"],
+      "tech": [
+        "React",
+        "TypeScript",
+        "Emotion",
+        "PWA",
+        "Jest",
+        "Storybook",
+        "AWS"
+      ],
+      "apis": [],
+      "tools": [
+        "AWS",
+        "Storybook"
+      ],
+      "db": [],
+      "testing": ["Jest"],
+      "frontend": [
+        "React",
+        "TypeScript",
+        "Emotion",
+        "PWA"
+      ],
+      "backend": [],
+      "gallery": {
+        "images": [],
+        "videos": [],
+        "gifs": []
+      },
+      "metrics": {
+        "users": null,
+        "requestsPerDay": null,
+        "latencyMsP50": null,
+        "availability": null
+      },
+      "featured": false,
+      "sort": 85
+    },
+    {
+      "id": "data-reporting-web-app",
+      "slug": "dataReportingWebApp",
+      "status": "released",
+      "landing": "/projects/data-reporting-web-app",
+      "nda": false,
+      "links": {
+        "github": {
+          "repo": null,
+          "disabled": true
+        },
+        "demo": {
+          "repo": null,
+          "disabled": true
+        },
+        "caseStudy": null
+      },
+      "date": "2022-08-01",
+      "period": { "start": "2022-08", "end": "2022-08" },
+      "company": "Client Project",
+      "role": ["Frontend Developer"],
+      "tags": [
+        "Data Reporting",
+        "Search",
+        "Automation",
+        "Excel Reports",
+        "Client Tooling"
+      ],
+      "platforms": ["Web"],
+      "cover": {
+        "src": null,
+        "alt": null
+      },
+      "coreTech": ["Google Apps Script", "Google Sheets API", "HTML", "CSS"],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Fetch API",
+        "Google Apps Script",
+        "Google Sheets",
+        "Google Sheets API"
+      ],
+      "apis": [
+        "Google Sheets API"
+      ],
+      "tools": [
+        "Google Apps Script"
+      ],
+      "db": [],
+      "testing": [],
+      "frontend": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Fetch API"
+      ],
+      "backend": [
+        "Google Apps Script"
+      ],
+      "gallery": {
+        "images": [],
+        "videos": [],
+        "gifs": []
+      },
+      "metrics": {
+        "users": null,
+        "requestsPerDay": null,
+        "latencyMsP50": null,
+        "availability": null
+      },
+      "featured": false,
+      "sort": 70
+    },
+    {
+      "id": "boomf-shopify-web-app",
+      "slug": "boomfShopifyWebApp",
+      "status": "released",
+      "landing": "/projects/boomf-shopify-web-app",
+      "nda": false,
+      "links": {
+        "github": {
+          "repo": null,
+          "disabled": true
+        },
+        "demo": {
+          "repo": null,
+          "disabled": true
+        },
+        "caseStudy": null
+      },
+      "date": "2022-04-01",
+      "period": { "start": "2022-04", "end": "2022-08" },
+      "company": "Boomf",
+      "role": ["Frontend Developer"],
+      "tags": [
+        "E-Commerce",
+        "Shopify",
+        "Product Customization",
+        "Interactive UI",
+        "Frontend Architecture"
+      ],
+      "platforms": ["Web"],
+      "cover": {
+        "src": null,
+        "alt": null
+      },
+      "coreTech": ["React", "Redux-Saga", "Shopify API"],
+      "tech": [
+        "React",
+        "Redux",
+        "Redux-Saga",
+        "Styled Components",
+        "JavaScript",
+        "Shopify API"
+      ],
+      "apis": [
+        "Shopify API"
+      ],
+      "tools": [
+        "Redux-Saga"
+      ],
+      "db": [],
+      "testing": [],
+      "frontend": [
+        "React",
+        "Redux",
+        "Redux-Saga",
+        "Styled Components"
+      ],
+      "backend": [],
+      "gallery": {
+        "images": [],
+        "videos": [],
+        "gifs": []
+      },
+      "metrics": {
+        "users": null,
+        "requestsPerDay": null,
+        "latencyMsP50": null,
+        "availability": null
+      },
+      "featured": false,
+      "sort": 75
     }
   ]
 }
