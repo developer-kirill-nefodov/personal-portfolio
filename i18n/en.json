@@ -66,6 +66,16 @@
     "title": "EchoLingo",
     "short": "Real-time translator app with public and private modes and streaming avatars."
   },
+  "hide": "Hide",
+  "showAll": "Show All",
+  "project": {
+    "coreTechTitle": "Core Technologies",
+    "allTechTitle": "All Technologies"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "language": "Language"
+  },
   "sectionTitle": "Projects",
   "searchPlaceholder": "Search by title or tag…",
   "allYears": "All years",
@@ -137,14 +147,38 @@
     "title": "Skills & Technologies",
     "subtitle": "A structured overview of my technical skills, tools, and technologies.",
     "coreStackTitle": "Core Stack",
-    "frontend": { "title": "Frontend Development", "subtitle": "UI frameworks, styling systems, state management, and interactive interfaces." },
-    "backend": { "title": "Backend Development", "subtitle": "Server frameworks, background jobs, API development, and system logic." },
-    "testing": { "title": "Testing & QA", "subtitle": "Unit, integration, and end-to-end testing tools." },
-    "devops": { "title": "DevOps & Tools", "subtitle": "Deployment, CI/CD pipelines, containerization, and automation." },
-    "cloud": { "title": "Cloud Platforms", "subtitle": "Cloud providers and platform services." },
-    "apis": { "title": "APIs & Integrations", "subtitle": "Third-party APIs, SDKs, and integration tools." },
-    "other": { "title": "Other Technologies", "subtitle": "Additional tools and technologies used across projects." },
-    "db": { "title": "Databases", "subtitle": "Relational and non-relational data storage systems." },
+    "frontend": {
+      "title": "Frontend Development",
+      "subtitle": "UI frameworks, styling systems, state management, and interactive interfaces."
+    },
+    "backend": {
+      "title": "Backend Development",
+      "subtitle": "Server frameworks, background jobs, API development, and system logic."
+    },
+    "testing": {
+      "title": "Testing & QA",
+      "subtitle": "Unit, integration, and end-to-end testing tools."
+    },
+    "devops": {
+      "title": "DevOps & Tools",
+      "subtitle": "Deployment, CI/CD pipelines, containerization, and automation."
+    },
+    "cloud": {
+      "title": "Cloud Platforms",
+      "subtitle": "Cloud providers and platform services."
+    },
+    "apis": {
+      "title": "APIs & Integrations",
+      "subtitle": "Third-party APIs, SDKs, and integration tools."
+    },
+    "other": {
+      "title": "Other Technologies",
+      "subtitle": "Additional tools and technologies used across projects."
+    },
+    "db": {
+      "title": "Databases",
+      "subtitle": "Relational and non-relational data storage systems."
+    },
     "otherExperienceTitle": "Other technologies I’ve worked with",
     "otherExperienceSubtitle": "Additional tools, libraries and services I’ve used across different projects."
   },
@@ -152,7 +186,6 @@
     "title": "NDA Full-Stack Platform",
     "subtitle": "A large-scale full-stack application with AI features, multi-role access, and complex data processing.",
     "short": "A multi-module platform combining real-time features, data ingestion pipelines, and interactive visualization components.",
-
     "highlights": [
       "AI-powered user interaction components",
       "Automated processing workflows for large unstructured datasets",
@@ -160,7 +193,9 @@
       "Advanced visualization modules including 3D and timeline-based interfaces",
       "Role-based system with a configurable administrative panel"
     ],
-    "description": ["This NDA-protected project is a full-stack platform consisting of multiple integrated modules, real-time communication features, and automated data workflows. The system handles high-volume data ingestion from various external services and processes it through background tasks and structured pipelines."]
+    "description": [
+      "This NDA-protected project is a full-stack platform consisting of multiple integrated modules, real-time communication features, and automated data workflows. The system handles high-volume data ingestion from various external services and processes it through background tasks and structured pipelines."
+    ]
   },
   "dataReportingWebApp": {
     "title": "Web Application for Data Reporting",
@@ -209,7 +244,10 @@
     },
     "preview": {
       "title": "Embedded PDF preview",
-      "fileLabel": "File: {{file}}"
+      "fileLabel": "File: {{file}}",
+      "loading": "Loading…",
+      "loadingBody": "Fetching the latest version of my resume.",
+      "disabledBody": "This resume is currently unavailable."
     },
     "shareTitle": "Resume — Kirill Nefodov",
     "shareText": "Full-stack engineer resume of Kirill Nefodov.",
@@ -219,8 +257,6 @@
       "error": "Unable to share"
     },
     "history": {
-      "title": "Previous resume versions",
-      "subtitle": "Older CVs from the last years that show how my profile evolved.",
       "2021": {
         "label": "Trainee full-stack CV"
       },
@@ -229,7 +265,9 @@
       },
       "2024": {
         "label": "Full Stack Developer CV"
-      }
+      },
+      "title": "Previous resume versions",
+      "subtitle": "Older CVs from the last years that show how my profile evolved."
     }
   },
   "preview": {
@@ -243,5 +281,24 @@
     "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
     "goHome": "Go Home",
     "goBack": "Go Back"
+  },
+  "highlightsTitle": "Highlights",
+  "descriptionTitle": "Description",
+  "boxhill": {
+    "title": "Boxhill Institute Web Application",
+    "subtitle": "Template-driven Next.js platform with 11 recursive content blocks generating 500+ pages from DatoCMS for an Australian educational institute.",
+    "short": "A Next.js platform with a recursive template system assembling 500+ pages from 11 content block types and DatoCMS data.",
+    "highlights": [
+      "Designed and implemented 11 reusable content block templates that recursively assemble pages based on nested data structures from DatoCMS",
+      "Built the data retrieval logic using GraphQL and Apollo Client with caching optimized for a 500+ page static build",
+      "Developed enrollment forms with multi-step validation and reCAPTCHA integration for trial lesson registration",
+      "Integrated Google Maps with custom styling for campus and location pages",
+      "Implemented responsive layouts with SCSS ensuring cross-browser consistency"
+    ],
+    "description": [
+      "A team project for Box Hill Institute — an Australian educational platform. Built with Next.js and DatoCMS as a headless CMS, the application generates over 500 pages at build time.",
+      "The core of the project is a recursive template system consisting of 11 distinct content block types. Each block handles a specific data structure from DatoCMS and can be nested within other blocks, allowing the system to dynamically compose complex page layouts based on the depth and hierarchy of the incoming data.",
+      "Beyond the template engine, the project involved building interactive enrollment forms with reCAPTCHA protection for trial lesson registration, integrating Google Maps with custom styling for campus pages, and implementing responsive design with SCSS across the entire platform."
+    ]
   }
 }

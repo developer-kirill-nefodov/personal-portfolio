@@ -590,6 +590,72 @@
       },
       "featured": false,
       "sort": 75
+    },
+    {
+      "id": "boxhill",
+      "slug": "boxhill",
+      "status": "released",
+      "landing": "/projects/boxhill",
+      "nda": false,
+      "links": {
+        "github": {
+          "repo": null,
+          "disabled": true
+        },
+        "demo": {
+          "repo": "https://www.boxhill.edu.au/",
+          "disabled": false
+        },
+        "caseStudy": null
+      },
+      "date": "2021-09-01",
+      "period": { "start": "2021-09", "end": "2022-01" },
+      "company": "Box Hill Institute",
+      "role": ["Frontend Developer"],
+      "tags": ["Education", "Headless CMS", "Template System", "SSG"],
+      "platforms": ["Web"],
+      "cover": {
+        "src": "/projects/v1/boxhill/cover.png",
+        "alt": "Boxhill School web application"
+      },
+      "coreTech": ["Next.js", "TypeScript", "GraphQL", "Apollo Client"],
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "GraphQL",
+        "Apollo Client",
+        "DatoCMS",
+        "SCSS",
+        "Google Maps API",
+        "reCAPTCHA"
+      ],
+      "apis": ["Google Maps API", "DatoCMS"],
+      "tools": [],
+      "db": [],
+      "testing": [],
+      "frontend": [
+        "Next.js",
+        "TypeScript",
+        "SCSS",
+        "Apollo Client",
+        "GraphQL"
+      ],
+      "backend": [],
+      "gallery": {
+        "images": [
+          { "src": "/projects/v1/boxhill/cover.png", "alt": "Boxhill School" }
+        ],
+        "videos": [],
+        "gifs": []
+      },
+      "metrics": {
+        "users": null,
+        "requestsPerDay": null,
+        "latencyMsP50": null,
+        "availability": null
+      },
+      "featured": false,
+      "sort": 60
     }
   ]
 }

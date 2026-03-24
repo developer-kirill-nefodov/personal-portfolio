@@ -66,6 +66,16 @@
     "title": "EchoLingo",
     "short": "Aplicación de traducción en tiempo real con modos público y privado y avatares en streaming."
   },
+  "hide": "Ocultar",
+  "showAll": "Mostrar todo",
+  "project": {
+    "coreTechTitle": "Tecnologías Principales",
+    "allTechTitle": "Todas las Tecnologías"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "language": "Idioma"
+  },
   "sectionTitle": "Proyectos",
   "searchPlaceholder": "Buscar por título o etiqueta…",
   "allYears": "Todos los años",
@@ -137,14 +147,38 @@
     "title": "Habilidades y Tecnologías",
     "subtitle": "Una vista estructurada de mis habilidades técnicas, herramientas y tecnologías.",
     "coreStackTitle": "Stack Principal",
-    "frontend": { "title": "Desarrollo Frontend", "subtitle": "Frameworks de UI, sistemas de estilos, gestión de estado e interfaces interactivas." },
-    "backend": { "title": "Desarrollo Backend", "subtitle": "Frameworks de servidor, trabajos en segundo plano, desarrollo de APIs y lógica del sistema." },
-    "testing": { "title": "Pruebas y QA", "subtitle": "Herramientas de pruebas unitarias, de integración y end-to-end." },
-    "devops": { "title": "DevOps y Herramientas", "subtitle": "Despliegue, pipelines CI/CD, contenedores y automatización." },
-    "cloud": { "title": "Plataformas Cloud", "subtitle": "Proveedores cloud y servicios de plataforma." },
-    "apis": { "title": "APIs e Integraciones", "subtitle": "APIs externas, SDKs y herramientas de integración." },
-    "other": { "title": "Otras Tecnologías", "subtitle": "Herramientas y tecnologías adicionales utilizadas en distintos proyectos." },
-    "db": { "title": "Bases de Datos", "subtitle": "Sistemas de almacenamiento de datos relacionales y no relacionales." },
+    "frontend": {
+      "title": "Desarrollo Frontend",
+      "subtitle": "Frameworks de UI, sistemas de estilos, gestión de estado e interfaces interactivas."
+    },
+    "backend": {
+      "title": "Desarrollo Backend",
+      "subtitle": "Frameworks de servidor, trabajos en segundo plano, desarrollo de APIs y lógica del sistema."
+    },
+    "testing": {
+      "title": "Pruebas y QA",
+      "subtitle": "Herramientas de pruebas unitarias, de integración y end-to-end."
+    },
+    "devops": {
+      "title": "DevOps y Herramientas",
+      "subtitle": "Despliegue, pipelines CI/CD, contenedores y automatización."
+    },
+    "cloud": {
+      "title": "Plataformas Cloud",
+      "subtitle": "Proveedores cloud y servicios de plataforma."
+    },
+    "apis": {
+      "title": "APIs e Integraciones",
+      "subtitle": "APIs externas, SDKs y herramientas de integración."
+    },
+    "other": {
+      "title": "Otras Tecnologías",
+      "subtitle": "Herramientas y tecnologías adicionales utilizadas en distintos proyectos."
+    },
+    "db": {
+      "title": "Bases de Datos",
+      "subtitle": "Sistemas de almacenamiento de datos relacionales y no relacionales."
+    },
     "otherExperienceTitle": "Otras tecnologías con las que he trabajado",
     "otherExperienceSubtitle": "Herramientas, librerías y servicios adicionales utilizados en proyectos diversos."
   },
@@ -210,7 +244,10 @@
     },
     "preview": {
       "title": "Vista previa PDF integrada",
-      "fileLabel": "Archivo: {{file}}"
+      "fileLabel": "Archivo: {{file}}",
+      "loading": "Cargando…",
+      "loadingBody": "Obteniendo la versión más reciente de mi currículum.",
+      "disabledBody": "Este currículum no está disponible actualmente."
     },
     "shareTitle": "Currículum — Kirill Nefodov",
     "shareText": "Currículum de ingeniero full-stack de Kirill Nefodov.",
@@ -220,8 +257,6 @@
       "error": "No se puede compartir"
     },
     "history": {
-      "title": "Versiones anteriores del currículum",
-      "subtitle": "CV antiguos de los últimos años que muestran cómo ha evolucionado mi perfil.",
       "2021": {
         "label": "CV Full-Stack en prácticas"
       },
@@ -230,7 +265,9 @@
       },
       "2024": {
         "label": "CV Full-Stack Developer"
-      }
+      },
+      "title": "Versiones anteriores del currículum",
+      "subtitle": "CV antiguos de los últimos años que muestran cómo ha evolucionado mi perfil."
     }
   },
   "preview": {
@@ -244,5 +281,24 @@
     "description": "La página que buscas no existe o ha sido movida. Vamos a llevarte de vuelta al camino correcto.",
     "goHome": "Ir al inicio",
     "goBack": "Volver"
+  },
+  "highlightsTitle": "Aspectos destacados",
+  "descriptionTitle": "Descripción",
+  "boxhill": {
+    "title": "Aplicación Web de Boxhill Institute",
+    "subtitle": "Plataforma Next.js con 11 bloques de contenido recursivos que generan más de 500 páginas desde DatoCMS para un instituto educativo australiano.",
+    "short": "Una plataforma Next.js con un sistema de plantillas recursivo que ensambla más de 500 páginas a partir de 11 tipos de bloques de contenido y datos de DatoCMS.",
+    "highlights": [
+      "Diseño e implementación de 11 plantillas de bloques de contenido reutilizables que ensamblan páginas recursivamente a partir de estructuras de datos anidadas de DatoCMS",
+      "Construcción de la lógica de obtención de datos con GraphQL y Apollo Client con caché optimizado para un build estático de más de 500 páginas",
+      "Desarrollo de formularios de inscripción con validación de múltiples pasos e integración de reCAPTCHA para registro a clases de prueba",
+      "Integración de Google Maps con estilos personalizados para páginas de campus y ubicaciones",
+      "Implementación de layouts responsivos con SCSS garantizando consistencia entre navegadores"
+    ],
+    "description": [
+      "Un proyecto en equipo para Box Hill Institute — una plataforma educativa australiana. Construido con Next.js y DatoCMS como CMS headless, la aplicación genera más de 500 páginas en tiempo de build.",
+      "El núcleo del proyecto es un sistema de plantillas recursivo compuesto por 11 tipos distintos de bloques de contenido. Cada bloque maneja una estructura de datos específica de DatoCMS y puede anidarse dentro de otros bloques, permitiendo al sistema componer dinámicamente layouts de página complejos según la profundidad y jerarquía de los datos entrantes.",
+      "Además del motor de plantillas, el proyecto incluyó formularios interactivos de inscripción con protección reCAPTCHA para registro a clases de prueba, integración de Google Maps con estilos personalizados para páginas de campus y diseño responsivo con SCSS en toda la plataforma."
+    ]
   }
 }

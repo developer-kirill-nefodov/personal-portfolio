@@ -66,6 +66,16 @@
     "title": "EchoLingo",
     "short": "Echtzeit-Übersetzungs-App mit öffentlichem und privatem Modus sowie Streaming-Avataren."
   },
+  "hide": "Ausblenden",
+  "showAll": "Alle anzeigen",
+  "project": {
+    "coreTechTitle": "Kerntechnologien",
+    "allTechTitle": "Alle Technologien"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "language": "Sprache"
+  },
   "sectionTitle": "Projekte",
   "searchPlaceholder": "Nach Titel oder Tag suchen…",
   "allYears": "Alle Jahre",
@@ -137,14 +147,38 @@
     "title": "Fähigkeiten & Technologien",
     "subtitle": "Ein strukturierter Überblick über meine technischen Fähigkeiten, Tools und Technologien.",
     "coreStackTitle": "Kern-Stack",
-    "frontend": { "title": "Frontend-Entwicklung", "subtitle": "UI-Frameworks, Styling-Systeme, State-Management und interaktive Interfaces." },
-    "backend": { "title": "Backend-Entwicklung", "subtitle": "Server-Frameworks, Hintergrundjobs, API-Entwicklung und Systemlogik." },
-    "testing": { "title": "Testing & QA", "subtitle": "Tools für Unit-, Integrations- und End-to-End-Tests." },
-    "devops": { "title": "DevOps & Tools", "subtitle": "Bereitstellung, CI/CD-Pipelines, Containerisierung und Automatisierung." },
-    "cloud": { "title": "Cloud-Plattformen", "subtitle": "Cloud-Anbieter und Plattformdienste." },
-    "apis": { "title": "APIs & Integrationen", "subtitle": "Externe APIs, SDKs und Integrationstools." },
-    "other": { "title": "Weitere Technologien", "subtitle": "Zusätzliche Tools und Technologien, die in Projekten verwendet wurden." },
-    "db": { "title": "Datenbanken", "subtitle": "Relationale und nicht-relationale Datenspeichersysteme." },
+    "frontend": {
+      "title": "Frontend-Entwicklung",
+      "subtitle": "UI-Frameworks, Styling-Systeme, State-Management und interaktive Interfaces."
+    },
+    "backend": {
+      "title": "Backend-Entwicklung",
+      "subtitle": "Server-Frameworks, Hintergrundjobs, API-Entwicklung und Systemlogik."
+    },
+    "testing": {
+      "title": "Testing & QA",
+      "subtitle": "Tools für Unit-, Integrations- und End-to-End-Tests."
+    },
+    "devops": {
+      "title": "DevOps & Tools",
+      "subtitle": "Bereitstellung, CI/CD-Pipelines, Containerisierung und Automatisierung."
+    },
+    "cloud": {
+      "title": "Cloud-Plattformen",
+      "subtitle": "Cloud-Anbieter und Plattformdienste."
+    },
+    "apis": {
+      "title": "APIs & Integrationen",
+      "subtitle": "Externe APIs, SDKs und Integrationstools."
+    },
+    "other": {
+      "title": "Weitere Technologien",
+      "subtitle": "Zusätzliche Tools und Technologien, die in Projekten verwendet wurden."
+    },
+    "db": {
+      "title": "Datenbanken",
+      "subtitle": "Relationale und nicht-relationale Datenspeichersysteme."
+    },
     "otherExperienceTitle": "Weitere Technologien, mit denen ich gearbeitet habe",
     "otherExperienceSubtitle": "Zusätzliche Tools, Bibliotheken und Dienste, die ich in verschiedenen Projekten eingesetzt habe."
   },
@@ -210,7 +244,10 @@
     },
     "preview": {
       "title": "Eingebettete PDF-Vorschau",
-      "fileLabel": "Datei: {{file}}"
+      "fileLabel": "Datei: {{file}}",
+      "loading": "Lädt…",
+      "loadingBody": "Die neueste Version meines Lebenslaufs wird abgerufen.",
+      "disabledBody": "Dieser Lebenslauf ist derzeit nicht verfügbar."
     },
     "shareTitle": "Lebenslauf — Kirill Nefodov",
     "shareText": "Full-Stack-Engineer-Lebenslauf von Kirill Nefodov.",
@@ -220,8 +257,6 @@
       "error": "Teilen nicht möglich"
     },
     "history": {
-      "title": "Frühere Versionen des Lebenslaufs",
-      "subtitle": "Ältere CVs der letzten Jahre, die zeigen, wie sich mein Profil entwickelt hat.",
       "2021": {
         "label": "Trainee Full-Stack CV"
       },
@@ -230,7 +265,9 @@
       },
       "2024": {
         "label": "Full-Stack-Developer CV"
-      }
+      },
+      "title": "Frühere Versionen des Lebenslaufs",
+      "subtitle": "Ältere CVs der letzten Jahre, die zeigen, wie sich mein Profil entwickelt hat."
     }
   },
   "preview": {
@@ -244,5 +281,24 @@
     "description": "Die gesuchte Seite existiert nicht oder wurde verschoben. Lassen Sie uns Sie zurück auf den richtigen Weg bringen.",
     "goHome": "Zur Startseite",
     "goBack": "Zurück"
+  },
+  "highlightsTitle": "Highlights",
+  "descriptionTitle": "Beschreibung",
+  "boxhill": {
+    "title": "Boxhill Institute Webanwendung",
+    "subtitle": "Vorlagengesteuerte Next.js-Plattform mit 11 rekursiven Inhaltsblöcken, die über 500 Seiten aus DatoCMS für ein australisches Bildungsinstitut generiert.",
+    "short": "Eine Next.js-Plattform mit einem rekursiven Vorlagensystem, das über 500 Seiten aus 11 Inhaltsblocktypen und DatoCMS-Daten zusammenstellt.",
+    "highlights": [
+      "11 wiederverwendbare Inhaltsblock-Vorlagen entwickelt, die Seiten rekursiv aus verschachtelten DatoCMS-Datenstrukturen zusammenstellen",
+      "Datenabfragelogik mit GraphQL und Apollo Client mit optimiertem Caching für einen statischen Build mit über 500 Seiten implementiert",
+      "Anmeldeformulare mit mehrstufiger Validierung und reCAPTCHA-Integration für die Registrierung zu Probestunden entwickelt",
+      "Google Maps mit individuellem Styling für Campus- und Standortseiten integriert",
+      "Responsive Layouts mit SCSS und browserübergreifender Konsistenz umgesetzt"
+    ],
+    "description": [
+      "Ein Teamprojekt für Box Hill Institute — eine australische Bildungsplattform. Entwickelt mit Next.js und DatoCMS als Headless CMS, generiert die Anwendung über 500 Seiten beim Build.",
+      "Der Kern des Projekts ist ein rekursives Vorlagensystem aus 11 verschiedenen Inhaltsblocktypen. Jeder Block verarbeitet eine spezifische Datenstruktur aus DatoCMS und kann in andere Blöcke verschachtelt werden, sodass das System komplexe Seitenlayouts dynamisch basierend auf der Tiefe und Hierarchie der eingehenden Daten zusammenstellt.",
+      "Neben der Template-Engine umfasste das Projekt interaktive Anmeldeformulare mit reCAPTCHA-Schutz für Probestunden-Registrierung, Google Maps mit individuellem Styling für Campus-Seiten und responsives Design mit SCSS über die gesamte Plattform."
+    ]
   }
 }
