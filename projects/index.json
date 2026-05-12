@@ -656,6 +656,103 @@
       },
       "featured": false,
       "sort": 60
+    },
+    {
+      "id": "crypto-pulse-dashboard",
+      "slug": "cryptoPulseDashboard",
+      "status": "released",
+      "landing": "/projects/crypto-pulse-dashboard",
+      "nda": false,
+      "links": {
+        "github": {
+          "repo": "https://github.com/developer-kirill-nefodov/crypto-pulse-dashboard",
+          "disabled": false
+        },
+        "demo": {
+          "repo": "https://developer-kirill-nefodov.github.io/crypto-pulse-dashboard/",
+          "disabled": false
+        },
+        "caseStudy": null
+      },
+      "date": "2025-06-09",
+      "period": { "start": "2025-06", "end": "2025-06" },
+      "company": "Test Assignment",
+      "role": ["Frontend Developer"],
+      "tags": [
+        "Test Assignment",
+        "Live Demo",
+        "Real-time",
+        "WebSocket",
+        "Crypto",
+        "Charts",
+        "Dashboard"
+      ],
+      "platforms": ["Web"],
+      "cover": {
+        "src": "/projects/v1/crypto-pulse-dashboard/cover.png",
+        "alt": "Crypto Pulse Dashboard"
+      },
+      "coreTech": ["Vue 3", "Vite", "Pinia", "ECharts", "WebSocket"],
+      "tech": [
+        "Vue 3",
+        "Vite",
+        "JavaScript",
+        "Pinia",
+        "Vue Router",
+        "Apache ECharts",
+        "WebSocket API",
+        "Axios",
+        "TailwindCSS",
+        "SCSS",
+        "Lucide Icons",
+        "localStorage",
+        "ESLint",
+        "Prettier",
+        "GitHub Actions"
+      ],
+      "apis": [
+        "Binance REST API",
+        "Binance WebSocket API"
+      ],
+      "tools": [
+        "Vite",
+        "GitHub Actions",
+        "ESLint",
+        "Prettier",
+        "EditorConfig"
+      ],
+      "db": [],
+      "testing": [],
+      "frontend": [
+        "Vue 3",
+        "Pinia",
+        "Vue Router",
+        "Apache ECharts",
+        "TailwindCSS",
+        "SCSS",
+        "Lucide Icons",
+        "Axios"
+      ],
+      "backend": [],
+      "gallery": {
+        "images": [
+          { "src": "/projects/v1/crypto-pulse-dashboard/cover.png", "alt": "Dashboard" },
+          { "src": "/projects/v1/crypto-pulse-dashboard/1-gallery.png", "alt": "1 Gallery" },
+          { "src": "/projects/v1/crypto-pulse-dashboard/2-gallery.png", "alt": "2 Gallery" },
+          { "src": "/projects/v1/crypto-pulse-dashboard/3-gallery.png", "alt": "3 Gallery" },
+          { "src": "/projects/v1/crypto-pulse-dashboard/4-gallery.png", "alt": "4 Gallery" }
+        ],
+        "videos": [],
+        "gifs": []
+      },
+      "metrics": {
+        "users": null,
+        "requestsPerDay": null,
+        "latencyMsP50": null,
+        "availability": null
+      },
+      "featured": false,
+      "sort": 130
     }
   ]
 }

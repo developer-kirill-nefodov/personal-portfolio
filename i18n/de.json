@@ -142,6 +142,23 @@
       "Die Plattform wurde mit React und TypeScript entwickelt und über AWS-Dienste bereitgestellt, mit Fokus auf Skalierbarkeit, Wartbarkeit und Codequalität."
     ]
   },
+  "cryptoPulseDashboard": {
+    "title": "Crypto Pulse Dashboard",
+    "subtitle": "Echtzeit-Kryptowährungs-Dashboard mit Live-WebSocket-Feed, interaktiven Charts und historischer Paginierung.",
+    "short": "Vue-3-Dashboard, das über 400 Binance-USDT-Paare per WebSocket streamt — mit Kerzen- und Liniencharts.",
+    "highlights": [
+      "Live-Preis-Stream über eine einzige WebSocket-Verbindung mit automatischer Wiederverbindung und exponentiellem Backoff",
+      "Onboarding mit dem vollständigen Binance-USDT-Katalog (400+ Paare), empfohlener Vorauswahl und entprellter Suche",
+      "Linien- und Kerzencharts mit sechs Range-Presets, historischer Paginierung und einem in Vue gerenderten OHLC-Hover-Panel",
+      "Schichten-Architektur — Services, Stores, Composables, Komponenten — unter einer 200-Zeilen-Regel pro Datei"
+    ],
+    "description": [
+      "Crypto Pulse Dashboard ist eine portfolio-würdige Testaufgabe, die saubere Architektur, Echtzeit-Datenverarbeitung und eine polierte Oberfläche demonstriert.",
+      "Ein einziger WebSocket-Client abonniert den !ticker@arr-Stream von Binance, normalisiert das Payload, filtert nach den vom Nutzer gewählten Coins und drosselt UI-Updates auf eines pro Sekunde.",
+      "Ein Onboarding-Ablauf lässt den Nutzer aus mehr als 400 USDT-Handelspaaren wählen, die per Lazy Loading aus /exchangeInfo geladen werden — mit empfohlenen vorausgewählten Coins und entprellter Suche.",
+      "Die Coin-Detailseite rendert Apache ECharts mit Linien- und Kerzentypen, sechs Range-Presets (1T / 1W / 1M / 3M / 1J / ALLE) und historischer Paginierung über den klines-endTime-Parameter."
+    ]
+  },
   "groupsTitle": "Gruppen",
   "skills": {
     "title": "Fähigkeiten & Technologien",

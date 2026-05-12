@@ -142,6 +142,23 @@
       "La plataforma fue desarrollada con React y TypeScript y desplegada utilizando servicios de AWS, priorizando escalabilidad, mantenibilidad y calidad del código."
     ]
   },
+  "cryptoPulseDashboard": {
+    "title": "Panel Crypto Pulse",
+    "subtitle": "Panel de criptomonedas en tiempo real con flujo WebSocket en vivo, gráficos interactivos y paginación histórica.",
+    "short": "Panel construido con Vue 3 que transmite más de 400 pares USDT de Binance por WebSocket con gráficos de velas y de línea.",
+    "highlights": [
+      "Flujo de precios en vivo sobre una única conexión WebSocket con reconexión automática y backoff exponencial",
+      "Onboarding con el catálogo completo USDT de Binance (400+ pares), preselección recomendada y búsqueda con debounce",
+      "Gráficos de línea y velas con seis presets de rango, paginación histórica y panel OHLC al pasar el cursor renderizado en Vue",
+      "Arquitectura por capas — servicios, stores, composables, componentes — con regla de máximo 200 líneas por archivo"
+    ],
+    "description": [
+      "Crypto Pulse Dashboard es una prueba técnica de nivel portafolio que demuestra arquitectura limpia, gestión de datos en tiempo real y una interfaz pulida.",
+      "Un único cliente WebSocket se suscribe al stream !ticker@arr de Binance, normaliza el payload, filtra por las monedas seleccionadas por el usuario y limita las actualizaciones de UI a una por segundo.",
+      "El onboarding permite al usuario elegir entre más de 400 pares USDT cargados de forma diferida desde /exchangeInfo, con monedas recomendadas preseleccionadas y búsqueda con debounce.",
+      "La página de detalle de la moneda renderiza Apache ECharts con tipos de gráfico línea y velas, seis presets de rango (1D / 1S / 1M / 3M / 1A / TODO) y paginación histórica mediante el parámetro endTime de klines."
+    ]
+  },
   "groupsTitle": "Grupos",
   "skills": {
     "title": "Habilidades y Tecnologías",
