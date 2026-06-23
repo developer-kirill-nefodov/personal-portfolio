@@ -1,4 +1,15 @@
 {
+  "errors": {
+    "boundary": {
+      "title": "Algo salió mal",
+      "body": "Ocurrió un error inesperado al mostrar esta página. Por favor, recarga para intentarlo de nuevo.",
+      "retry": "Recargar página"
+    },
+    "load": {
+      "body": "No se pudieron cargar los datos del portafolio. Puede que falte algún contenido.",
+      "retry": "Reintentar"
+    }
+  },
   "home": {
     "greeting": "Bienvenido a mi portafolio",
     "title": {
@@ -48,11 +59,31 @@
   "animatedPreviews": "Previsualizaciones animadas",
   "screenshots": "Capturas de pantalla",
   "mediaEmpty": "Aún no se ha añadido ningún contenido multimedia.",
+  "close": "Cerrar",
+  "carousel": {
+    "prev": "Elemento anterior",
+    "next": "Elemento siguiente"
+  },
+  "media": {
+    "open": "Abrir multimedia",
+    "fullscreen": "Pantalla completa",
+    "zoomIn": "Acercar",
+    "zoomReset": "Restablecer zoom",
+    "soundOn": "Sonido",
+    "soundOff": "Silenciado",
+    "zoomHint": "Toca dos veces o pellizca para ampliar"
+  },
   "projectNotFound": "Proyecto no encontrado.",
   "header": {
     "projects": "Proyectos",
     "skills": "Habilidades",
-    "resume": "Currículum"
+    "resume": "Currículum",
+    "home": "Inicio",
+    "github": "Perfil de GitHub",
+    "email": "Enviar correo",
+    "toggleTheme": "Cambiar tema de color",
+    "menu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
   },
   "orderTransfers": {
     "title": "Sell-Out & Transferencias de Pedido",
@@ -159,6 +190,23 @@
       "La página de detalle de la moneda renderiza Apache ECharts con tipos de gráfico línea y velas, seis presets de rango (1D / 1S / 1M / 3M / 1A / TODO) y paginación histórica mediante el parámetro endTime de klines."
     ]
   },
+  "quantPilotAiStrategyLab": {
+    "title": "QuantPilot AI — Strategy Lab",
+    "subtitle": "Laboratorio de estrategias de futuros cripto asistido por IA: describe una idea en lenguaje natural y la IA la convierte en un experimento backtesteable y falsable, con estadísticas honestas que incluyen las comisiones.",
+    "short": "Plataforma React + Fastify donde un prompt en lenguaje natural se convierte en una estrategia de trading validada y restringida por lista blanca, backtesteada sobre un universo de múltiples monedas con un motor basado en eventos.",
+    "highlights": [
+      "Un copiloto de IA convierte una idea en lenguaje natural en una StrategySpec validada por lista blanca y por Zod —datos estructurados, nunca código ejecutado— y luego la backtestea y la refina",
+      "Un único motor basado en eventos funciona a la vez como backtester y ejecutor en papel (determinista y sin look-ahead); modela comisiones y funding e informa equity, P&L, tasa de acierto, factor de beneficio y MFE/MAE",
+      "Los barridos multi-moneda se ejecutan como trabajos en segundo plano (BullMQ + Redis) dentro de un presupuesto de CPU, con ETA en vivo y progreso por Socket.IO; los resultados se validan in-sample frente a out-of-sample, entre monedas y entre años",
+      "Approval Gate con humano en el bucle: la IA propone cambios de parámetros/régimen y el usuario los aprueba de forma transaccional con un registro de auditoría completo; los umbrales y el enrutamiento son configuración versionada en la base de datos"
+    ],
+    "description": [
+      "QuantPilot AI es una plataforma de investigación local y de un solo usuario para la investigación de estrategias asistida por IA sobre futuros perpetuos USD-M de Binance. Está construida en torno a la falsación, no a la confirmación: lo difícil de la investigación cuantitativa no es conseguir un backtest rentable, sino no engañarse con él.",
+      "En el Strategy Lab describes una estrategia en lenguaje natural y un copiloto de IA devuelve una StrategySpec estructurada, validada contra una lista blanca estricta (sin eval, sin código arbitrario). La spec se ejecuta, se puntúa y se itera por completo dentro del propio motor de la plataforma.",
+      "Un único motor determinista y basado en eventos actúa a la vez como backtester y como ejecutor en papel, así que lo que pruebas es literalmente lo que operaría. Modela comisiones y funding, y cada resultado debe sobrevivir a una división in-sample/out-of-sample, a la coincidencia entre monedas y a una prueba de estrés de slippage antes de contar.",
+      "El sistema nunca cambia la lógica en producción por su cuenta: un Approval Gate hace que la IA proponga y el humano apruebe, de forma transaccional y con un registro de auditoría completo. Los umbrales de riesgo, el mapa de enrutamiento por régimen y los criterios de promoción viven como filas versionadas en la base de datos, cada decisión se registra (incluido el NO-TRADE) y el dinero real está protegido tras un umbral de promoción PAPER → SHADOW → LIVE."
+    ]
+  },
   "groupsTitle": "Grupos",
   "skills": {
     "title": "Habilidades y Tecnologías",
@@ -252,12 +300,12 @@
   },
   "resume": {
     "title": "Currículum",
-    "subtitle": "Una vista previa integrada y clara de mi currículum como ingeniero full-stack. Puedes descargarlo, compartirlo o marcarlo como favorito.",
+    "subtitle": "Una vista previa integrada y clara de mi currículum como ingeniero full-stack: léelo abajo, descárgalo o ábrelo en una pestaña nueva.",
+    "updated": "Actualizado {{date}}",
     "actions": {
       "share": "Compartir",
       "download": "Descargar PDF",
-      "like": "Me gusta",
-      "liked": "Te gusta"
+      "open": "Abrir en pestaña nueva"
     },
     "preview": {
       "title": "Vista previa PDF integrada",

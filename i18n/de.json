@@ -1,4 +1,15 @@
 {
+  "errors": {
+    "boundary": {
+      "title": "Etwas ist schiefgelaufen",
+      "body": "Beim Anzeigen dieser Seite ist ein unerwarteter Fehler aufgetreten. Bitte lade die Seite neu.",
+      "retry": "Seite neu laden"
+    },
+    "load": {
+      "body": "Portfolio-Daten konnten nicht geladen werden. Einige Inhalte fehlen möglicherweise.",
+      "retry": "Erneut versuchen"
+    }
+  },
   "home": {
     "greeting": "Willkommen in meinem Portfolio",
     "title": {
@@ -48,11 +59,31 @@
   "animatedPreviews": "Animierte Vorschauen",
   "screenshots": "Screenshots",
   "mediaEmpty": "Noch keine Medien hinzugefügt.",
+  "close": "Schließen",
+  "carousel": {
+    "prev": "Vorheriges Element",
+    "next": "Nächstes Element"
+  },
+  "media": {
+    "open": "Medien öffnen",
+    "fullscreen": "Vollbild",
+    "zoomIn": "Vergrößern",
+    "zoomReset": "Zoom zurücksetzen",
+    "soundOn": "Ton",
+    "soundOff": "Stumm",
+    "zoomHint": "Doppeltippen oder zoomen mit zwei Fingern"
+  },
   "projectNotFound": "Projekt nicht gefunden.",
   "header": {
     "projects": "Projekte",
     "skills": "Fähigkeiten",
-    "resume": "Lebenslauf"
+    "resume": "Lebenslauf",
+    "home": "Startseite",
+    "github": "GitHub-Profil",
+    "email": "E-Mail senden",
+    "toggleTheme": "Farbschema umschalten",
+    "menu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
   },
   "orderTransfers": {
     "title": "Sell-Out & Auftragsübertragungen",
@@ -159,6 +190,23 @@
       "Die Coin-Detailseite rendert Apache ECharts mit Linien- und Kerzentypen, sechs Range-Presets (1T / 1W / 1M / 3M / 1J / ALLE) und historischer Paginierung über den klines-endTime-Parameter."
     ]
   },
+  "quantPilotAiStrategyLab": {
+    "title": "QuantPilot AI — Strategy Lab",
+    "subtitle": "KI-gestütztes Labor für Krypto-Futures-Strategien: Beschreibe eine Idee in normaler Sprache, und die KI macht daraus ein backtestbares, falsifizierbares Experiment mit ehrlichen, gebührenbereinigten Statistiken.",
+    "short": "React-+-Fastify-Plattform, auf der aus einem Prompt in normaler Sprache eine per Whitelist geprüfte, validierte Handelsstrategie wird, die mit einer ereignisgesteuerten Engine über ein Universum aus vielen Coins backgetestet wird.",
+    "highlights": [
+      "Ein KI-Co-Pilot verwandelt eine Idee in natürlicher Sprache in eine per Whitelist und Zod validierte StrategySpec — strukturierte Daten, niemals ausgeführter Code — und backtestet und verfeinert sie anschließend",
+      "Eine einzige ereignisgesteuerte Engine dient zugleich als Backtester und Paper-Executor (deterministisch, ohne Look-ahead); sie berücksichtigt Gebühren und Funding und liefert Equity, P&L, Trefferquote, Profit-Faktor sowie MFE/MAE",
+      "Multi-Coin-Durchläufe laufen als Hintergrundjobs (BullMQ + Redis) innerhalb eines CPU-Budgets mit Live-ETA und Socket.IO-Fortschritt; die Ergebnisse werden in-sample gegen out-of-sample, über Coins und Jahre hinweg validiert",
+      "Approval Gate mit Mensch in der Schleife — die KI schlägt Parameter-/Regime-Änderungen vor, der Nutzer genehmigt sie transaktional mit vollständigem Audit-Trail; Schwellenwerte und Routing liegen als versionierte Konfiguration in der Datenbank"
+    ],
+    "description": [
+      "QuantPilot AI ist eine lokale Single-User-Forschungsplattform für KI-gestützte Strategieforschung auf Binance-USD-M-Perpetual-Futures. Sie ist auf Falsifikation statt Bestätigung ausgelegt: Das Schwierige an der Quant-Forschung ist nicht, einen profitablen Backtest zu bekommen, sondern sich davon nicht täuschen zu lassen.",
+      "Im Strategy Lab beschreibst du eine Strategie in normaler Sprache, und ein KI-Co-Pilot liefert eine strukturierte StrategySpec, die gegen eine strikte Whitelist validiert wird (kein eval, kein beliebiger Code). Die Spec wird vollständig in der hauseigenen Engine der Plattform ausgeführt, bewertet und iteriert.",
+      "Eine einzige deterministische, ereignisgesteuerte Engine ist zugleich Backtester und Paper-Executor — was du testest, ist also genau das, was auch handeln würde. Sie berücksichtigt Kommissionen und Funding, und jedes Ergebnis muss eine In-sample/Out-of-sample-Aufteilung, Übereinstimmung über mehrere Coins und einen Slippage-Stresstest überstehen, bevor es zählt.",
+      "Das System ändert die Live-Logik niemals von selbst: Ein Approval Gate lässt die KI vorschlagen und den Menschen genehmigen — transaktional und mit vollständigem Audit-Log. Risikoschwellen, die Regime-Routing-Map und die Promotion-Kriterien liegen als versionierte Datensätze in der Datenbank, jede Entscheidung wird protokolliert (auch NO-TRADE), und echtes Geld ist hinter einer Promotion-Schwelle PAPER → SHADOW → LIVE abgesichert."
+    ]
+  },
   "groupsTitle": "Gruppen",
   "skills": {
     "title": "Fähigkeiten & Technologien",
@@ -252,12 +300,12 @@
   },
   "resume": {
     "title": "Lebenslauf",
-    "subtitle": "Eine klare eingebettete Vorschau meines Full-Stack-Engineer-Lebenslaufs. Sie können dieses Dokument herunterladen, teilen oder liken.",
+    "subtitle": "Eine klare eingebettete Vorschau meines Full-Stack-Engineer-Lebenslaufs — unten lesen, herunterladen oder in einem neuen Tab öffnen.",
+    "updated": "Aktualisiert {{date}}",
     "actions": {
       "share": "Teilen",
       "download": "PDF herunterladen",
-      "like": "Gefällt mir",
-      "liked": "Gefällt mir"
+      "open": "In neuem Tab öffnen"
     },
     "preview": {
       "title": "Eingebettete PDF-Vorschau",

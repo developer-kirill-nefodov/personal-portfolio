@@ -1,4 +1,15 @@
 {
+  "errors": {
+    "boundary": {
+      "title": "Something went wrong",
+      "body": "An unexpected error occurred while rendering this page. Please reload to try again.",
+      "retry": "Reload page"
+    },
+    "load": {
+      "body": "Could not load portfolio data. Some content may be missing.",
+      "retry": "Retry"
+    }
+  },
   "home": {
     "greeting": "Welcome to my portfolio",
     "title": {
@@ -48,11 +59,31 @@
   "animatedPreviews": "Animated previews",
   "screenshots": "Screenshots",
   "mediaEmpty": "No media added yet.",
+  "close": "Close",
+  "carousel": {
+    "prev": "Previous item",
+    "next": "Next item"
+  },
+  "media": {
+    "open": "Open media",
+    "fullscreen": "Fullscreen",
+    "zoomIn": "Zoom in",
+    "zoomReset": "Reset zoom",
+    "soundOn": "Sound",
+    "soundOff": "Muted",
+    "zoomHint": "Double-tap or pinch to zoom"
+  },
   "projectNotFound": "Project not found.",
   "header": {
     "projects": "Projects",
     "skills": "Skills",
-    "resume": "Resume"
+    "resume": "Resume",
+    "home": "Home",
+    "github": "GitHub profile",
+    "email": "Send email",
+    "toggleTheme": "Toggle color theme",
+    "menu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "orderTransfers": {
     "title": "Sell-Out & Order Transfers",
@@ -159,6 +190,23 @@
       "The coin details page renders Apache ECharts with both line area and candlestick types, six range presets (1D / 1W / 1M / 3M / 1Y / ALL) and historical pagination via the klines endTime parameter."
     ]
   },
+  "quantPilotAiStrategyLab": {
+    "title": "QuantPilot AI — Strategy Lab",
+    "subtitle": "AI-assisted crypto-futures strategy lab: describe an idea in plain English, let AI turn it into a backtestable, falsifiable experiment with honest, fee-aware statistics.",
+    "short": "React + Fastify platform where a plain-English prompt becomes a whitelisted, validated trading strategy, backtested across a multi-coin universe with an event-driven engine.",
+    "highlights": [
+      "AI co-pilot turns a natural-language idea into a whitelisted, Zod-validated StrategySpec — structured data, never executed code — then backtests and refines it",
+      "Single event-driven engine doubles as backtester and paper executor (deterministic, look-ahead-safe); models fees and funding, reports equity, P&L, win-rate, profit factor, MFE/MAE",
+      "Multi-coin sweeps run as background jobs (BullMQ + Redis) under a CPU budget with live ETA and Socket.IO progress; results validated in-sample vs out-of-sample, across coins and years",
+      "Human-in-the-loop Approval Gate — AI proposes parameter/regime changes, the user approves them transactionally with a full audit trail; thresholds and routing are versioned config-in-DB"
+    ],
+    "description": [
+      "QuantPilot AI is a local, single-user research platform for AI-assisted strategy research on Binance USD-M perpetual futures. It is built around falsification rather than confirmation: the hard part of quant research isn't getting a profitable backtest, it's not fooling yourself with one.",
+      "In the Strategy Lab, you describe a strategy in plain English and an AI co-pilot returns a structured StrategySpec validated against a strict whitelist (no eval, no arbitrary code). The spec is executed, scored and iterated entirely inside the platform's own engine.",
+      "A single deterministic, event-driven engine serves as both the backtester and the paper executor, so what you test is literally what would trade. It models commissions and funding, and every result must survive an in-sample/out-of-sample split, cross-coin agreement and a slippage stress test before it counts.",
+      "The system never changes live logic on its own: an Approval Gate has the AI propose and the human approve, transactionally and with a full audit log. Risk thresholds, the regime-routing map and promotion criteria all live as versioned rows in the database, every decision is logged (including NO-TRADE), and real money is gated behind a PAPER → SHADOW → LIVE promotion threshold."
+    ]
+  },
   "groupsTitle": "Groups",
   "skills": {
     "title": "Skills & Technologies",
@@ -252,12 +300,12 @@
   },
   "resume": {
     "title": "Resume",
-    "subtitle": "A clean embedded preview of my full-stack engineer resume. You can download, share, or like this document.",
+    "subtitle": "A clean embedded preview of my full-stack engineer resume — read it below, download it, or open it in a new tab.",
+    "updated": "Updated {{date}}",
     "actions": {
       "share": "Share",
       "download": "Download PDF",
-      "like": "Like",
-      "liked": "Liked"
+      "open": "Open in new tab"
     },
     "preview": {
       "title": "Embedded PDF preview",

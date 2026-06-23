@@ -175,8 +175,15 @@
       "testing": [],
       "gallery": {
         "images": [{ "src": "/projects/v1/creditcloser/cover.png", "alt": "Creditcloser" }],
-        "videos": [],
-        "gifs": [{ "src": "/projects/v1/creditcloser/1-gallery.gif", "alt": "Creditcloser gif" }]
+        "videos": [
+          {
+            "src": "/projects/v1/creditcloser/1-gallery.mp4",
+            "thumb": "/projects/v1/creditcloser/1-gallery-poster.png",
+            "alt": "Creditcloser walkthrough",
+            "sound": false
+          }
+        ],
+        "gifs": []
       },
       "metrics": {
         "users": null,
@@ -753,6 +760,122 @@
       },
       "featured": false,
       "sort": 130
+    },
+    {
+      "id": "quantpilot-ai-strategy-lab",
+      "slug": "quantPilotAiStrategyLab",
+      "status": "in-development",
+      "landing": "/projects/quantpilot-ai-strategy-lab",
+      "nda": false,
+      "links": {
+        "github": {
+          "repo": null,
+          "disabled": true
+        },
+        "demo": {
+          "repo": null,
+          "disabled": true
+        },
+        "caseStudy": null
+      },
+      "date": "2026-01-15",
+      "period": { "start": "2026-01", "end": null },
+      "company": "Personal Project",
+      "role": ["Full-Stack Developer", "Architect", "Quant Researcher"],
+      "tags": [
+        "Fintech",
+        "Algorithmic Trading",
+        "Crypto Futures",
+        "Backtesting",
+        "AI Co-pilot",
+        "Data Visualization",
+        "Event-Driven Architecture",
+        "Monorepo"
+      ],
+      "platforms": ["Web"],
+      "cover": {
+        "src": "/projects/v1/quantpilot-ai/cover.png",
+        "alt": "QuantPilot AI — AI Strategy Lab dashboard"
+      },
+      "gallery": {
+        "images": [
+          { "src": "/projects/v1/quantpilot-ai/cover.png", "alt": "Dashboard" },
+          { "src": "/projects/v1/quantpilot-ai/1-gallery.png", "alt": "1 Gallery" },
+          { "src": "/projects/v1/quantpilot-ai/2-gallery.png", "alt": "2 Gallery" },
+          { "src": "/projects/v1/quantpilot-ai/3-gallery.png", "alt": "3 Gallery" },
+          { "src": "/projects/v1/quantpilot-ai/4-gallery.png", "alt": "4 Gallery" },
+          { "src": "/projects/v1/quantpilot-ai/5-gallery.png", "alt": "5 Gallery" }
+        ],
+        "videos": [
+          {
+            "src": "/projects/v1/quantpilot-ai/1-gallery.mp4",
+            "thumb": "/projects/v1/quantpilot-ai/1-gallery.png",
+            "alt": "Strategy lab walkthrough",
+            "sound": false
+          }
+        ],
+        "gifs": []
+      },
+      "coreTech": ["React", "Fastify", "PostgreSQL", "Prisma"],
+      "tech": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Zustand",
+        "TanStack Query",
+        "Tailwind CSS",
+        "lightweight-charts",
+        "Node.js",
+        "Fastify",
+        "Prisma",
+        "PostgreSQL",
+        "Redis",
+        "BullMQ",
+        "Socket.IO",
+        "Zod",
+        "OpenAI",
+        "Docker Compose"
+      ],
+      "apis": ["Binance Futures API", "OpenAI API"],
+      "ai": [
+        "OpenAI API (GPT-4-class LLM)",
+        "LLM tool-use / function calling",
+        "Structured outputs (Zod-validated StrategySpec — no code execution)",
+        "Prompt grounding with computed coin-context features (ATR / volatility)",
+        "Offline ML research path: Python + LightGBM/XGBoost → ONNX Runtime (evaluated, kept as research)"
+      ],
+      "tools": ["pnpm", "Docker Compose", "Vite", "BullMQ", "ESLint", "Prisma Studio"],
+      "db": ["PostgreSQL", "Redis"],
+      "testing": ["Vitest", "React Testing Library"],
+      "frontend": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Zustand",
+        "TanStack Query",
+        "Tailwind CSS",
+        "lightweight-charts",
+        "Socket.IO Client"
+      ],
+      "backend": [
+        "Node.js",
+        "Fastify",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Redis",
+        "BullMQ",
+        "Socket.IO",
+        "Zod"
+      ],
+      "metrics": {
+        "users": null,
+        "requestsPerDay": null,
+        "latencyMsP50": null,
+        "availability": null
+      },
+      "featured": true,
+      "sort": 100
     }
   ]
 }
