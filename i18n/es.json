@@ -13,32 +13,32 @@
   "home": {
     "greeting": "Bienvenido a mi portafolio",
     "title": {
-      "line1": "Desarrollador Full-Stack",
-      "highlight": "Creando Soluciones Digitales"
+      "line1": "Ingeniero Full-Stack enfocado en IA",
+      "highlight": "SaaS B2B, automatización y productos intensivos en datos"
     },
-    "subtitle": "Me alegra que estés aquí explorando mi trabajo. Este portafolio muestra mis proyectos, habilidades y experiencia como desarrollador full-stack JavaScript/TypeScript con más de 5 años construyendo sistemas listos para producción.",
+    "subtitle": "Construyo plataformas web full-stack con React, Node.js, TypeScript, integraciones de IA, workers en segundo plano, dashboards en tiempo real y flujos de negocio complejos.",
     "cta": {
       "projects": "Ver Proyectos",
       "resume": "Ver Currículum"
     },
     "stats": {
       "experience": "Años de Experiencia",
-      "projects": "Proyectos Completados",
+      "projects": "Proyectos Seleccionados",
       "technologies": "Tecnologías",
-      "passion": "Pasión por el Código"
+      "passion": "Flujos de Negocio"
     },
     "features": {
       "fullstack": {
         "title": "Desarrollo Full-Stack",
-        "text": "Backends en Node.js, workers distribuidos, funciones en tiempo real, integraciones EDI e interfaces complejas con React/React Native. Entrega completa desde el concepto hasta producción."
+        "text": "Aplicaciones con React y Node.js con APIs, paneles de administración, trabajos en segundo plano, actualizaciones en tiempo real, integraciones externas y lógica de negocio compleja."
       },
       "architecture": {
-        "title": "Arquitectura de Sistemas",
-        "text": "Amplia experiencia en diseño de arquitecturas escalables, microservicios, desarrollo de APIs y optimización de bases de datos para aplicaciones de alto rendimiento."
+        "title": "Sistemas Full-Stack Modulares",
+        "text": "Experiencia diseñando sistemas full-stack modulares con capas de API, workers en segundo plano, colas, acceso basado en roles, modelos de datos y arquitectura frontend mantenible."
       },
       "performance": {
         "title": "IA y Automatización",
-        "text": "Automatización impulsada por IA, procesamiento inteligente de documentos y optimización del rendimiento. Construyendo soluciones inteligentes que mejoran la productividad y la experiencia del usuario."
+        "text": "Integraciones de IA para análisis de documentos, salidas estructuradas, automatización de flujos de trabajo, asistentes para el usuario y flujos de decisión aprobados por humanos."
       }
     },
     "video": {
@@ -48,7 +48,7 @@
     },
     "about": {
       "title": "Sobre Este Portafolio",
-      "text": "Este portafolio contiene mis proyectos y continuará expandiéndose con nuevos trabajos, casos de estudio e información sobre mi trayectoria como desarrollador."
+      "text": "Este portafolio se centra en los sistemas full-stack que he construido: flujos de trabajo asistidos por IA, plataformas B2B, procesamiento de datos sanitarios, dashboards en tiempo real y herramientas de automatización de negocio."
     }
   },
   "gitlab": "GitLab",
@@ -59,6 +59,7 @@
   "animatedPreviews": "Previsualizaciones animadas",
   "screenshots": "Capturas de pantalla",
   "mediaEmpty": "Aún no se ha añadido ningún contenido multimedia.",
+  "ndaNote": "El código fuente y la demo en vivo no son públicos debido a un NDA.",
   "close": "Cerrar",
   "carousel": {
     "prev": "Elemento anterior",
@@ -113,6 +114,12 @@
   "sortNewest": "Más nuevos",
   "sortOldest": "Más antiguos",
   "clear": "Limpiar",
+  "projectGroups": {
+    "featured": "Proyectos Destacados",
+    "commercial": "Trabajo Comercial / NDA",
+    "assignment": "Pruebas Técnicas Públicas",
+    "archive": "Proyectos Tempranos / Archivo"
+  },
   "falconHeavy": {
     "title": "Plataforma Falcon Heavy",
     "subtitle": "Gestión de suscripciones y herramientas administrativas",
@@ -120,11 +127,11 @@
     "highlights": [
       "Backend escalable construido con Fastify y workers de Bull para procesamiento en segundo plano",
       "Integración con Google Maps para visualización dinámica de grupos y administración",
-      "Acceso basado en roles, gestión de suscripciones y flujo de pago seguro"
+      "Acceso basado en roles, gestión de suscripciones y lógica de flujo relacionada con suscripciones/pagos"
     ],
     "description": [
       "Falcon Heavy es una plataforma web full-stack diseñada para gestionar grupos basados en suscripción y flujos administrativos. Combina una API modular en Fastify con interfaces React e integra trabajos en segundo plano usando Bull y Redis.",
-      "El sistema soporta procesamiento de pagos, creación de grupos basada en privilegios, gestión de suscripciones y paneles administrativos optimizados para grandes volúmenes de datos.",
+      "El sistema soporta lógica de flujo relacionada con suscripciones y pagos, creación de grupos basada en privilegios, gestión de suscripciones y paneles administrativos optimizados para grandes volúmenes de datos.",
       "La plataforma también integra Google Maps para ofrecer visualización geolocalizada de grupos y perspectivas administrativas en tiempo real."
     ]
   },
@@ -133,9 +140,10 @@
     "subtitle": "Aplicación web para creación de préstamos, notificaciones a deudores y control administrativo completo.",
     "short": "Plataforma completa de gestión de préstamos con notificaciones automatizadas, reportes y un potente panel administrativo.",
     "highlights": [
-      "Notificaciones automatizadas a deudores usando plantillas dinámicas y programación",
-      "Panel administrativo completo para gestionar préstamos, usuarios y configuraciones de comunicación",
-      "Autenticación segura con Passport y sesiones respaldadas por Redis"
+      "Construcción de flujos de gestión de préstamos para administradores, prestatarios, pagos, notificaciones y reporting",
+      "Implementación de notificaciones programadas por email/SMS usando SendGrid, Twilio, plantillas y cron jobs",
+      "Desarrollo de autenticación segura y manejo de sesiones con Passport y Redis",
+      "Despliegue del sistema con Docker, Nginx e infraestructura relacionada con AWS"
     ],
     "description": [
       "La aplicación Creditcloser es un sistema integral de gestión de préstamos diseñado para optimizar las operaciones financieras de los administradores. Proporciona herramientas para crear préstamos, gestionar usuarios y automatizar notificaciones a los prestatarios.",
@@ -147,16 +155,22 @@
   "ndaB2BCommerce": {
     "title": "Plataforma de Comercio B2B (NDA)",
     "subtitle": "Sistema B2B full-stack con roles avanzados, inventario, pedidos y capacidades administrativas.",
-    "short": "Plataforma B2B a gran escala bajo NDA con roles complejos, estructura multinacional y control administrativo completo.",
-    "highlights": [],
+    "short": "Plataforma de comercio B2B con flujos de pedidos multi-rol, operaciones de inventario, paneles de administración, reporting, trabajos programados, flujos de correo y grandes conjuntos de datos internos.",
+    "highlights": [
+      "Desarrollo de flujos de administración y negocio multi-rol para pedidos, inventario y reporting",
+      "Construcción de interfaces React complejas para grandes conjuntos de datos operativos",
+      "Implementación de APIs backend, trabajos programados, flujos de correo y herramientas de exportación/importación a Excel",
+      "Mejora de la mantenibilidad de lógica de negocio de larga ejecución en un sistema en producción activo",
+      "Soporte al desarrollo iterativo y depuración de flujos específicos del cliente"
+    ],
     "description": [
-      "Este proyecto protegido por NDA es una gran plataforma de comercio B2B que opera en múltiples regiones y roles de usuario. El sistema gestiona flujos de compra complejos, controles administrativos, interacción con inventario y grandes volúmenes de datos. La solución incluye un potente panel interno utilizado por varias unidades de negocio.",
-      "El proyecto incluye mantenimiento a largo plazo y desarrollo iterativo de nuevas funciones. El trabajo implica actualizaciones arquitectónicas, mejoras de rendimiento, depuración de lógica empresarial compleja y creación de nuevas herramientas internas solicitadas por el cliente."
+      "Esta plataforma de comercio B2B protegida por NDA admite flujos de compra multi-rol, operaciones de inventario, gestión de pedidos, paneles administrativos, herramientas de reporting y grandes conjuntos de datos internos en múltiples regiones de negocio.",
+      "El proyecto incluye mantenimiento a largo plazo y desarrollo iterativo: creación de nuevas herramientas internas solicitadas por el cliente, depuración de lógica de negocio compleja y mejora de la mantenibilidad de flujos de larga ejecución en un sistema en producción activo."
     ]
   },
   "modularWebPlatforms": {
     "title": "Plataformas Web Modulares",
-    "subtitle": "Plataforma web escalable con módulos de educación, reclutamiento y administración.",
+    "subtitle": "Plataforma React modular que combina flujos de educación, reclutamiento y administración.",
     "short": "Plataforma web modular que combina gestión educativa, vacantes laborales y administración.",
     "highlights": [
       "Arquitectura modular que soporta múltiples subproyectos independientes",
@@ -192,8 +206,8 @@
   },
   "quantPilotAiStrategyLab": {
     "title": "QuantPilot AI — Strategy Lab",
-    "subtitle": "Laboratorio de estrategias de futuros cripto asistido por IA: describe una idea en lenguaje natural y la IA la convierte en un experimento backtesteable y falsable, con estadísticas honestas que incluyen las comisiones.",
-    "short": "Plataforma React + Fastify donde un prompt en lenguaje natural se convierte en una estrategia de trading validada y restringida por lista blanca, backtesteada sobre un universo de múltiples monedas con un motor basado en eventos.",
+    "subtitle": "Plataforma de investigación asistida por IA que convierte ideas de estrategia en lenguaje natural en experimentos validados y backtesteables, con salidas estructuradas, workers en segundo plano, progreso en tiempo real y registros de auditoría.",
+    "short": "Plataforma de investigación asistida por IA que convierte ideas de estrategia en lenguaje natural en especificaciones estructuradas y validadas, backtesteadas con un motor basado en eventos, con trabajos en segundo plano y progreso en tiempo real.",
     "highlights": [
       "Un copiloto de IA convierte una idea en lenguaje natural en una StrategySpec validada por lista blanca y por Zod —datos estructurados, nunca código ejecutado— y luego la backtestea y la refina",
       "Un único motor basado en eventos funciona a la vez como backtester y ejecutor en papel (determinista y sin look-ahead); modela comisiones y funding e informa equity, P&L, tasa de acierto, factor de beneficio y MFE/MAE",
@@ -201,7 +215,7 @@
       "Approval Gate con humano en el bucle: la IA propone cambios de parámetros/régimen y el usuario los aprueba de forma transaccional con un registro de auditoría completo; los umbrales y el enrutamiento son configuración versionada en la base de datos"
     ],
     "description": [
-      "QuantPilot AI es una plataforma de investigación local y de un solo usuario para la investigación de estrategias asistida por IA sobre futuros perpetuos USD-M de Binance. Está construida en torno a la falsación, no a la confirmación: lo difícil de la investigación cuantitativa no es conseguir un backtest rentable, sino no engañarse con él.",
+      "QuantPilot AI es una plataforma de investigación local y de un solo usuario para la investigación de estrategias asistida por IA sobre futuros perpetuos USD-M de Binance.",
       "En el Strategy Lab describes una estrategia en lenguaje natural y un copiloto de IA devuelve una StrategySpec estructurada, validada contra una lista blanca estricta (sin eval, sin código arbitrario). La spec se ejecuta, se puntúa y se itera por completo dentro del propio motor de la plataforma.",
       "Un único motor determinista y basado en eventos actúa a la vez como backtester y como ejecutor en papel, así que lo que pruebas es literalmente lo que operaría. Modela comisiones y funding, y cada resultado debe sobrevivir a una división in-sample/out-of-sample, a la coincidencia entre monedas y a una prueba de estrés de slippage antes de contar.",
       "El sistema nunca cambia la lógica en producción por su cuenta: un Approval Gate hace que la IA proponga y el humano apruebe, de forma transaccional y con un registro de auditoría completo. Los umbrales de riesgo, el mapa de enrutamiento por régimen y los criterios de promoción viven como filas versionadas en la base de datos, cada decisión se registra (incluido el NO-TRADE) y el dinero real está protegido tras un umbral de promoción PAPER → SHADOW → LIVE."
@@ -248,24 +262,24 @@
     "otherExperienceSubtitle": "Herramientas, librerías y servicios adicionales utilizados en proyectos diversos."
   },
   "ndaHealthCoach": {
-    "title": "Plataforma Full-Stack (NDA)",
-    "subtitle": "Aplicación full-stack a gran escala con funciones de IA, acceso multi-rol y procesamiento de datos complejo.",
-    "short": "Plataforma multi-módulo con funciones en tiempo real, pipelines de ingestión de datos e interfaces visuales interactivas.",
+    "title": "Plataforma de IA y Flujos de Datos Sanitarios (NDA)",
+    "subtitle": "Plataforma sanitaria con procesamiento de documentos asistido por IA, integraciones de datos de wearables, comunicación en tiempo real y visualización de datos 3D/línea de tiempo.",
+    "short": "Plataforma sanitaria (NDA) con procesamiento de documentos asistido por IA, flujos de datos relacionados con pacientes, integraciones de datos de wearables, sincronización en segundo plano, comunicación en tiempo real y módulos de visualización.",
     "highlights": [
-      "Componentes de interacción con el usuario impulsados por IA",
-      "Flujos de procesamiento automatizado para grandes conjuntos de datos no estructurados",
-      "Integración con varios APIs externos para sincronización continua de datos",
-      "Módulos avanzados de visualización, incluidos interfaces 3D y basadas en líneas de tiempo",
-      "Sistema basado en roles con un panel administrativo configurable"
+      "Construcción de flujos de procesamiento de documentos asistidos por IA usando OpenAI, Azure Document Intelligence y Google Document AI",
+      "Integración de APIs externas de salud y datos de wearables en pipelines de sincronización en segundo plano",
+      "Implementación de comunicación en tiempo real e interacción basada en avatares con LiveKit y HeyGen SDK",
+      "Desarrollo de módulos de visualización de línea de tiempo, gráficos y 3D para datos complejos de usuario",
+      "Soporte de acceso basado en roles, flujos de administración y tareas de larga ejecución en segundo plano"
     ],
     "description": [
-      "Este proyecto protegido por NDA es una plataforma full-stack compuesta por múltiples módulos integrados, funciones de comunicación en tiempo real y flujos de datos automatizados. El sistema gestiona grandes volúmenes de datos provenientes de servicios externos y los procesa mediante tareas en segundo plano y pipelines estructurados."
+      "Esta plataforma sanitaria protegida por NDA incluye flujos de datos relacionados con pacientes, procesamiento de documentos asistido por IA, integraciones de datos de wearables, funciones de comunicación en tiempo real, acceso basado en roles, procesamiento en segundo plano y módulos de visualización interactivos."
     ]
   },
   "boomfShopifyWebApp": {
     "title": "Aplicación Web de Boomf para Shopify",
     "subtitle": "Aplicación web interactiva integrada con Shopify para productos personalizados.",
-    "short": "Aplicación web integrada con Shopify que permite diseñar y comprar postales personalizadas.",
+    "short": "Aplicación React comercial integrada con Shopify para personalización interactiva de productos y flujos de usuario relacionados con el checkout.",
     "highlights": [
       "Herramienta interactiva de personalización integrada directamente en Shopify",
       "Gestión compleja del estado frontend con Redux y Redux-Saga",
@@ -281,9 +295,9 @@
     ]
   },
   "dataReportingWebApp": {
-    "title": "Aplicación Web para Generación de Informes de Datos",
+    "title": "Proyecto Temprano de Automatización — Reporting con Google Sheets",
     "subtitle": "Herramienta web para búsqueda de datos y generación automatizada de informes en Excel.",
-    "short": "Aplicación web especializada para búsquedas de datos a gran escala y generación automática de informes en Excel.",
+    "short": "Una herramienta ligera de automatización de informes que usa Google Apps Script y la API de Google Sheets para búsqueda por palabras clave y generación de informes tipo Excel.",
     "highlights": [
       "Gestión de solicitudes paralelas con seguimiento en tiempo real",
       "Búsqueda global basada en palabras clave en grandes volúmenes de datos",
@@ -300,7 +314,63 @@
   },
   "resume": {
     "title": "Currículum",
-    "subtitle": "Una vista previa integrada y clara de mi currículum como ingeniero full-stack: léelo abajo, descárgalo o ábrelo en una pestaña nueva.",
+    "subtitle": "Mi currículum actual centrado en ingeniería full-stack, integraciones de IA, flujos de automatización y plataformas web en producción.",
+    "cv": {
+      "headline": "Ingeniero Full-Stack enfocado en IA",
+      "location": "Suceava, Rumanía",
+      "availability": "Remoto / Zona horaria UE",
+      "summaryTitle": "Resumen",
+      "summary": "Ingeniero full-stack con más de 5 años construyendo plataformas web en producción con React, Node.js y TypeScript. Me enfoco en integraciones de IA (OpenAI, procesamiento de documentos), workers en segundo plano y colas, APIs REST, sistemas en tiempo real y flujos de negocio B2B/sanitarios — llevando funcionalidades del concepto a producción.",
+      "skillsTitle": "Competencias Clave",
+      "coreSkills": [
+        "React / TypeScript",
+        "Node.js (Fastify, Express)",
+        "PostgreSQL / MongoDB",
+        "Redis",
+        "BullMQ / workers en segundo plano",
+        "OpenAI API e integraciones de IA",
+        "Procesamiento de documentos (Azure / Google Document AI)",
+        "APIs REST e integraciones",
+        "Socket.IO / tiempo real",
+        "Docker"
+      ],
+      "experienceTitle": "Experiencia",
+      "experience": [
+        {
+          "role": "Desarrollador Full-Stack",
+          "company": "HonesIT",
+          "period": "Dic. 2022 – Presente",
+          "points": [
+            "Construcción y mantenimiento de plataformas en producción en los dominios de comercio B2B, salud y fintech/automatización con React, Node.js y TypeScript.",
+            "Implementación de integraciones de IA y flujos de procesamiento de documentos, workers en segundo plano, colas, funciones en tiempo real e integraciones con APIs externas.",
+            "Desarrollo de dashboards, paneles de administración, flujos basados en roles, herramientas de reporting e interfaces con gran volumen de datos.",
+            "Responsable de áreas seleccionadas del proyecto: desglose de tareas, revisión de decisiones de implementación, mentoría de desarrolladores y coordinación de la entrega de funcionalidades de cara al cliente."
+          ]
+        },
+        {
+          "role": "Desarrollador Full-Stack Junior",
+          "company": "DevIT",
+          "period": "Sep. 2021 – Nov. 2022",
+          "points": [
+            "Construcción de páginas basadas en CMS y componentes de UI reutilizables con React/Next.js y TypeScript, consumiendo datos vía API y GraphQL.",
+            "Implementación de layouts responsivos y formularios, corrección de errores y soporte en producción en proyectos web de clientes."
+          ]
+        }
+      ],
+      "projectsTitle": "Proyectos Seleccionados",
+      "educationTitle": "Educación",
+      "education": [
+        {
+          "school": "Computer Academy STEP",
+          "program": "Desarrollador Full-Stack JavaScript",
+          "period": "2020 – 2021"
+        }
+      ],
+      "languagesTitle": "Idiomas",
+      "languages": ["Inglés", "Ucraniano", "Rumano (básico)"],
+      "present": "Presente",
+      "fullCatalog": "Catálogo completo de proyectos y habilidades disponible en el sitio web."
+    },
     "updated": "Actualizado {{date}}",
     "actions": {
       "share": "Compartir",

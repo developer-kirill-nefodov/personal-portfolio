@@ -13,32 +13,32 @@
   "home": {
     "greeting": "Willkommen in meinem Portfolio",
     "title": {
-      "line1": "Full-Stack-Entwickler",
-      "highlight": "Digitale Lösungen entwickeln"
+      "line1": "KI-fokussierter Full-Stack-Engineer",
+      "highlight": "B2B-SaaS, Automatisierung & datenintensive Produkte"
     },
-    "subtitle": "Ich freue mich, dass Sie hier sind und meine Arbeit erkunden. Dieses Portfolio zeigt meine Projekte, Fähigkeiten und Erfahrungen als Full-Stack JavaScript/TypeScript-Entwickler mit über 5 Jahren Erfahrung in der Entwicklung produktionsreifer Systeme.",
+    "subtitle": "Ich entwickle Full-Stack-Webplattformen mit React, Node.js, TypeScript, KI-Integrationen, Hintergrund-Workern, Echtzeit-Dashboards und komplexen Geschäftsabläufen.",
     "cta": {
       "projects": "Projekte ansehen",
       "resume": "Lebenslauf ansehen"
     },
     "stats": {
       "experience": "Jahre Erfahrung",
-      "projects": "Abgeschlossene Projekte",
+      "projects": "Ausgewählte Projekte",
       "technologies": "Technologien",
-      "passion": "Leidenschaft für Code"
+      "passion": "Geschäftsabläufe"
     },
     "features": {
       "fullstack": {
         "title": "Full-Stack-Entwicklung",
-        "text": "Node.js-Backends, verteilte Worker, Echtzeit-Funktionen, EDI-Integrationen und komplexe UIs mit React/React Native. End-to-End-Lieferung vom Konzept bis zur Produktion."
+        "text": "React- und Node.js-Anwendungen mit APIs, Admin-Panels, Hintergrundjobs, Echtzeit-Updates, externen Integrationen und komplexer Geschäftslogik."
       },
       "architecture": {
-        "title": "Systemarchitektur",
-        "text": "Starke Expertise im Design skalierbarer Architekturen, Microservices, API-Entwicklung und Datenbankoptimierung für Hochleistungsanwendungen."
+        "title": "Modulare Full-Stack-Systeme",
+        "text": "Erfahrung im Design modularer Full-Stack-Systeme mit API-Schichten, Hintergrund-Workern, Queues, rollenbasiertem Zugriff, Datenmodellen und wartbarer Frontend-Architektur."
       },
       "performance": {
         "title": "KI & Automatisierung",
-        "text": "KI-gestützte Automatisierung, intelligente Dokumentenverarbeitung und Leistungsoptimierung. Entwicklung intelligenter Lösungen zur Steigerung von Produktivität und Benutzererfahrung."
+        "text": "KI-Integrationen für Dokumentenparsing, strukturierte Ausgaben, Workflow-Automatisierung, nutzerseitige Assistenten und vom Menschen freigegebene Entscheidungsabläufe."
       }
     },
     "video": {
@@ -48,7 +48,7 @@
     },
     "about": {
       "title": "Über dieses Portfolio",
-      "text": "Dieses Portfolio enthält meine Projekte und wird weiterhin mit neuen Arbeiten, Fallstudien und Einblicken in meine Entwicklungsreise erweitert."
+      "text": "Dieses Portfolio konzentriert sich auf Full-Stack-Systeme, die ich entwickelt habe — über KI-gestützte Workflows, B2B-Plattformen, Healthcare-Datenverarbeitung, Echtzeit-Dashboards und Tools zur Geschäftsautomatisierung hinweg."
     }
   },
   "gitlab": "GitLab",
@@ -59,6 +59,7 @@
   "animatedPreviews": "Animierte Vorschauen",
   "screenshots": "Screenshots",
   "mediaEmpty": "Noch keine Medien hinzugefügt.",
+  "ndaNote": "Quellcode und Live-Demo sind aufgrund einer NDA nicht öffentlich.",
   "close": "Schließen",
   "carousel": {
     "prev": "Vorheriges Element",
@@ -113,6 +114,12 @@
   "sortNewest": "Neueste",
   "sortOldest": "Älteste",
   "clear": "Zurücksetzen",
+  "projectGroups": {
+    "featured": "Ausgewählte Projekte",
+    "commercial": "Kommerzielle / NDA-Arbeit",
+    "assignment": "Öffentliche technische Aufgaben",
+    "archive": "Frühe Projekte / Archiv"
+  },
   "falconHeavy": {
     "title": "Falcon Heavy Plattform",
     "subtitle": "Abonnementbasierte Gruppenverwaltung und administrative Tools",
@@ -120,11 +127,11 @@
     "highlights": [
       "Skalierbares Backend mit Fastify und Bull-Workern für Hintergrundverarbeitung",
       "Integrierte Google Maps für dynamische Gruppen- und Administrationsvisualisierung",
-      "Rollenbasierter Zugriff, Abonnementverwaltung und sicherer Zahlungsfluss"
+      "Rollenbasierter Zugriff, Abonnementverwaltung und abonnement-/zahlungsbezogene Workflow-Logik"
     ],
     "description": [
       "Falcon Heavy ist eine Full-Stack-Webplattform zur Verwaltung abonnementsbasierter Gruppen und administrativer Workflows. Sie kombiniert eine modulare Fastify-API mit React-basierten Oberflächen und integriert Hintergrundjobs über Bull und Redis.",
-      "Das System unterstützt Zahlungsabwicklung, rollenbasierte Gruppenerstellung, Abonnementverwaltung und administrative Dashboards, die für große Datensätze optimiert sind.",
+      "Das System unterstützt abonnement- und zahlungsbezogene Workflow-Logik, rollenbasierte Gruppenerstellung, Abonnementverwaltung und administrative Dashboards, die für große Datensätze optimiert sind.",
       "Die Plattform integriert zudem Google Maps, um standortbasierte Gruppenvisualisierung und administrative Einblicke in Echtzeit bereitzustellen."
     ]
   },
@@ -133,9 +140,10 @@
     "subtitle": "Webanwendung für Darlehenserstellung, Schuldnerbenachrichtigungen und vollständige administrative Kontrolle.",
     "short": "Eine umfassende Darlehensplattform mit automatischen Benachrichtigungen, Berichten und einem leistungsstarken Admin-Panel.",
     "highlights": [
-      "Automatisierte Schuldnerbenachrichtigungen mit dynamischen Vorlagen und Zeitplänen",
-      "Umfassendes Admin-Panel zur Verwaltung von Darlehen, Nutzern und Kommunikationseinstellungen",
-      "Sichere Authentifizierung mit Passport und Redis-basierten Sessions"
+      "Darlehensverwaltungs-Workflows für Admins, Kreditnehmer, Zahlungen, Benachrichtigungen und Reporting gebaut",
+      "Geplante E-Mail-/SMS-Benachrichtigungen mit SendGrid, Twilio, Vorlagen und Cron-Jobs implementiert",
+      "Sichere Authentifizierung und Session-Handling mit Passport und Redis entwickelt",
+      "System mit Docker, Nginx und AWS-naher Infrastruktur bereitgestellt"
     ],
     "description": [
       "Die Creditcloser-Anwendung ist ein voll ausgestattetes Darlehensmanagementsystem, das die finanziellen Abläufe für Administratoren optimiert. Es bietet Tools zur Darlehenserstellung, Nutzerverwaltung und Automatisierung von Benachrichtigungen.",
@@ -147,16 +155,22 @@
   "ndaB2BCommerce": {
     "title": "NDA B2B Commerce Plattform",
     "subtitle": "Full-Stack-B2B-Handelssystem mit Mehrrollenstruktur, erweitertem Inventar, Bestellungen und administrativen Funktionen.",
-    "short": "Eine groß angelegte, NDA-geschützte B2B-Commerce-Plattform mit komplexen Rollen, multinationaler Struktur und vollständiger administrativer Kontrolle.",
-    "highlights": [],
+    "short": "B2B-Commerce-Plattform mit Mehrrollen-Bestellabläufen, Inventaroperationen, Admin-Dashboards, Reporting, geplanten Jobs, E-Mail-Flows und großen internen Datensätzen.",
+    "highlights": [
+      "Mehrrollen-Admin- und Geschäftsabläufe für Bestellung, Inventar und Reporting entwickelt",
+      "Komplexe React-Oberflächen für große operative Datensätze gebaut",
+      "Backend-APIs, geplante Jobs, E-Mail-Flows sowie Excel-Export/-Import-Tools implementiert",
+      "Wartbarkeit langlaufender Geschäftslogik in einem aktiven Produktivsystem verbessert",
+      "Iterative Entwicklung und Debugging kundenspezifischer Workflows unterstützt"
+    ],
     "description": [
-      "Dieses NDA-geschützte Projekt ist eine umfangreiche B2B-Commerce-Plattform, die in mehreren Regionen und Nutzerrollen operiert. Das System verwaltet komplexe Einkaufsabläufe, administrative Kontrollen, Inventarinteraktionen und große Datenmengen. Die Lösung enthält ein leistungsstarkes internes Dashboard für verschiedene Geschäftsbereiche.",
-      "Das Projekt umfasst langfristige Wartung und iterative Entwicklung neuer Funktionen. Die Arbeit beinhaltet Architektur-Updates, Leistungsoptimierung, Debugging komplexer Geschäftslogik sowie Implementierung neuer interner Tools auf Kundenanfrage."
+      "Diese NDA-geschützte B2B-Commerce-Plattform unterstützt Mehrrollen-Einkaufsabläufe, Inventaroperationen, Auftragsverwaltung, administrative Dashboards, Reporting-Tools und große interne Datensätze über mehrere Geschäftsregionen hinweg.",
+      "Das Projekt umfasst langfristige Wartung und iterative Entwicklung: Aufbau neuer interner Tools auf Kundenwunsch, Debugging komplexer Geschäftslogik und Verbesserung der Wartbarkeit langlaufender Workflows in einem aktiven Produktivsystem."
     ]
   },
   "modularWebPlatforms": {
     "title": "Modulare Webplattformen",
-    "subtitle": "Skalierbare Webplattform mit Bildungs-, Recruiting- und Administrationsmodulen.",
+    "subtitle": "Modulare React-Plattform, die Bildungs-, Recruiting- und Administrations-Workflows kombiniert.",
     "short": "Modulare Webplattform zur Kombination von Lernmanagement, Stellenanzeigen und Administration.",
     "highlights": [
       "Modulare Architektur mit mehreren unabhängigen Teilprojekten",
@@ -192,8 +206,8 @@
   },
   "quantPilotAiStrategyLab": {
     "title": "QuantPilot AI — Strategy Lab",
-    "subtitle": "KI-gestütztes Labor für Krypto-Futures-Strategien: Beschreibe eine Idee in normaler Sprache, und die KI macht daraus ein backtestbares, falsifizierbares Experiment mit ehrlichen, gebührenbereinigten Statistiken.",
-    "short": "React-+-Fastify-Plattform, auf der aus einem Prompt in normaler Sprache eine per Whitelist geprüfte, validierte Handelsstrategie wird, die mit einer ereignisgesteuerten Engine über ein Universum aus vielen Coins backgetestet wird.",
+    "subtitle": "KI-gestützte Forschungsplattform, die Strategie-Ideen in natürlicher Sprache in validierte, backtestbare Experimente mit strukturierten Ausgaben, Hintergrund-Workern, Echtzeit-Fortschritt und Audit-Logs verwandelt.",
+    "short": "KI-gestützte Forschungsplattform, die Strategie-Ideen in natürlicher Sprache in validierte, strukturierte Specs überführt, mit einer ereignisgesteuerten Engine backtestet sowie mit Hintergrundjobs und Echtzeit-Fortschritt verfolgt.",
     "highlights": [
       "Ein KI-Co-Pilot verwandelt eine Idee in natürlicher Sprache in eine per Whitelist und Zod validierte StrategySpec — strukturierte Daten, niemals ausgeführter Code — und backtestet und verfeinert sie anschließend",
       "Eine einzige ereignisgesteuerte Engine dient zugleich als Backtester und Paper-Executor (deterministisch, ohne Look-ahead); sie berücksichtigt Gebühren und Funding und liefert Equity, P&L, Trefferquote, Profit-Faktor sowie MFE/MAE",
@@ -201,7 +215,7 @@
       "Approval Gate mit Mensch in der Schleife — die KI schlägt Parameter-/Regime-Änderungen vor, der Nutzer genehmigt sie transaktional mit vollständigem Audit-Trail; Schwellenwerte und Routing liegen als versionierte Konfiguration in der Datenbank"
     ],
     "description": [
-      "QuantPilot AI ist eine lokale Single-User-Forschungsplattform für KI-gestützte Strategieforschung auf Binance-USD-M-Perpetual-Futures. Sie ist auf Falsifikation statt Bestätigung ausgelegt: Das Schwierige an der Quant-Forschung ist nicht, einen profitablen Backtest zu bekommen, sondern sich davon nicht täuschen zu lassen.",
+      "QuantPilot AI ist eine lokale Single-User-Forschungsplattform für KI-gestützte Strategieforschung auf Binance-USD-M-Perpetual-Futures.",
       "Im Strategy Lab beschreibst du eine Strategie in normaler Sprache, und ein KI-Co-Pilot liefert eine strukturierte StrategySpec, die gegen eine strikte Whitelist validiert wird (kein eval, kein beliebiger Code). Die Spec wird vollständig in der hauseigenen Engine der Plattform ausgeführt, bewertet und iteriert.",
       "Eine einzige deterministische, ereignisgesteuerte Engine ist zugleich Backtester und Paper-Executor — was du testest, ist also genau das, was auch handeln würde. Sie berücksichtigt Kommissionen und Funding, und jedes Ergebnis muss eine In-sample/Out-of-sample-Aufteilung, Übereinstimmung über mehrere Coins und einen Slippage-Stresstest überstehen, bevor es zählt.",
       "Das System ändert die Live-Logik niemals von selbst: Ein Approval Gate lässt die KI vorschlagen und den Menschen genehmigen — transaktional und mit vollständigem Audit-Log. Risikoschwellen, die Regime-Routing-Map und die Promotion-Kriterien liegen als versionierte Datensätze in der Datenbank, jede Entscheidung wird protokolliert (auch NO-TRADE), und echtes Geld ist hinter einer Promotion-Schwelle PAPER → SHADOW → LIVE abgesichert."
@@ -248,24 +262,24 @@
     "otherExperienceSubtitle": "Zusätzliche Tools, Bibliotheken und Dienste, die ich in verschiedenen Projekten eingesetzt habe."
   },
   "ndaHealthCoach": {
-    "title": "NDA Full-Stack Plattform",
-    "subtitle": "Groß angelegte Full-Stack-Anwendung mit KI-Funktionen, Mehrrollen-Zugriff und komplexer Datenverarbeitung.",
-    "short": "Eine Multi-Modul-Plattform mit Echtzeitfunktionen, Daten-Ingestion-Pipelines und interaktiven Visualisierungskomponenten.",
+    "title": "NDA Healthcare KI- & Datenworkflow-Plattform",
+    "subtitle": "Healthcare-Plattform mit KI-gestützter Dokumentenverarbeitung, Wearable-Daten-Integrationen, Echtzeitkommunikation und 3D-/Timeline-Datenvisualisierung.",
+    "short": "NDA-Healthcare-Plattform mit KI-gestützter Dokumentenverarbeitung, patientenbezogenen Datenworkflows, Wearable-Daten-Integrationen, Hintergrund-Synchronisation, Echtzeitkommunikation und Visualisierungsmodulen.",
     "highlights": [
-      "KI-gestützte Benutzerinteraktionskomponenten",
-      "Automatisierte Verarbeitungsworkflows für große unstrukturierte Datensätze",
-      "Integration mehrerer externer APIs für kontinuierliche Datensynchronisation",
-      "Erweiterte Visualisierungsmodule einschließlich 3D- und Timeline-Interfaces",
-      "Rollenbasiertes System mit konfigurierbarem Admin-Panel"
+      "KI-gestützte Dokumentenverarbeitungs-Workflows mit OpenAI, Azure Document Intelligence und Google Document AI gebaut",
+      "Externe Gesundheits- und Wearable-Daten-APIs in Hintergrund-Synchronisationspipelines integriert",
+      "Echtzeitkommunikation und avatarbasierte Interaktion mit LiveKit und HeyGen SDK implementiert",
+      "Timeline-, Chart- und 3D-Visualisierungsmodule für komplexe Nutzerdaten entwickelt",
+      "Rollenbasierten Zugriff, Admin-Workflows und langlaufende Hintergrundtasks unterstützt"
     ],
     "description": [
-      "Dieses NDA-geschützte Projekt ist eine Full-Stack-Plattform, bestehend aus mehreren integrierten Modulen, Echtzeitkommunikation und automatisierten Datenworkflows. Das System verarbeitet große Datenmengen aus externen Diensten über Hintergrundtasks und strukturierte Pipelines."
+      "Diese NDA-geschützte Healthcare-Plattform umfasst patientenbezogene Datenworkflows, KI-gestützte Dokumentenverarbeitung, Wearable-Daten-Integrationen, Echtzeitkommunikation, rollenbasierten Zugriff, Hintergrundverarbeitung und interaktive Visualisierungsmodule."
     ]
   },
   "dataReportingWebApp": {
-    "title": "Webanwendung für Datenreporting",
+    "title": "Frühes Automatisierungsprojekt — Google-Sheets-Reporting",
     "subtitle": "Webbasierte Lösung zur Datensuche und automatisierten Erstellung von Excel-Berichten.",
-    "short": "Spezialisierte Webanwendung für umfangreiche Datensuchen und automatisierte Excel-Berichte.",
+    "short": "Ein schlankes Reporting-Automatisierungstool mit Google Apps Script und der Google Sheets API für Stichwortsuche und Excel-artige Berichtserstellung.",
     "highlights": [
       "Verarbeitung paralleler Anfragen mit Echtzeit-Statusanzeige",
       "Globale Stichwortsuche in umfangreichen Datensätzen",
@@ -283,7 +297,7 @@
   "boomfShopifyWebApp": {
     "title": "Boomf Shopify Webanwendung",
     "subtitle": "Interaktive, in Shopify integrierte Webanwendung für personalisierte Produkte.",
-    "short": "Shopify-integrierte Webanwendung zur Gestaltung und Bestellung personalisierter Postkarten.",
+    "short": "Kommerzielle, in Shopify integrierte React-Anwendung für interaktive Produktanpassung und checkout-bezogene Nutzerabläufe.",
     "highlights": [
       "Interaktiver Postkarten-Konfigurator direkt in Shopify integriert",
       "Komplexes Frontend-State-Management mit Redux und Redux-Saga",
@@ -300,7 +314,63 @@
   },
   "resume": {
     "title": "Lebenslauf",
-    "subtitle": "Eine klare eingebettete Vorschau meines Full-Stack-Engineer-Lebenslaufs — unten lesen, herunterladen oder in einem neuen Tab öffnen.",
+    "subtitle": "Mein aktueller Lebenslauf mit Fokus auf Full-Stack-Engineering, KI-Integrationen, Automatisierungs-Workflows und produktive Webplattformen.",
+    "cv": {
+      "headline": "KI-fokussierter Full-Stack-Engineer",
+      "location": "Suceava, Rumänien",
+      "availability": "Remote / EU-Zeitzone",
+      "summaryTitle": "Zusammenfassung",
+      "summary": "Full-Stack-Engineer mit über 5 Jahren Erfahrung im Bau produktiver Webplattformen mit React, Node.js und TypeScript. Schwerpunkte: KI-Integrationen (OpenAI, Dokumentenverarbeitung), Hintergrund-Worker und Queues, REST-APIs, Echtzeit-Systeme sowie B2B-/Healthcare-Geschäftsabläufe — von der Idee bis in die Produktion.",
+      "skillsTitle": "Kernkompetenzen",
+      "coreSkills": [
+        "React / TypeScript",
+        "Node.js (Fastify, Express)",
+        "PostgreSQL / MongoDB",
+        "Redis",
+        "BullMQ / Hintergrund-Worker",
+        "OpenAI API & KI-Integrationen",
+        "Dokumentenverarbeitung (Azure / Google Document AI)",
+        "REST-APIs & Integrationen",
+        "Socket.IO / Echtzeit",
+        "Docker"
+      ],
+      "experienceTitle": "Berufserfahrung",
+      "experience": [
+        {
+          "role": "Full-Stack-Entwickler",
+          "company": "HonesIT",
+          "period": "Dez. 2022 – heute",
+          "points": [
+            "Entwicklung und Wartung produktiver Plattformen in den Bereichen B2B-Commerce, Healthcare und Fintech/Automatisierung mit React, Node.js und TypeScript.",
+            "Umsetzung von KI-Integrationen und Dokumentenverarbeitungs-Workflows, Hintergrund-Workern, Queues, Echtzeit-Funktionen und externen API-Integrationen.",
+            "Entwicklung von Dashboards, Admin-Panels, rollenbasierten Workflows, Reporting-Tools und datenintensiven Benutzeroberflächen.",
+            "Verantwortung für ausgewählte Projektbereiche: Aufgaben-Breakdown, Review von Implementierungsentscheidungen, Mentoring von Entwicklern und Koordination der Auslieferung kundenseitiger Features."
+          ]
+        },
+        {
+          "role": "Junior Full-Stack-Entwickler",
+          "company": "DevIT",
+          "period": "Sep. 2021 – Nov. 2022",
+          "points": [
+            "Entwicklung CMS-gestützter Seiten und wiederverwendbarer UI-Komponenten mit React/Next.js und TypeScript auf Basis von API- und GraphQL-Daten.",
+            "Umsetzung responsiver Layouts und Formulare, Bugfixing und Production-Support in verschiedenen Kundenprojekten."
+          ]
+        }
+      ],
+      "projectsTitle": "Ausgewählte Projekte",
+      "educationTitle": "Ausbildung",
+      "education": [
+        {
+          "school": "Computer Academy STEP",
+          "program": "Full-Stack-JavaScript-Entwickler",
+          "period": "2020 – 2021"
+        }
+      ],
+      "languagesTitle": "Sprachen",
+      "languages": ["Englisch", "Ukrainisch", "Rumänisch (Grundkenntnisse)"],
+      "present": "heute",
+      "fullCatalog": "Vollständiger Projektkatalog und alle Skills auf der Website."
+    },
     "updated": "Aktualisiert {{date}}",
     "actions": {
       "share": "Teilen",

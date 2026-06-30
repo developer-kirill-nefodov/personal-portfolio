@@ -112,7 +112,16 @@
         "users": null,
         "requestsPerDay": null,
         "latencyMsP50": null,
-        "availability": 0.999
+        "availability": null
+      },
+      "projectType": "Personal Project",
+      "category": "archive",
+      "resumeFeatured": false,
+      "priority": 9,
+      "requestAccess": {
+        "type": "code",
+        "enabled": true,
+        "label": "Request Code Access"
       },
       "featured": false,
       "sort": 90
@@ -191,6 +200,10 @@
         "latencyMsP50": null,
         "availability": null
       },
+      "projectType": "Commercial",
+      "category": "commercial",
+      "resumeFeatured": false,
+      "priority": 5,
       "featured": false,
       "sort": 80
     },
@@ -268,9 +281,18 @@
         "users": null,
         "requestsPerDay": null,
         "latencyMsP50": null,
-        "availability": 0.999
+        "availability": null
       },
-      "featured": false,
+      "projectType": "NDA Client Work",
+      "category": "featured",
+      "resumeFeatured": true,
+      "priority": 3,
+      "requestAccess": {
+        "type": "walkthrough",
+        "enabled": true,
+        "label": "Request Technical Walkthrough"
+      },
+      "featured": true,
       "sort": 120
     },
     {
@@ -301,13 +323,13 @@
         "Multi-Role"
       ],
       "platforms": ["Web"],
-      "coreTech": ["React", "Node", "MongoDB", "Tree.js", "OpenAI"],
+      "coreTech": ["React", "Node", "MongoDB", "Three.js", "OpenAI"],
       "tech": [
         "React",
         "Material UI",
         "Emotion",
         "Recoil",
-        "Tree.js",
+        "Three.js",
         "Chart.js",
         "HeyGen Streaming Avatar SDK",
         "LiveKit",
@@ -346,7 +368,7 @@
         "React",
         "Material UI",
         "Emotion",
-        "Tree.js",
+        "Three.js",
         "Recoil",
         "Chart.js",
         "HeyGen Streaming Avatar SDK",
@@ -376,10 +398,19 @@
         "users": null,
         "requestsPerDay": null,
         "latencyMsP50": null,
-        "availability": 0.999
+        "availability": null
       },
 
-      "featured": false,
+      "projectType": "NDA Client Work",
+      "category": "featured",
+      "resumeFeatured": true,
+      "priority": 1,
+      "requestAccess": {
+        "type": "walkthrough",
+        "enabled": true,
+        "label": "Request Technical Walkthrough"
+      },
+      "featured": true,
       "sort": 110
     },
     {
@@ -450,6 +481,10 @@
         "latencyMsP50": null,
         "availability": null
       },
+      "projectType": "Commercial",
+      "category": "commercial",
+      "resumeFeatured": false,
+      "priority": 6,
       "featured": false,
       "sort": 85
     },
@@ -524,6 +559,10 @@
         "latencyMsP50": null,
         "availability": null
       },
+      "projectType": "Commercial",
+      "category": "archive",
+      "resumeFeatured": false,
+      "priority": 10,
       "featured": false,
       "sort": 70
     },
@@ -595,6 +634,10 @@
         "latencyMsP50": null,
         "availability": null
       },
+      "projectType": "Commercial",
+      "category": "commercial",
+      "resumeFeatured": false,
+      "priority": 7,
       "featured": false,
       "sort": 75
     },
@@ -661,7 +704,11 @@
         "latencyMsP50": null,
         "availability": null
       },
-      "featured": false,
+      "projectType": "Commercial",
+      "category": "featured",
+      "resumeFeatured": true,
+      "priority": 4,
+      "featured": true,
       "sort": 60
     },
     {
@@ -758,6 +805,10 @@
         "latencyMsP50": null,
         "availability": null
       },
+      "projectType": "Technical Assignment",
+      "category": "assignment",
+      "resumeFeatured": false,
+      "priority": 8,
       "featured": false,
       "sort": 130
     },
@@ -781,7 +832,7 @@
       "date": "2026-01-15",
       "period": { "start": "2026-01", "end": null },
       "company": "Personal Project",
-      "role": ["Full-Stack Developer", "Architect", "Quant Researcher"],
+      "role": ["Full-Stack Developer", "AI Product Engineer"],
       "tags": [
         "Fintech",
         "Algorithmic Trading",
@@ -838,7 +889,7 @@
       ],
       "apis": ["Binance Futures API", "OpenAI API"],
       "ai": [
-        "OpenAI API (GPT-4-class LLM)",
+        "OpenAI API with structured outputs and function-style tool calls",
         "LLM tool-use / function calling",
         "Structured outputs (Zod-validated StrategySpec — no code execution)",
         "Prompt grounding with computed coin-context features (ATR / volatility)",
@@ -873,6 +924,15 @@
         "requestsPerDay": null,
         "latencyMsP50": null,
         "availability": null
+      },
+      "projectType": "Personal Project",
+      "category": "featured",
+      "resumeFeatured": true,
+      "priority": 2,
+      "requestAccess": {
+        "type": "code",
+        "enabled": true,
+        "label": "Request Code Access"
       },
       "featured": true,
       "sort": 100
