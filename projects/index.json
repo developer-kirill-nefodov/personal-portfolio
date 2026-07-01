@@ -859,8 +859,14 @@
         ],
         "videos": [
           {
-            "src": "/projects/v1/quantpilot-ai/1-gallery.mp4",
-            "thumb": "/projects/v1/quantpilot-ai/1-gallery.png",
+            "src": "/projects/v1/quantpilot-ai/video-1.mp4",
+            "thumb": "/projects/v1/quantpilot-ai/cover.png",
+            "alt": "Strategy lab walkthrough",
+            "sound": true
+          },
+          {
+            "src": "/projects/v1/quantpilot-ai/video-2.mp4",
+            "thumb": "/projects/v1/quantpilot-ai/cover.png",
             "alt": "Strategy lab walkthrough",
             "sound": false
           }
