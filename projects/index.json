@@ -63,16 +63,33 @@
         "caseStudy": null
       },
       "date": "2024-01-01",
-      "period": { "start": "2024-01", "end": "2024-05" },
-      "company": "Personal Project",
-      "role": ["Full-Stack Developer"],
-      "tags": ["Subscriptions", "Payments", "Admin Panel", "Maps"],
-      "platforms": ["Web"],
+      "period": {
+        "start": "2024-01",
+        "end": "2024-05"
+      },
+      "company": "Client Project",
+      "role": [
+        "Full-Stack Developer"
+      ],
+      "tags": [
+        "Subscriptions",
+        "Payments",
+        "Admin Panel",
+        "Maps"
+      ],
+      "platforms": [
+        "Web"
+      ],
       "cover": {
         "src": "/projects/v1/falcon-heavy/cover.png",
         "alt": "Falcon Heavy project cover"
       },
-      "coreTech": ["React", "Fastify", "PostgreSQL", "Google Maps API"],
+      "coreTech": [
+        "React",
+        "Fastify",
+        "PostgreSQL",
+        "Google Maps API"
+      ],
       "tech": [
         "React",
         "Fastify",
@@ -89,21 +106,62 @@
         "Jest",
         "Google Maps API"
       ],
-      "apis": ["Google Maps API"],
-      "tools": ["Docker", "Swagger", "GitHub Actions"],
-      "db": ["PostgreSQL", "Redis"],
-      "testing": ["Jest", "Cypress"],
-      "frontend": ["React", "Material UI", "TypeScript"],
-      "backend": ["Node", "Fastify", "TypeScript"],
+      "apis": [
+        "Google Maps API"
+      ],
+      "tools": [
+        "Docker",
+        "Swagger",
+        "GitHub Actions"
+      ],
+      "db": [
+        "PostgreSQL",
+        "Redis"
+      ],
+      "testing": [
+        "Jest",
+        "Cypress"
+      ],
+      "frontend": [
+        "React",
+        "Material UI",
+        "TypeScript"
+      ],
+      "backend": [
+        "Node",
+        "Fastify",
+        "TypeScript"
+      ],
       "gallery": {
         "images": [
-          { "src": "/projects/v1/falcon-heavy/cover.png", "alt": "Falcon heavy" },
-          { "src": "/projects/v1/falcon-heavy/1-gallery.png", "alt": "Falcon heavy" },
-          { "src": "/projects/v1/falcon-heavy/2-gallery.png", "alt": "Falcon heavy" },
-          { "src": "/projects/v1/falcon-heavy/3-gallery.png", "alt": "Falcon heavy" },
-          { "src": "/projects/v1/falcon-heavy/4-gallery.png", "alt": "Falcon heavy" },
-          { "src": "/projects/v1/falcon-heavy/5-gallery.png", "alt": "Falcon heavy" },
-          { "src": "/projects/v1/falcon-heavy/6-gallery.png", "alt": "Falcon heavy" }
+          {
+            "src": "/projects/v1/falcon-heavy/cover.png",
+            "alt": "Falcon heavy"
+          },
+          {
+            "src": "/projects/v1/falcon-heavy/1-gallery.png",
+            "alt": "Falcon heavy"
+          },
+          {
+            "src": "/projects/v1/falcon-heavy/2-gallery.png",
+            "alt": "Falcon heavy"
+          },
+          {
+            "src": "/projects/v1/falcon-heavy/3-gallery.png",
+            "alt": "Falcon heavy"
+          },
+          {
+            "src": "/projects/v1/falcon-heavy/4-gallery.png",
+            "alt": "Falcon heavy"
+          },
+          {
+            "src": "/projects/v1/falcon-heavy/5-gallery.png",
+            "alt": "Falcon heavy"
+          },
+          {
+            "src": "/projects/v1/falcon-heavy/6-gallery.png",
+            "alt": "Falcon heavy"
+          }
         ],
         "videos": [],
         "gifs": []
@@ -114,7 +172,7 @@
         "latencyMsP50": null,
         "availability": null
       },
-      "projectType": "Personal Project",
+      "projectType": "Commercial",
       "category": "archive",
       "resumeFeatured": false,
       "priority": 9,
@@ -144,16 +202,33 @@
         "caseStudy": null
       },
       "date": "2022-09-01",
-      "period": { "start": "2022-09", "end": "2022-11" },
+      "period": {
+        "start": "2022-09",
+        "end": "2022-11"
+      },
       "company": "Creditcloser",
-      "role": ["Full-Stack Developer"],
-      "tags": ["Loan Management", "Notifications", "Admin Panel"],
-      "platforms": ["Web"],
+      "role": [
+        "Full-Stack Developer"
+      ],
+      "tags": [
+        "Loan Management",
+        "Notifications",
+        "Admin Panel"
+      ],
+      "platforms": [
+        "Web"
+      ],
       "cover": {
         "src": "/projects/v1/creditcloser/cover.png",
         "alt": "Creditcloser loan management system"
       },
-      "coreTech": ["React", "Node", "Express.js", "PostgreSQL", "Material UI"],
+      "coreTech": [
+        "React",
+        "Node",
+        "Express.js",
+        "PostgreSQL",
+        "Material UI"
+      ],
       "tech": [
         "React",
         "React Admin",
@@ -176,14 +251,36 @@
         "node-cron",
         "Makefile"
       ],
-      "frontend": ["React", "Material UI"],
-      "backend": ["Node", "Express.js"],
-      "apis": ["Twilio", "SendGrid"],
-      "tools": ["Docker", "Nginx", "AWS", "Makefile"],
-      "db": ["PostgreSQL", "Redis"],
+      "frontend": [
+        "React",
+        "Material UI"
+      ],
+      "backend": [
+        "Node",
+        "Express.js"
+      ],
+      "apis": [
+        "Twilio",
+        "SendGrid"
+      ],
+      "tools": [
+        "Docker",
+        "Nginx",
+        "AWS",
+        "Makefile"
+      ],
+      "db": [
+        "PostgreSQL",
+        "Redis"
+      ],
       "testing": [],
       "gallery": {
-        "images": [{ "src": "/projects/v1/creditcloser/cover.png", "alt": "Creditcloser" }],
+        "images": [
+          {
+            "src": "/projects/v1/creditcloser/cover.png",
+            "alt": "Creditcloser"
+          }
+        ],
         "videos": [
           {
             "src": "/projects/v1/creditcloser/1-gallery.mp4",
@@ -214,36 +311,59 @@
       "landing": null,
       "nda": true,
       "links": {
-        "gitlab": { "repo": null, "disabled": true },
-        "demo": { "repo": null, "disabled": true },
+        "gitlab": {
+          "repo": null,
+          "disabled": true
+        },
+        "demo": {
+          "repo": null,
+          "disabled": true
+        },
         "caseStudy": null
       },
       "date": "2022-11-01",
-      "period": { "start": "2022-11", "end": null },
+      "period": {
+        "start": "2022-11",
+        "end": null
+      },
       "company": "NDA Enterprise Client",
-      "role": ["Full-Stack Developer"],
-      "tags": ["E-Commerce", "B2B", "Multi-Country", "Multi-Role", "Inventory", "Orders", "Admin Panel"],
-      "platforms": ["Web"],
-      "cover": { "src": null, "alt": null},
-      "coreTech": ["React", "Node", "MongoDB", "uWebSockets.js"],
+      "role": [
+        "Full-Stack Developer"
+      ],
+      "tags": [
+        "E-Commerce",
+        "B2B",
+        "Multi-Country",
+        "Multi-Role",
+        "Inventory",
+        "Orders",
+        "Admin Panel"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cover": {
+        "src": null,
+        "alt": null
+      },
+      "coreTech": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "uWebSockets.js"
+      ],
       "tech": [
         "React",
-        "Material UI",
-        "Emotion",
+        "MUI",
         "Recoil",
-        "Axios",
-        "Chart.js",
-        "Vite",
-        "Node",
-        "Express",
+        "Node.js",
         "uWebSockets.js",
         "MongoDB",
+        "EDI/XML",
+        "XLSX",
         "Nodemailer",
         "MJML",
-        "XLSX",
         "Node Schedule",
-        "Docker",
-        "ESLint",
         "Swagger"
       ],
       "apis": [],
@@ -253,7 +373,9 @@
         "ESLint",
         "Swagger"
       ],
-      "db": ["MongoDB"],
+      "db": [
+        "MongoDB"
+      ],
       "testing": [],
       "frontend": [
         "React",
@@ -301,18 +423,30 @@
       "status": "active",
       "landing": null,
       "nda": true,
-      "cover": { "src": null, "alt": null},
+      "cover": {
+        "src": null,
+        "alt": null
+      },
       "links": {
-        "gitlab": { "repo": null, "disabled": true },
-        "demo": { "repo": null, "disabled": true },
+        "gitlab": {
+          "repo": null,
+          "disabled": true
+        },
+        "demo": {
+          "repo": null,
+          "disabled": true
+        },
         "caseStudy": null
       },
-
       "date": "2024-07-01",
-      "period": { "start": "2024-07", "end": null },
-
+      "period": {
+        "start": "2024-07",
+        "end": null
+      },
       "company": "NDA Healthcare Client",
-      "role": ["Full-Stack Developer"],
+      "role": [
+        "Full-Stack Developer"
+      ],
       "tags": [
         "Healthcare",
         "AI Assistant",
@@ -322,8 +456,16 @@
         "NDA",
         "Multi-Role"
       ],
-      "platforms": ["Web"],
-      "coreTech": ["React", "Node", "MongoDB", "Three.js", "OpenAI"],
+      "platforms": [
+        "Web"
+      ],
+      "coreTech": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Three.js",
+        "OpenAI"
+      ],
       "tech": [
         "React",
         "Material UI",
@@ -335,35 +477,33 @@
         "LiveKit",
         "Web Workers",
         "Comlink",
-        "Node",
+        "Node.js",
         "uWebSockets.js",
         "MongoDB",
         "OpenAI",
-        "Azure AI Form Recognizer",
+        "Azure AI Document Intelligence",
         "Google Cloud Document AI",
         "Nodemailer",
         "Node Schedule",
         "Terra API"
       ],
-
       "apis": [
         "OpenAI",
-        "Azure AI Form Recognizer",
+        "Azure AI Document Intelligence",
         "Google Cloud Document AI",
         "Terra API",
-        "HeyGen Streaming Avatar",
+        "HeyGen Streaming Avatar SDK",
         "LiveKit"
       ],
-
       "tools": [
         "Web Workers",
         "Comlink",
         "LocalForage"
       ],
-
-      "db": ["MongoDB"],
+      "db": [
+        "MongoDB"
+      ],
       "testing": [],
-
       "frontend": [
         "React",
         "Material UI",
@@ -376,31 +516,27 @@
         "Web Workers",
         "Comlink"
       ],
-
       "backend": [
         "Node",
         "uWebSockets.js",
         "MongoDB",
         "OpenAI",
-        "Azure AI Form Recognizer",
+        "Azure AI Document Intelligence",
         "Google Cloud Document AI",
         "Nodemailer",
         "Node Schedule"
       ],
-
       "gallery": {
         "images": [],
         "videos": [],
         "gifs": []
       },
-
       "metrics": {
         "users": null,
         "requestsPerDay": null,
         "latencyMsP50": null,
         "availability": null
       },
-
       "projectType": "NDA Client Work",
       "category": "featured",
       "resumeFeatured": true,
@@ -431,9 +567,14 @@
         "caseStudy": null
       },
       "date": "2023-11-01",
-      "period": { "start": "2023-11", "end": "2024-02" },
-      "company": "Personal / Client Project",
-      "role": ["Frontend Developer"],
+      "period": {
+        "start": "2023-11",
+        "end": "2024-02"
+      },
+      "company": "Client Project",
+      "role": [
+        "Frontend Developer"
+      ],
       "tags": [
         "Modular Architecture",
         "Education",
@@ -441,12 +582,19 @@
         "Admin Panel",
         "Scalable Platform"
       ],
-      "platforms": ["Web", "PWA"],
+      "platforms": [
+        "Web",
+        "PWA"
+      ],
       "cover": {
         "src": null,
         "alt": null
       },
-      "coreTech": ["React", "TypeScript", "AWS"],
+      "coreTech": [
+        "React",
+        "TypeScript",
+        "AWS"
+      ],
       "tech": [
         "React",
         "TypeScript",
@@ -462,7 +610,9 @@
         "Storybook"
       ],
       "db": [],
-      "testing": ["Jest"],
+      "testing": [
+        "Jest"
+      ],
       "frontend": [
         "React",
         "TypeScript",
@@ -505,51 +655,85 @@
         },
         "caseStudy": null
       },
-      "date": "2022-08-01",
-      "period": { "start": "2022-08", "end": "2022-08" },
+      "date": "2022-07-12",
+      "period": {
+        "start": "2022-06",
+        "end": "2022-07"
+      },
       "company": "Client Project",
-      "role": ["Frontend Developer"],
+      "role": [
+        "Frontend Developer"
+      ],
       "tags": [
-        "Data Reporting",
-        "Search",
+        "SEO",
+        "Keyword Research",
+        "SERP Analysis",
         "Automation",
-        "Excel Reports",
+        "BigQuery",
+        "Google Sheets Add-on",
         "Client Tooling"
       ],
-      "platforms": ["Web"],
-      "cover": {
-        "src": null,
-        "alt": null
+      "platforms": [
+        "Web",
+        "Google Workspace"
+      ],
+      "cover":  {
+        "src": "/projects/v1/data-reporting-web/cover.webp",
+        "alt": "Data Reporting Web Cover"
       },
-      "coreTech": ["Google Apps Script", "Google Sheets API", "HTML", "CSS"],
+      "coreTech": [
+        "Google Apps Script",
+        "Google Sheets API",
+        "BigQuery",
+        "DataForSEO API",
+        "Google Custom Search API",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
       "tech": [
         "HTML",
         "CSS",
         "JavaScript",
-        "Fetch API",
         "Google Apps Script",
         "Google Sheets",
-        "Google Sheets API"
+        "Google Sheets API",
+        "BigQuery",
+        "DataForSEO API",
+        "Google Custom Search API",
+        "jsonata"
       ],
       "apis": [
-        "Google Sheets API"
+        "Google Sheets API",
+        "BigQuery API",
+        "DataForSEO API",
+        "Google Custom Search API"
       ],
       "tools": [
-        "Google Apps Script"
+        "Google Apps Script",
+        "clasp",
+        "BigQuery"
       ],
-      "db": [],
+      "db": [
+        "BigQuery"
+      ],
       "testing": [],
       "frontend": [
         "HTML",
         "CSS",
-        "JavaScript",
-        "Fetch API"
+        "JavaScript"
       ],
       "backend": [
-        "Google Apps Script"
+        "Google Apps Script",
+        "BigQuery"
       ],
       "gallery": {
-        "images": [],
+        "images": [
+          {
+            "src": "/projects/v1/data-reporting-web/cover.webp",
+            "alt": "Data Reporting Web Cover"
+          }
+        ],
         "videos": [],
         "gifs": []
       },
@@ -563,6 +747,11 @@
       "category": "archive",
       "resumeFeatured": false,
       "priority": 10,
+      "requestAccess": {
+        "type": "code",
+        "enabled": true,
+        "label": "Request Code Access"
+      },
       "featured": false,
       "sort": 70
     },
@@ -578,15 +767,20 @@
           "disabled": true
         },
         "demo": {
-          "repo": null,
-          "disabled": true
+          "repo": "https://boomf.com/",
+          "disabled": false
         },
         "caseStudy": null
       },
       "date": "2022-04-01",
-      "period": { "start": "2022-04", "end": "2022-08" },
+      "period": {
+        "start": "2022-04",
+        "end": "2022-08"
+      },
       "company": "Boomf",
-      "role": ["Frontend Developer"],
+      "role": [
+        "Frontend Developer"
+      ],
       "tags": [
         "E-Commerce",
         "Shopify",
@@ -594,12 +788,18 @@
         "Interactive UI",
         "Frontend Architecture"
       ],
-      "platforms": ["Web"],
+      "platforms": [
+        "Web"
+      ],
       "cover": {
         "src": null,
         "alt": null
       },
-      "coreTech": ["React", "Redux-Saga", "Shopify API"],
+      "coreTech": [
+        "React",
+        "Redux-Saga",
+        "Shopify API"
+      ],
       "tech": [
         "React",
         "Redux",
@@ -659,16 +859,33 @@
         "caseStudy": null
       },
       "date": "2021-09-01",
-      "period": { "start": "2021-09", "end": "2022-01" },
+      "period": {
+        "start": "2021-09",
+        "end": "2022-01"
+      },
       "company": "Box Hill Institute",
-      "role": ["Frontend Developer"],
-      "tags": ["Education", "Headless CMS", "Template System", "SSG"],
-      "platforms": ["Web"],
+      "role": [
+        "Frontend Developer"
+      ],
+      "tags": [
+        "Education",
+        "Headless CMS",
+        "Template System",
+        "SSG"
+      ],
+      "platforms": [
+        "Web"
+      ],
       "cover": {
         "src": "/projects/v1/boxhill/cover.png",
         "alt": "Boxhill School web application"
       },
-      "coreTech": ["Next.js", "TypeScript", "GraphQL", "Apollo Client"],
+      "coreTech": [
+        "Next.js",
+        "TypeScript",
+        "GraphQL",
+        "Apollo Client"
+      ],
       "tech": [
         "Next.js",
         "TypeScript",
@@ -679,7 +896,10 @@
         "Google Maps API",
         "reCAPTCHA"
       ],
-      "apis": ["Google Maps API", "DatoCMS"],
+      "apis": [
+        "Google Maps API",
+        "DatoCMS"
+      ],
       "tools": [],
       "db": [],
       "testing": [],
@@ -693,7 +913,10 @@
       "backend": [],
       "gallery": {
         "images": [
-          { "src": "/projects/v1/boxhill/cover.png", "alt": "Boxhill School" }
+          {
+            "src": "/projects/v1/boxhill/cover.png",
+            "alt": "Boxhill School"
+          }
         ],
         "videos": [],
         "gifs": []
@@ -729,9 +952,14 @@
         "caseStudy": null
       },
       "date": "2025-06-09",
-      "period": { "start": "2025-06", "end": "2025-06" },
+      "period": {
+        "start": "2025-06",
+        "end": "2025-06"
+      },
       "company": "Test Assignment",
-      "role": ["Frontend Developer"],
+      "role": [
+        "Frontend Developer"
+      ],
       "tags": [
         "Test Assignment",
         "Live Demo",
@@ -741,12 +969,20 @@
         "Charts",
         "Dashboard"
       ],
-      "platforms": ["Web"],
+      "platforms": [
+        "Web"
+      ],
       "cover": {
         "src": "/projects/v1/crypto-pulse-dashboard/cover.png",
         "alt": "Crypto Pulse Dashboard"
       },
-      "coreTech": ["Vue 3", "Vite", "Pinia", "ECharts", "WebSocket"],
+      "coreTech": [
+        "Vue 3",
+        "Vite",
+        "Pinia",
+        "ECharts",
+        "WebSocket"
+      ],
       "tech": [
         "Vue 3",
         "Vite",
@@ -759,7 +995,6 @@
         "TailwindCSS",
         "SCSS",
         "Lucide Icons",
-        "localStorage",
         "ESLint",
         "Prettier",
         "GitHub Actions"
@@ -790,11 +1025,26 @@
       "backend": [],
       "gallery": {
         "images": [
-          { "src": "/projects/v1/crypto-pulse-dashboard/cover.png", "alt": "Dashboard" },
-          { "src": "/projects/v1/crypto-pulse-dashboard/1-gallery.png", "alt": "1 Gallery" },
-          { "src": "/projects/v1/crypto-pulse-dashboard/2-gallery.png", "alt": "2 Gallery" },
-          { "src": "/projects/v1/crypto-pulse-dashboard/3-gallery.png", "alt": "3 Gallery" },
-          { "src": "/projects/v1/crypto-pulse-dashboard/4-gallery.png", "alt": "4 Gallery" }
+          {
+            "src": "/projects/v1/crypto-pulse-dashboard/cover.png",
+            "alt": "Dashboard"
+          },
+          {
+            "src": "/projects/v1/crypto-pulse-dashboard/1-gallery.png",
+            "alt": "1 Gallery"
+          },
+          {
+            "src": "/projects/v1/crypto-pulse-dashboard/2-gallery.png",
+            "alt": "2 Gallery"
+          },
+          {
+            "src": "/projects/v1/crypto-pulse-dashboard/3-gallery.png",
+            "alt": "3 Gallery"
+          },
+          {
+            "src": "/projects/v1/crypto-pulse-dashboard/4-gallery.png",
+            "alt": "4 Gallery"
+          }
         ],
         "videos": [],
         "gifs": []
@@ -830,9 +1080,15 @@
         "caseStudy": null
       },
       "date": "2026-01-15",
-      "period": { "start": "2026-01", "end": null },
+      "period": {
+        "start": "2026-01",
+        "end": null
+      },
       "company": "Personal Project",
-      "role": ["Full-Stack Developer", "AI Product Engineer"],
+      "role": [
+        "Full-Stack Developer",
+        "AI Product Engineer"
+      ],
       "tags": [
         "Fintech",
         "Algorithmic Trading",
@@ -843,19 +1099,39 @@
         "Event-Driven Architecture",
         "Monorepo"
       ],
-      "platforms": ["Web"],
+      "platforms": [
+        "Web"
+      ],
       "cover": {
         "src": "/projects/v1/quantpilot-ai/cover.png",
         "alt": "QuantPilot AI — AI Strategy Lab dashboard"
       },
       "gallery": {
         "images": [
-          { "src": "/projects/v1/quantpilot-ai/cover.png", "alt": "Dashboard" },
-          { "src": "/projects/v1/quantpilot-ai/1-gallery.png", "alt": "1 Gallery" },
-          { "src": "/projects/v1/quantpilot-ai/2-gallery.png", "alt": "2 Gallery" },
-          { "src": "/projects/v1/quantpilot-ai/3-gallery.png", "alt": "3 Gallery" },
-          { "src": "/projects/v1/quantpilot-ai/4-gallery.png", "alt": "4 Gallery" },
-          { "src": "/projects/v1/quantpilot-ai/5-gallery.png", "alt": "5 Gallery" }
+          {
+            "src": "/projects/v1/quantpilot-ai/cover.png",
+            "alt": "Dashboard"
+          },
+          {
+            "src": "/projects/v1/quantpilot-ai/1-gallery.png",
+            "alt": "1 Gallery"
+          },
+          {
+            "src": "/projects/v1/quantpilot-ai/2-gallery.png",
+            "alt": "2 Gallery"
+          },
+          {
+            "src": "/projects/v1/quantpilot-ai/3-gallery.png",
+            "alt": "3 Gallery"
+          },
+          {
+            "src": "/projects/v1/quantpilot-ai/4-gallery.png",
+            "alt": "4 Gallery"
+          },
+          {
+            "src": "/projects/v1/quantpilot-ai/5-gallery.png",
+            "alt": "5 Gallery"
+          }
         ],
         "videos": [
           {
@@ -873,7 +1149,12 @@
         ],
         "gifs": []
       },
-      "coreTech": ["React", "Fastify", "PostgreSQL", "Prisma"],
+      "coreTech": [
+        "React",
+        "Fastify",
+        "PostgreSQL",
+        "Prisma"
+      ],
       "tech": [
         "React",
         "TypeScript",
@@ -893,7 +1174,10 @@
         "OpenAI",
         "Docker Compose"
       ],
-      "apis": ["Binance Futures API", "OpenAI API"],
+      "apis": [
+        "Binance Futures API",
+        "OpenAI API"
+      ],
       "ai": [
         "OpenAI API with structured outputs and function-style tool calls",
         "LLM tool-use / function calling",
@@ -901,9 +1185,22 @@
         "Prompt grounding with computed coin-context features (ATR / volatility)",
         "Offline ML research path: Python + LightGBM/XGBoost → ONNX Runtime (evaluated, kept as research)"
       ],
-      "tools": ["pnpm", "Docker Compose", "Vite", "BullMQ", "ESLint", "Prisma Studio"],
-      "db": ["PostgreSQL", "Redis"],
-      "testing": ["Vitest", "React Testing Library"],
+      "tools": [
+        "pnpm",
+        "Docker Compose",
+        "Vite",
+        "BullMQ",
+        "ESLint",
+        "Prisma Studio"
+      ],
+      "db": [
+        "PostgreSQL",
+        "Redis"
+      ],
+      "testing": [
+        "Vitest",
+        "React Testing Library"
+      ],
       "frontend": [
         "React",
         "TypeScript",

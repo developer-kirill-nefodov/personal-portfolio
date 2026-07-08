@@ -153,19 +153,19 @@
     ]
   },
   "ndaB2BCommerce": {
-    "title": "Plataforma de Comercio B2B (NDA)",
-    "subtitle": "Sistema B2B full-stack con roles avanzados, inventario, pedidos y capacidades administrativas.",
-    "short": "Plataforma de comercio B2B con flujos de pedidos multi-rol, operaciones de inventario, paneles de administración, reporting, trabajos programados, flujos de correo y grandes conjuntos de datos internos.",
+    "title": "Plataforma de Comercio B2B Empresarial (NDA)",
+    "subtitle": "Trabajo full-stack a largo plazo en una plataforma de comercio B2B multi-país para un cliente empresarial, cubriendo precios, pedidos, flujos de cotización, flujos de administración e integración con proveedores.",
+    "short": "Más de 3,5 años como desarrollador full-stack en un equipo distribuido sobre una plataforma de comercio B2B en producción. Trabajé en la lógica central de precios y márgenes, flujos de pedidos y cotización, acceso multi-rol, flujos de administración e integración de proveedores por EDI/XML.",
     "highlights": [
-      "Desarrollo de flujos de administración y negocio multi-rol para pedidos, inventario y reporting",
-      "Construcción de interfaces React complejas para grandes conjuntos de datos operativos",
-      "Implementación de APIs backend, trabajos programados, flujos de correo y herramientas de exportación/importación a Excel",
-      "Mejora de la mantenibilidad de lógica de negocio de larga ejecución en un sistema en producción activo",
-      "Soporte al desarrollo iterativo y depuración de flujos específicos del cliente"
+      "Trabajé ampliamente en el motor central de precios y márgenes, incluyendo descuentos, impuestos, reglas de cálculo y múltiples estrategias de precios",
+      "Construí y mantuve flujos de pedidos y cotización de extremo a extremo: catálogo, carrito, cotización en PDF, creación de pedidos e integración con proveedores",
+      "Implementé flujos multi-país y multi-rol para empresas de venta, distribuidores, administradores y usuarios internos",
+      "Trabajé en un equipo de desarrollo distribuido durante más de 3,5 años en un sistema en producción activo, cubriendo nuevas funcionalidades, corrección de errores compleja y mantenimiento a largo plazo",
+      "Contribuí a actualizaciones importantes de la plataforma, incluida la migración del framework de UI y actualizaciones de seguridad/dependencias, con un despliegue cuidadoso y seguro para producción"
     ],
     "description": [
-      "Esta plataforma de comercio B2B protegida por NDA admite flujos de compra multi-rol, operaciones de inventario, gestión de pedidos, paneles administrativos, herramientas de reporting y grandes conjuntos de datos internos en múltiples regiones de negocio.",
-      "El proyecto incluye mantenimiento a largo plazo y desarrollo iterativo: creación de nuevas herramientas internas solicitadas por el cliente, depuración de lógica de negocio compleja y mejora de la mantenibilidad de flujos de larga ejecución en un sistema en producción activo."
+      "Una plataforma de comercio B2B en producción para un cliente empresarial multi-país, protegida bajo NDA. La plataforma admite precios, gestión de catálogo, pedidos, flujos de cotización, integración con proveedores, reporting y operaciones administrativas en varios mercados.",
+      "Trabajé como desarrollador full-stack en un equipo distribuido durante más de 3,5 años, contribuyendo a la lógica de negocio central y al mantenimiento en producción a largo plazo de la plataforma. Mi trabajo incluyó lógica de precios y márgenes, flujos de pedidos y cotización, integración de proveedores por EDI/XML, reporting, acceso multi-país, corrección de errores compleja y actualizaciones de framework/dependencias en un sistema en vivo. La identidad del cliente y los detalles comerciales sensibles se mantienen reservados bajo NDA."
     ]
   },
   "modularWebPlatforms": {
@@ -263,53 +263,58 @@
   },
   "ndaHealthCoach": {
     "title": "Plataforma de IA y Flujos de Datos Sanitarios (NDA)",
-    "subtitle": "Plataforma sanitaria con procesamiento de documentos asistido por IA, integraciones de datos de wearables, comunicación en tiempo real y visualización de datos 3D/línea de tiempo.",
-    "short": "Plataforma sanitaria (NDA) con procesamiento de documentos asistido por IA, flujos de datos relacionados con pacientes, integraciones de datos de wearables, sincronización en segundo plano, comunicación en tiempo real y módulos de visualización.",
+    "subtitle": "Plataforma sanitaria con procesamiento de documentos asistido por IA, flujos de datos de wearables, comunicación en tiempo real basada en avatares y visualización interactiva de datos de salud.",
+    "short": "Plataforma sanitaria (NDA) que combina procesamiento de documentos asistido por IA, integraciones de datos de wearables, comunicación en tiempo real, visualización 3D/línea de tiempo y flujos multi-rol. Lideré áreas de desarrollo seleccionadas mientras contribuía en todo el stack.",
     "highlights": [
-      "Construcción de flujos de procesamiento de documentos asistidos por IA usando OpenAI, Azure Document Intelligence y Google Document AI",
-      "Integración de APIs externas de salud y datos de wearables en pipelines de sincronización en segundo plano",
-      "Implementación de comunicación en tiempo real e interacción basada en avatares con LiveKit y HeyGen SDK",
-      "Desarrollo de módulos de visualización de línea de tiempo, gráficos y 3D para datos complejos de usuario",
-      "Soporte de acceso basado en roles, flujos de administración y tareas de larga ejecución en segundo plano"
+      "Lideré áreas seleccionadas de desarrollo full-stack: desglose de tareas, revisiones de merge requests, decisiones técnicas y mentoría",
+      "Construí flujos de procesamiento de documentos asistidos por IA usando OpenAI, Azure AI Document Intelligence y Google Cloud Document AI para la extracción estructurada de datos",
+      "Integré proveedores de datos de wearables y de salud mediante flujos de sincronización en segundo plano programados",
+      "Implementé funciones de comunicación en tiempo real y avatares en streaming con LiveKit y el HeyGen Streaming Avatar SDK",
+      "Desarrollé módulos interactivos 3D, de gráficos y de línea de tiempo para datos de series temporales de salud complejos",
+      "Construí flujos basados en roles, funciones de administración y procesos backend de larga ejecución sobre un stack Node.js / uWebSockets.js + MongoDB",
+      "Mejoré la capacidad de respuesta del frontend trasladando el procesamiento más pesado del cliente a Web Workers con Comlink"
     ],
     "description": [
-      "Esta plataforma sanitaria protegida por NDA incluye flujos de datos relacionados con pacientes, procesamiento de documentos asistido por IA, integraciones de datos de wearables, funciones de comunicación en tiempo real, acceso basado en roles, procesamiento en segundo plano y módulos de visualización interactivos."
+      "Una plataforma sanitaria protegida por NDA que combina procesamiento de documentos asistido por IA, integraciones de datos de wearables y de salud, funciones de comunicación en tiempo real y visualización interactiva de datos de salud de series temporales complejas.",
+      "Trabajé como team lead y desarrollador full-stack, contribuyendo tanto a la entrega del producto como a la implementación técnica. Mis responsabilidades incluían desglosar tareas, revisar merge requests, guiar decisiones de arquitectura, mentorizar a desarrolladores y construir funcionalidades en un frontend React y un backend Node.js / uWebSockets.js + MongoDB. La lógica de negocio, la identidad del cliente y los detalles sensibles de implementación se mantienen reservados bajo NDA."
     ]
   },
   "boomfShopifyWebApp": {
     "title": "Aplicación Web de Boomf para Shopify",
-    "subtitle": "Aplicación web interactiva integrada con Shopify para productos personalizados.",
-    "short": "Aplicación React comercial integrada con Shopify para personalización interactiva de productos y flujos de usuario relacionados con el checkout.",
+    "subtitle": "Aplicación web integrada en Shopify para personalizar las tarjetas de confeti explosivo y pop-up de Boomf.",
+    "short": "Aplicación React comercial integrada en Shopify que impulsa el personalizador de tarjetas de Boomf: los usuarios añaden fotos y mensajes y previsualizan en tiempo real tarjetas de confeti y pop-up dentro del flujo de compra.",
     "highlights": [
-      "Herramienta interactiva de personalización integrada directamente en Shopify",
-      "Gestión compleja del estado frontend con Redux y Redux-Saga",
-      "Estilos escalables y mantenibles utilizando Styled Components",
-      "Integración fluida con la API de Shopify para datos de productos y pedidos"
+      "Personalizador de tarjetas interactivo integrado directamente en la tienda Shopify de Boomf",
+      "Personalización en vivo: los usuarios añaden fotos y mensajes y previsualizan la tarjeta en tiempo real",
+      "Compatible con las mecánicas características de Boomf: tarjetas de confeti explosivo y pop-up",
+      "Gestión compleja del estado del frontend con Redux y Redux-Saga",
+      "Estilos escalables y mantenibles con Styled Components e integración con la API de Shopify para productos y pedidos"
     ],
     "description": [
-      "Este proyecto consistió en el desarrollo de una aplicación web avanzada para Boomf, creada en colaboración con otro desarrollador e integrada completamente con la plataforma Shopify.",
-      "La funcionalidad principal es un personalizador interactivo de postales que permite a los usuarios diseñar tarjetas personalizadas con elementos mecánicos únicos dentro del flujo de compra.",
-      "Se implementó lógica frontend avanzada utilizando React, Redux y Redux-Saga para gestionar operaciones asíncronas, estados complejos y sincronización de datos.",
-      "Styled Components se utilizó para crear estilos modulares y escalables, garantizando una experiencia de usuario consistente y visualmente atractiva.",
-      "La aplicación se integra con la API de Shopify para gestionar datos de productos, precios e interacciones relacionadas con los pedidos de forma fiable."
+      "Una aplicación web comercial para Boomf —una marca británica conocida por sus tarjetas de confeti explosivo, tarjetas pop-up y regalos personalizados— desarrollada en estrecha colaboración con otro desarrollador e integrada por completo en su tienda Shopify.",
+      "La funcionalidad central es un personalizador de tarjetas interactivo: los compradores suben fotos, añaden sus propios mensajes y personalizan las tarjetas características de Boomf —incluidas las tarjetas 'bomba' de confeti explosivo y los diseños pop-up— con una vista previa en vivo directamente en el flujo de compra.",
+      "La lógica de frontend se implementó con React, Redux y Redux-Saga para gestionar la subida de imágenes, las operaciones asíncronas, las transiciones de estado complejas y la sincronización de datos entre el personalizador y el carrito.",
+      "Styled Components aportó estilos modulares y escalables para una identidad visual coherente y una experiencia de usuario fluida y de alta calidad.",
+      "La aplicación se integra con la API de Shopify para gestionar datos de productos, precios, opciones de personalización e interacciones de pedidos de forma fiable y eficiente."
     ]
   },
   "dataReportingWebApp": {
-    "title": "Proyecto Temprano de Automatización — Reporting con Google Sheets",
-    "subtitle": "Herramienta web para búsqueda de datos y generación automatizada de informes en Excel.",
-    "short": "Una herramienta ligera de automatización de informes que usa Google Apps Script y la API de Google Sheets para búsqueda por palabras clave y generación de informes tipo Excel.",
+    "title": "Proyecto Temprano de Automatización — Add-on de Investigación y Calificación de Keywords SEO",
+    "subtitle": "Un add-on de Google Sheets que carga datos SEO en BigQuery, califica palabras clave y muestra los resultados en una barra lateral.",
+    "short": "Un add-on de Google Apps Script para Google Sheets que automatiza la investigación de keywords SEO: obtiene datos de keywords, SERP y backlinks desde DataForSEO y la API de Google Custom Search, los carga en BigQuery, califica las palabras clave según reglas configurables y presenta los resultados en una barra lateral personalizada.",
     "highlights": [
-      "Gestión de solicitudes paralelas con seguimiento en tiempo real",
-      "Búsqueda global basada en palabras clave en grandes volúmenes de datos",
-      "Generación automática de informes en Excel mediante Google Sheets",
-      "Interfaz orientada al cliente, clara y eficiente"
+      "Integración con DataForSEO con constructores de tareas en vivo, POST/GET y por lotes para datos de keywords, SERP y backlinks",
+      "Pipeline de datos en BigQuery con SQL basado en CTE para calificación de keywords guiada por reglas",
+      "Motor de automatización de tareas que ejecuta bloques ordenados con tareas en paralelo y seguimiento de progreso en tiempo real",
+      "Interfaz de barra lateral personalizada en Google Sheets con panel de cliente y estado en vivo",
+      "Configuración sin secretos mediante Script Properties (sin credenciales en el código)"
     ],
     "description": [
-      "Este proyecto consistió en el desarrollo de una aplicación web personalizada destinada a optimizar los procesos de búsqueda de información y generación de informes para un cliente.",
-      "La aplicación permite realizar búsquedas extensivas basadas en palabras clave en grandes conjuntos de datos, facilitando el análisis de la información relevante.",
-      "Se implementó lógica frontend para gestionar múltiples solicitudes en paralelo, mostrando el estado de cada una en tiempo real.",
-      "La generación de informes se automatizó mediante Google Apps Script y la API de Google Sheets, produciendo archivos Excel estructurados a partir del análisis de palabras clave.",
-      "La solución fue desarrollada con tecnologías web estándar, garantizando una interfaz responsiva adaptada a las necesidades operativas del cliente."
+      "Un add-on comercial de Google Sheets creado para agilizar la investigación de SEO y estrategia de contenidos de un cliente, manteniendo todo el flujo de trabajo dentro de la hoja de cálculo.",
+      "Realiza investigación basada en palabras clave a gran escala, obteniendo métricas de keywords, capturas de SERP y datos de backlinks desde la API de DataForSEO y la API de Google Custom Search.",
+      "Los datos recopilados se cargan en BigQuery, donde un SQL basado en CTE califica las palabras clave según reglas de ranking configurables y un sistema de calificación por cliente.",
+      "Un motor de automatización de tareas ejecuta bloques ordenados de solicitudes en paralelo, dando al usuario visibilidad en tiempo real del progreso a través de una barra lateral personalizada.",
+      "Los resultados calificados y los informes estructurados se escriben de vuelta en Google Sheets, entregando una herramienta responsiva y orientada al cliente desarrollada con Google Apps Script y tecnologías web estándar."
     ]
   },
   "resume": {

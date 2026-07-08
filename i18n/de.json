@@ -153,19 +153,19 @@
     ]
   },
   "ndaB2BCommerce": {
-    "title": "NDA B2B Commerce Plattform",
-    "subtitle": "Full-Stack-B2B-Handelssystem mit Mehrrollenstruktur, erweitertem Inventar, Bestellungen und administrativen Funktionen.",
-    "short": "B2B-Commerce-Plattform mit Mehrrollen-Bestellabläufen, Inventaroperationen, Admin-Dashboards, Reporting, geplanten Jobs, E-Mail-Flows und großen internen Datensätzen.",
+    "title": "Enterprise-B2B-Commerce-Plattform (NDA)",
+    "subtitle": "Langfristige Full-Stack-Arbeit an einer länderübergreifenden B2B-Commerce-Plattform für einen Enterprise-Kunden — Preisgestaltung, Bestellung, Angebotsabläufe, Admin-Workflows und Lieferantenintegration.",
+    "short": "3,5+ Jahre als Full-Stack-Entwickler in einem verteilten Team an einer produktiven B2B-Commerce-Plattform. Gearbeitet an der zentralen Preis- und Margenlogik, Bestell- und Angebotsabläufen, Mehrrollen-Zugriff, Admin-Workflows und EDI/XML-Lieferantenintegration.",
     "highlights": [
-      "Mehrrollen-Admin- und Geschäftsabläufe für Bestellung, Inventar und Reporting entwickelt",
-      "Komplexe React-Oberflächen für große operative Datensätze gebaut",
-      "Backend-APIs, geplante Jobs, E-Mail-Flows sowie Excel-Export/-Import-Tools implementiert",
-      "Wartbarkeit langlaufender Geschäftslogik in einem aktiven Produktivsystem verbessert",
-      "Iterative Entwicklung und Debugging kundenspezifischer Workflows unterstützt"
+      "Umfangreich an der zentralen Preis- und Margen-Engine gearbeitet, inklusive Rabatten, Steuern, Berechnungsregeln und mehreren Preisstrategien",
+      "End-to-End-Bestell- und Angebotsabläufe gebaut und gepflegt: Katalog, Warenkorb, PDF-Angebot, Auftragserstellung und Lieferantenintegration",
+      "Länder- und rollenübergreifende Workflows für Vertriebsgesellschaften, Händler, Administratoren und interne Nutzer implementiert",
+      "3,5+ Jahre in einem verteilten Entwicklungsteam an einem aktiven Produktivsystem gearbeitet — neue Features, komplexe Fehlerbehebung und langfristige Wartung",
+      "Zu großen Plattform-Upgrades beigetragen, darunter UI-Framework-Migration sowie Sicherheits-/Abhängigkeits-Updates, mit sorgfältigem produktionssicherem Rollout"
     ],
     "description": [
-      "Diese NDA-geschützte B2B-Commerce-Plattform unterstützt Mehrrollen-Einkaufsabläufe, Inventaroperationen, Auftragsverwaltung, administrative Dashboards, Reporting-Tools und große interne Datensätze über mehrere Geschäftsregionen hinweg.",
-      "Das Projekt umfasst langfristige Wartung und iterative Entwicklung: Aufbau neuer interner Tools auf Kundenwunsch, Debugging komplexer Geschäftslogik und Verbesserung der Wartbarkeit langlaufender Workflows in einem aktiven Produktivsystem."
+      "Eine produktive B2B-Commerce-Plattform für einen länderübergreifenden Enterprise-Kunden, geschützt unter NDA. Die Plattform unterstützt Preisgestaltung, Katalogverwaltung, Bestellung, Angebotsabläufe, Lieferantenintegration, Reporting und administrative Abläufe über mehrere Märkte hinweg.",
+      "Ich war 3,5+ Jahre als Full-Stack-Entwickler in einem verteilten Team tätig und trug zur zentralen Geschäftslogik und zur langfristigen Produktivwartung der Plattform bei. Meine Arbeit umfasste Preis- und Margenlogik, Bestell- und Angebotsabläufe, EDI/XML-Lieferantenintegration, Reporting, länderübergreifenden Zugriff, komplexe Fehlerbehebung sowie Framework-/Abhängigkeits-Upgrades an einem Live-System. Kundenidentität und sensible Geschäftsdetails werden unter NDA zurückgehalten."
     ]
   },
   "modularWebPlatforms": {
@@ -262,54 +262,59 @@
     "otherExperienceSubtitle": "Zusätzliche Tools, Bibliotheken und Dienste, die ich in verschiedenen Projekten eingesetzt habe."
   },
   "ndaHealthCoach": {
-    "title": "NDA Healthcare KI- & Datenworkflow-Plattform",
-    "subtitle": "Healthcare-Plattform mit KI-gestützter Dokumentenverarbeitung, Wearable-Daten-Integrationen, Echtzeitkommunikation und 3D-/Timeline-Datenvisualisierung.",
-    "short": "NDA-Healthcare-Plattform mit KI-gestützter Dokumentenverarbeitung, patientenbezogenen Datenworkflows, Wearable-Daten-Integrationen, Hintergrund-Synchronisation, Echtzeitkommunikation und Visualisierungsmodulen.",
+    "title": "NDA Healthcare-KI- & Datenworkflow-Plattform",
+    "subtitle": "Healthcare-Plattform mit KI-gestützter Dokumentenverarbeitung, Wearable-Daten-Workflows, avatarbasierter Echtzeitkommunikation und interaktiver Visualisierung von Gesundheitsdaten.",
+    "short": "NDA-Healthcare-Plattform, die KI-gestützte Dokumentenverarbeitung, Wearable-Daten-Integrationen, Echtzeitkommunikation, 3D-/Timeline-Visualisierung und Mehrrollen-Workflows vereint. Ausgewählte Entwicklungsbereiche geleitet und zugleich über den gesamten Stack hinweg beigetragen.",
     "highlights": [
-      "KI-gestützte Dokumentenverarbeitungs-Workflows mit OpenAI, Azure Document Intelligence und Google Document AI gebaut",
-      "Externe Gesundheits- und Wearable-Daten-APIs in Hintergrund-Synchronisationspipelines integriert",
-      "Echtzeitkommunikation und avatarbasierte Interaktion mit LiveKit und HeyGen SDK implementiert",
-      "Timeline-, Chart- und 3D-Visualisierungsmodule für komplexe Nutzerdaten entwickelt",
-      "Rollenbasierten Zugriff, Admin-Workflows und langlaufende Hintergrundtasks unterstützt"
+      "Ausgewählte Full-Stack-Entwicklungsbereiche geleitet: Aufgabenaufteilung, Merge-Request-Reviews, technische Entscheidungen und Mentoring",
+      "KI-gestützte Dokumentenverarbeitungs-Workflows mit OpenAI, Azure AI Document Intelligence und Google Cloud Document AI zur strukturierten Datenextraktion gebaut",
+      "Wearable- und Gesundheitsdaten-Anbieter über geplante Hintergrund-Synchronisationsworkflows integriert",
+      "Echtzeitkommunikation und Streaming-Avatar-Funktionen mit LiveKit und dem HeyGen Streaming Avatar SDK implementiert",
+      "Interaktive 3D-, Chart- und Timeline-Module für komplexe gesundheitsbezogene Zeitreihendaten entwickelt",
+      "Rollenbasierte Workflows, Admin-Funktionen und langlaufende Backend-Prozesse auf einem Node.js-/uWebSockets.js- + MongoDB-Stack gebaut",
+      "Frontend-Reaktionsfähigkeit verbessert, indem aufwendigere clientseitige Verarbeitung mit Comlink in Web Worker ausgelagert wurde"
     ],
     "description": [
-      "Diese NDA-geschützte Healthcare-Plattform umfasst patientenbezogene Datenworkflows, KI-gestützte Dokumentenverarbeitung, Wearable-Daten-Integrationen, Echtzeitkommunikation, rollenbasierten Zugriff, Hintergrundverarbeitung und interaktive Visualisierungsmodule."
+      "Eine NDA-geschützte Healthcare-Plattform, die KI-gestützte Dokumentenverarbeitung, Wearable- und Gesundheitsdaten-Integrationen, Echtzeitkommunikationsfunktionen und die interaktive Visualisierung komplexer Zeitreihen-Gesundheitsdaten vereint.",
+      "Ich war als Team-Lead und Full-Stack-Entwickler tätig und trug sowohl zur Produktentwicklung als auch zur technischen Umsetzung bei. Zu meinen Aufgaben gehörten das Aufteilen von Aufgaben, das Reviewen von Merge Requests, das Leiten von Architekturentscheidungen, das Mentoring von Entwicklern und das Bauen von Features über ein React-Frontend und ein Node.js-/uWebSockets.js- + MongoDB-Backend hinweg. Geschäftslogik, Kundenidentität und sensible Implementierungsdetails werden unter NDA zurückgehalten."
     ]
   },
   "dataReportingWebApp": {
-    "title": "Frühes Automatisierungsprojekt — Google-Sheets-Reporting",
-    "subtitle": "Webbasierte Lösung zur Datensuche und automatisierten Erstellung von Excel-Berichten.",
-    "short": "Ein schlankes Reporting-Automatisierungstool mit Google Apps Script und der Google Sheets API für Stichwortsuche und Excel-artige Berichtserstellung.",
+    "title": "Frühes Automatisierungsprojekt — SEO-Keyword-Recherche & Bewertungs-Add-on",
+    "subtitle": "Ein Google-Sheets-Add-on, das SEO-Daten in BigQuery lädt, Keywords bewertet und die Ergebnisse in einer Sidebar anzeigt.",
+    "short": "Ein Google-Apps-Script-Add-on für Google Sheets, das die SEO-Keyword-Recherche automatisiert — es holt Keyword-, SERP- und Backlink-Daten von DataForSEO und der Google Custom Search API, lädt sie in BigQuery, bewertet Keywords anhand konfigurierbarer Regeln und präsentiert die Ergebnisse über eine eigene Sidebar-Oberfläche.",
     "highlights": [
-      "Verarbeitung paralleler Anfragen mit Echtzeit-Statusanzeige",
-      "Globale Stichwortsuche in umfangreichen Datensätzen",
-      "Automatisierte Erstellung von Excel-Berichten über Google Sheets",
-      "Klare und effiziente Benutzeroberfläche für Kundenanforderungen"
+      "DataForSEO-Integration mit Live-, POST/GET- und Bulk-Task-Buildern für Keyword-, SERP- und Backlink-Daten",
+      "BigQuery-Datenpipeline mit CTE-basiertem SQL für regelgesteuerte Keyword-Bewertung",
+      "Task-Automatisierungs-Engine, die geordnete Blöcke mit parallelen Tasks und Echtzeit-Fortschrittsverfolgung ausführt",
+      "Eigene Google-Sheets-Sidebar-Oberfläche mit Kunden-Dashboard und Live-Status",
+      "Secret-freie Konfiguration über Script Properties (keine Zugangsdaten im Code)"
     ],
     "description": [
-      "In diesem Projekt wurde eine maßgeschneiderte Webanwendung entwickelt, um die Suche nach Informationen und die Erstellung von Berichten für einen Kunden zu vereinfachen.",
-      "Die Anwendung ermöglicht umfangreiche stichwortbasierte Suchen in großen Datensätzen und unterstützt eine effiziente Analyse relevanter Informationen.",
-      "Die Frontend-Logik verwaltet mehrere parallele Anfragen und stellt deren Status in Echtzeit dar, was die Benutzerinteraktion deutlich verbessert.",
-      "Die Berichtserstellung wurde mithilfe von Google Apps Script und der Google Sheets API automatisiert, wodurch strukturierte Excel-Berichte aus der Datenanalyse erzeugt werden.",
-      "Die Lösung basiert auf Standard-Webtechnologien und bietet eine responsive Benutzeroberfläche, die auf die operativen Anforderungen des Kunden zugeschnitten ist."
+      "Ein kommerzielles Google-Sheets-Add-on, entwickelt, um die SEO- und Content-Strategie-Recherche für einen Kunden zu vereinfachen und den gesamten Workflow innerhalb der Tabelle zu halten.",
+      "Es führt stichwortbasierte Recherche in großem Umfang durch und ruft Keyword-Metriken, SERP-Snapshots und Backlink-Daten von der DataForSEO API und der Google Custom Search API ab.",
+      "Die gesammelten Daten werden in BigQuery geladen, wo CTE-basiertes SQL die Keywords anhand konfigurierbarer Ranking-Regeln und eines kundenspezifischen Bewertungssystems einstuft.",
+      "Eine Task-Automatisierungs-Engine führt geordnete Blöcke paralleler Anfragen aus und gibt dem Nutzer über eine eigene Sidebar-Oberfläche Echtzeit-Einblick in den Fortschritt.",
+      "Bewertete Ergebnisse und strukturierte Berichte werden zurück in Google Sheets geschrieben — ein responsives, kundenorientiertes Tool, entwickelt mit Google Apps Script und Standard-Webtechnologien."
     ]
   },
   "boomfShopifyWebApp": {
     "title": "Boomf Shopify Webanwendung",
-    "subtitle": "Interaktive, in Shopify integrierte Webanwendung für personalisierte Produkte.",
-    "short": "Kommerzielle, in Shopify integrierte React-Anwendung für interaktive Produktanpassung und checkout-bezogene Nutzerabläufe.",
+    "subtitle": "Interaktive Shopify-Integration zum Personalisieren von Boomfs Konfetti-Explosions- und Pop-up-Grußkarten.",
+    "short": "Kommerzielle, in Shopify integrierte React-Anwendung für den Karten-Customizer von Boomf — Nutzer fügen Fotos und Nachrichten hinzu und sehen personalisierte Konfetti- und Pop-up-Karten in Echtzeit direkt im Kaufprozess.",
     "highlights": [
-      "Interaktiver Postkarten-Konfigurator direkt in Shopify integriert",
+      "Interaktiver Karten-Customizer, direkt in den Shopify-Store von Boomf integriert",
+      "Live-Personalisierung: Nutzer fügen Fotos und Nachrichten hinzu und sehen die Karte in Echtzeit als Vorschau",
+      "Unterstützt die charakteristischen Konfetti-Explosions- und Pop-up-Kartenmechaniken von Boomf",
       "Komplexes Frontend-State-Management mit Redux und Redux-Saga",
-      "Skalierbares Styling mit Styled Components",
-      "Nahtlose Integration mit der Shopify API für Produkt- und Bestelldaten"
+      "Skalierbares, wartbares Styling mit Styled Components und Shopify-API-Integration für Produkte und Bestellungen"
     ],
     "description": [
-      "Dieses Projekt umfasste die Entwicklung einer anspruchsvollen Webanwendung für Boomf in enger Zusammenarbeit mit einem weiteren Entwickler und vollständiger Integration in die Shopify-Plattform.",
-      "Die zentrale Funktion der Anwendung ist ein interaktiver Postkarten-Konfigurator, mit dem Benutzer personalisierte Karten mit einzigartigen mechanischen Elementen gestalten können.",
-      "Die Frontend-Logik wurde mit React, Redux und Redux-Saga umgesetzt, um asynchrone Abläufe, komplexe Zustände und Daten-Synchronisation effizient zu verwalten.",
-      "Styled Components wurden eingesetzt, um modulare und wartbare Styles zu erstellen und eine konsistente Benutzeroberfläche sicherzustellen.",
-      "Die Anwendung nutzt die Shopify API zur zuverlässigen Verarbeitung von Produktdaten, Preisen und bestellbezogenen Interaktionen."
+      "Eine kommerzielle Webanwendung für Boomf — eine britische Marke, bekannt für ihre Konfetti-Explosionskarten, Pop-up-Karten und personalisierten Geschenke — in enger Zusammenarbeit mit einem weiteren Entwickler gebaut und vollständig in deren Shopify-Store integriert.",
+      "Das Kernfeature ist ein interaktiver Karten-Customizer: Käufer laden Fotos hoch, fügen eigene Nachrichten hinzu und personalisieren Boomfs charakteristische Karten — darunter die Konfetti-„Bomb“-Karten und Pop-up-Designs — mit einer Live-Vorschau direkt im Kaufprozess.",
+      "Die Frontend-Logik wurde mit React, Redux und Redux-Saga umgesetzt, um Bild-Uploads, asynchrone Abläufe, komplexe Zustandsübergänge und die Datensynchronisation zwischen Customizer und Warenkorb zu verwalten.",
+      "Styled Components sorgten für modulares, skalierbares Styling, eine konsistente visuelle Identität und ein reibungsloses, hochwertiges Nutzererlebnis.",
+      "Die Anwendung integriert die Shopify API, um Produktdaten, Preise, Personalisierungsoptionen und bestellbezogene Interaktionen zuverlässig und performant zu verarbeiten."
     ]
   },
   "resume": {

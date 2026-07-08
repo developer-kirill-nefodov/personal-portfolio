@@ -153,19 +153,19 @@
     ]
   },
   "ndaB2BCommerce": {
-    "title": "NDA B2B Commerce Platform",
-    "subtitle": "Full-stack multi-role B2B commerce system with advanced inventory, ordering, and administrative capabilities.",
-    "short": "B2B commerce platform with multi-role ordering workflows, inventory operations, admin dashboards, reporting, scheduled jobs, email flows, and large internal datasets.",
+    "title": "Enterprise B2B Commerce Platform (NDA)",
+    "subtitle": "Long-term full-stack work on a multi-country B2B commerce platform for an enterprise client, covering pricing, ordering, quotation flows, admin workflows, and supplier integration.",
+    "short": "3.5+ years as a full-stack developer in a distributed team on a production B2B commerce platform. Worked on the core pricing and margin logic, ordering and quotation flows, multi-role access, admin workflows, and EDI/XML supplier integration.",
     "highlights": [
-      "Developed multi-role admin and business workflows for ordering, inventory, and reporting",
-      "Built complex React interfaces for large operational datasets",
-      "Implemented backend APIs, scheduled jobs, email flows, and Excel export/import tools",
-      "Improved maintainability of long-running business logic in an active production system",
-      "Supported iterative development and debugging of client-specific workflows"
+      "Worked extensively on the core pricing and margin engine, including discounts, taxes, calculation rules, and multiple pricing strategies",
+      "Built and maintained end-to-end ordering and quotation workflows: catalog, cart, PDF quotation, order creation, and supplier integration",
+      "Implemented multi-country and multi-role workflows for sales companies, dealers, administrators, and internal users",
+      "Worked in a distributed development team for 3.5+ years on an active production system, covering new features, complex bug fixing, and long-term maintenance",
+      "Contributed to major platform upgrades, including UI-framework migration and security/dependency updates, with careful production-safe rollout"
     ],
     "description": [
-      "This NDA-protected B2B commerce platform supports multi-role purchasing workflows, inventory operations, order management, administrative dashboards, reporting tools, and large internal datasets across multiple business regions.",
-      "The project includes long-term maintenance and iterative development: building new internal tools requested by the client, debugging complex business logic, and improving the maintainability of long-running workflows in an active production system."
+      "A production B2B commerce platform for a multi-country enterprise client, protected under NDA. The platform supports pricing, catalog management, ordering, quotation workflows, supplier integration, reporting, and administrative operations across several markets.",
+      "I worked as a full-stack developer in a distributed team for 3.5+ years, contributing to the platform's core business logic and long-term production maintenance. My work included pricing and margin logic, ordering and quotation flows, EDI/XML supplier integration, reporting, multi-country access, complex bug fixing, and framework/dependency upgrades on a live system. Client identity and sensitive business details are withheld under NDA."
     ]
   },
   "modularWebPlatforms": {
@@ -263,53 +263,58 @@
   },
   "ndaHealthCoach": {
     "title": "NDA Healthcare AI & Data Workflow Platform",
-    "subtitle": "Healthcare platform with AI-assisted document processing, wearable-data integrations, real-time communication, and 3D/timeline data visualization.",
-    "short": "NDA healthcare platform with AI-assisted document processing, patient-related data workflows, wearable-data integrations, background synchronization, real-time communication, and visualization modules.",
+    "subtitle": "Healthcare platform with AI-assisted document processing, wearable-data workflows, real-time avatar-based communication, and interactive health-data visualization.",
+    "short": "NDA healthcare platform combining AI-assisted document processing, wearable-data integrations, real-time communication, 3D/timeline visualization, and multi-role workflows. Led selected development areas while contributing across the full stack.",
     "highlights": [
-      "Built AI-assisted document processing workflows using OpenAI, Azure Document Intelligence, and Google Document AI",
-      "Integrated external health and wearable-data APIs into background synchronization pipelines",
-      "Implemented real-time communication and avatar-based interaction features using LiveKit and HeyGen SDK",
-      "Developed timeline, chart, and 3D visualization modules for complex user data",
-      "Supported role-based access, admin workflows, and long-running background tasks"
+      "Led selected full-stack development areas: task breakdown, merge-request reviews, technical decisions, and mentoring",
+      "Built AI-assisted document-processing workflows using OpenAI, Azure AI Document Intelligence, and Google Cloud Document AI for structured data extraction",
+      "Integrated wearable and health-data providers through scheduled background synchronization workflows",
+      "Implemented real-time communication and streaming avatar features using LiveKit and HeyGen Streaming Avatar SDK",
+      "Developed interactive 3D, chart, and timeline modules for complex health-related time-series data",
+      "Built role-based workflows, admin features, and long-running backend processes on a Node.js / uWebSockets.js + MongoDB stack",
+      "Improved frontend responsiveness by moving heavier client-side processing into Web Workers with Comlink"
     ],
     "description": [
-      "This NDA-protected healthcare platform includes patient-related data workflows, AI-assisted document processing, wearable-data integrations, real-time communication features, role-based access, background processing, and interactive visualization modules."
+      "An NDA-protected healthcare platform combining AI-assisted document processing, wearable and health-data integrations, real-time communication features, and interactive visualization of complex time-series health data.",
+      "I worked as a team lead and full-stack developer, contributing to both product delivery and technical implementation. My responsibilities included breaking down tasks, reviewing merge requests, guiding architecture decisions, mentoring developers, and building features across a React frontend and a Node.js / uWebSockets.js + MongoDB backend. Business logic, client identity, and sensitive implementation details are withheld under NDA."
     ]
   },
   "dataReportingWebApp": {
-    "title": "Early Automation Project — Google Sheets Reporting",
-    "subtitle": "Client-focused web tool for data search and automated Excel report generation.",
-    "short": "A lightweight reporting automation tool using Google Apps Script and Google Sheets API for keyword search and Excel-style report generation.",
+    "title": "Early Automation Project — SEO Keyword Research & Grading Add-on",
+    "subtitle": "A Google Sheets add-on that pulls SEO data into BigQuery, grades keywords, and surfaces results in a sidebar.",
+    "short": "A Google Apps Script add-on for Google Sheets that automates SEO keyword research — it fetches keyword, SERP and backlink data from DataForSEO and the Google Custom Search API, loads it into BigQuery, grades keywords against configurable rules, and presents the results through a custom sidebar UI.",
     "highlights": [
-      "Parallel request handling with real-time status tracking",
-      "Global keyword-based search across large datasets",
-      "Automated Excel report generation using Google Sheets",
-      "Client-oriented UI focused on efficiency and clarity"
+      "DataForSEO integration with live, POST/GET and bulk task builders for keyword, SERP and backlink data",
+      "BigQuery data pipeline with CTE-based SQL for rule-driven keyword grading",
+      "Task automation engine running ordered blocks with parallel tasks and real-time progress tracking",
+      "Custom Google Sheets sidebar UI with a client dashboard and live status",
+      "Secret-free configuration via Script Properties (no credentials in code)"
     ],
     "description": [
-      "This project involved the development of a custom web application designed to streamline data discovery and reporting workflows for a client.",
-      "The application supports extensive keyword-based searches across large datasets, enabling users to efficiently locate and analyze relevant information.",
-      "Frontend logic was implemented to manage multiple parallel requests, providing real-time visibility into request progress and improving overall user interaction.",
-      "Report generation was automated using Google Apps Script and the Google Sheets API, producing structured Excel reports based on keyword analysis.",
-      "The solution was built with standard web technologies, ensuring a responsive interface tailored to the client’s operational needs."
+      "A commercial Google Sheets add-on built to streamline SEO and content-strategy research for a client, keeping the entire workflow inside the spreadsheet.",
+      "It performs keyword-based research at scale, pulling keyword metrics, SERP snapshots and backlink data from the DataForSEO API and the Google Custom Search API.",
+      "The collected data is loaded into BigQuery, where CTE-based SQL grades keywords against configurable ranking rules and a per-client grading system.",
+      "A task automation engine runs ordered blocks of parallel requests, giving the user real-time visibility into progress through a custom sidebar interface.",
+      "Graded results and structured reports are written back to Google Sheets, delivering a responsive, client-oriented tool developed with Google Apps Script and standard web technologies."
     ]
   },
   "boomfShopifyWebApp": {
     "title": "Boomf Shopify Web Application",
-    "subtitle": "Interactive Shopify-integrated web application for customizable postcard products.",
-    "short": "Commercial Shopify-integrated React application for interactive product customization and checkout-related user flows.",
+    "subtitle": "Interactive Shopify-integrated web app for personalizing Boomf's exploding-confetti and pop-up greeting cards.",
+    "short": "Commercial Shopify-integrated React application powering Boomf's card customizer — users add photos and messages and preview personalized confetti and pop-up cards live inside the purchase flow.",
     "highlights": [
-      "Highly interactive postcard customizer integrated directly into Shopify",
+      "Interactive card customizer built directly into Boomf's Shopify storefront",
+      "Live personalization: users add photos and messages and preview the card in real time",
+      "Supports Boomf's signature exploding-confetti and pop-up card mechanics",
       "Complex frontend state management using Redux and Redux-Saga",
-      "Scalable and maintainable styling with Styled Components",
-      "Seamless integration with Shopify API for product and order data"
+      "Scalable, maintainable styling with Styled Components and Shopify API integration for products and orders"
     ],
     "description": [
-      "This project involved the development of a sophisticated web application for Boomf, built in close collaboration with another developer and fully integrated with the Shopify platform.",
-      "The core feature of the application is an interactive postcard customizer that allows users to design personalized cards with unique mechanical elements directly within the purchasing flow.",
-      "Advanced frontend logic was implemented using React, Redux, and Redux-Saga to manage asynchronous operations, complex state transitions, and data synchronization.",
-      "Styled Components were used to create modular and scalable styles, ensuring a consistent visual identity and high-quality user experience.",
-      "The application integrates with the Shopify API to handle product data, pricing, and order-related interactions in a reliable and performant manner."
+      "A commercial web application for Boomf — a UK brand known for its exploding-confetti cards, pop-up cards and personalized gifts — built in close collaboration with another developer and fully integrated into their Shopify storefront.",
+      "The core feature is an interactive card customizer: shoppers upload photos, add their own messages and personalize Boomf's signature cards — including the exploding-confetti 'bomb' cards and pop-up designs — with a live preview directly inside the purchasing flow.",
+      "Advanced frontend logic was implemented using React, Redux and Redux-Saga to manage image uploads, asynchronous operations, complex state transitions and data synchronization between the customizer and the cart.",
+      "Styled Components provided modular, scalable styling for a consistent visual identity and a smooth, high-quality user experience.",
+      "The application integrates with the Shopify API to handle product data, pricing, personalization options and order-related interactions reliably and performantly."
     ]
   },
   "resume": {
