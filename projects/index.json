@@ -734,7 +734,14 @@
             "alt": "Data Reporting Web Cover"
           }
         ],
-        "videos": [],
+        "videos": [
+          {
+            "src": "/projects/v1/data-reporting-web/video-1.mp4",
+            "thumb": "/projects/v1/data-reporting-web/cover.webp",
+            "alt": "Data Reporting Web Video",
+            "sound": true
+          }
+        ],
         "gifs": []
       },
       "metrics": {
@@ -1135,7 +1142,7 @@
         ],
         "videos": [
           {
-            "src": "/projects/v1/quantpilot-ai/video-1.mp4",
+            "src": "/projects/v1/quantpilot-ai/quant-pilot-1.mp4",
             "thumb": "/projects/v1/quantpilot-ai/cover.png",
             "alt": "Strategy lab walkthrough",
             "sound": true
