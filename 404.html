@@ -3,11 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <script>
-    const repoBase = '/personal-portfolio';
-    const path = location.pathname.replace(repoBase, '');
-    const search = location.search;
-    const hash = location.hash;
-    location.replace(repoBase + '/?p=' + encodeURIComponent(path + search + hash));
+    // Static hosts (GitHub Pages) serve this for any unknown path. The app is a
+    // HashRouter, so recover the deep link by rewriting the path into a hash:
+    //   /personal-portfolio/projects/boxhill  ->  /personal-portfolio/#/projects/boxhill
+    var repoBase = '/personal-portfolio';
+    var path = location.pathname.indexOf(repoBase) === 0
+      ? location.pathname.slice(repoBase.length)
+      : location.pathname;
+    var route = (path || '/').replace(/^\/+/, '/') + location.search;
+    location.replace(repoBase + '/#' + route);
   </script>
 </head>
 <body></body>
